@@ -5,6 +5,7 @@ import seaborn as sns
 from sklearn import preprocessing
 from sklearn.preprocessing import LabelEncoder
 
+# Read original Data from CSV 
 data = pd.read_csv('UsedCarSellingPrices.csv')
 
 
@@ -12,25 +13,30 @@ data = pd.read_csv('UsedCarSellingPrices.csv')
 # Label-Encoding for Visualisation before cleaning #
 ####################################################
 
+# Define columns that need to be lable-encoded
 categorical_columns = ['fuel', 'seller_type', 'transmission', 'owner']
+
+# Copy data into var label_encoded_data; create empty array lable_encoders
 label_encoded_data = data.copy()
 label_encoders = {}
 
+#run lable-encoder for every previosly defined columne (function imported from sklearn)
 for col in categorical_columns:
     le = LabelEncoder()
     label_encoded_data[col] = le.fit_transform(label_encoded_data[col])
     label_encoders[col] = dict(zip(le.classes_, le.transform(le.classes_)))
 
-print("\nLabel-Encoded Data (nur zur Referenz):")
+print("\nLabel-Encoded Data for Visualisation:")
 print(label_encoded_data.head())
 
-numeric_data_ohneHot = all_data_ohneHot = pd.concat([label_encoded_data], axis=1)
+#
+numeric_data_LableEncoded = all_data_LableEncoded = pd.concat([label_encoded_data], axis=1)
 # Nicht-numerische Spalten entfernen (z. B. 'name'), um Skalierung zu ermöglichen
-all_data_ohneHot = all_data_ohneHot.select_dtypes(include=['number'])
+all_data_LableEncoded = all_data_LableEncoded.select_dtypes(include=['number'])
 sscaler = preprocessing.StandardScaler()
-all_data_ohneHot = sscaler.fit_transform(all_data_ohneHot)
+all_data_LableEncoded = sscaler.fit_transform(all_data_LableEncoded)
 nscaler = preprocessing.MinMaxScaler()
-all_data_ohneHot = nscaler.fit_transform(all_data_ohneHot)
+all_data_LableEncoded = nscaler.fit_transform(all_data_LableEncoded)
 
 
 #######################################
@@ -38,11 +44,11 @@ all_data_ohneHot = nscaler.fit_transform(all_data_ohneHot)
 #######################################
 
 # Zusätzliche Visualisierungen nach Skalierung
-sns.boxplot(data=all_data_ohneHot, orient='v', palette='Set2')
+sns.boxplot(data=all_data_LableEncoded, orient='v', palette='Set2')
 plt.show()
 
 # Skalierte Daten wieder in DataFrame mit Spaltennamen überführen
-scaled_df = pd.DataFrame(all_data_ohneHot, columns=label_encoded_data.select_dtypes(include='number').columns)
+scaled_df = pd.DataFrame(all_data_LableEncoded, columns=label_encoded_data.select_dtypes(include='number').columns)
 
 # 1. Boxplot mit lesbaren Achsenbeschriftungen
 plt.figure(figsize=(12, 6))
@@ -118,13 +124,13 @@ for col in categorical_columns:
 print("\nLabel-Encoded Data (nur zur Referenz):")
 print(label_encoded_data.head())
 
-numeric_data_ohneHot = all_data_ohneHot = pd.concat([label_encoded_data], axis=1)
+numeric_data_LableEncoded = all_data_LableEncoded = pd.concat([label_encoded_data], axis=1)
 # Nicht-numerische Spalten entfernen (z. B. 'name'), um Skalierung zu ermöglichen
-all_data_ohneHot = all_data_ohneHot.select_dtypes(include=['number'])
+all_data_LableEncoded = all_data_LableEncoded.select_dtypes(include=['number'])
 sscaler = preprocessing.StandardScaler()
-all_data_ohneHot = sscaler.fit_transform(all_data_ohneHot)
+all_data_LableEncoded = sscaler.fit_transform(all_data_LableEncoded)
 nscaler = preprocessing.MinMaxScaler()
-all_data_ohneHot = nscaler.fit_transform(all_data_ohneHot)
+all_data_LableEncoded = nscaler.fit_transform(all_data_LableEncoded)
 
 
 #######################################
@@ -132,11 +138,11 @@ all_data_ohneHot = nscaler.fit_transform(all_data_ohneHot)
 #######################################
 
 # Zusätzliche Visualisierungen nach Skalierung
-sns.boxplot(data=all_data_ohneHot, orient='v', palette='Set2')
+sns.boxplot(data=all_data_LableEncoded, orient='v', palette='Set2')
 plt.show()
 
 # Skalierte Daten wieder in DataFrame mit Spaltennamen überführen
-scaled_df = pd.DataFrame(all_data_ohneHot, columns=label_encoded_data.select_dtypes(include='number').columns)
+scaled_df = pd.DataFrame(all_data_LableEncoded, columns=label_encoded_data.select_dtypes(include='number').columns)
 
 # 1. Boxplot mit lesbaren Achsenbeschriftungen
 plt.figure(figsize=(12, 6))
