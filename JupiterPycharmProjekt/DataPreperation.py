@@ -29,12 +29,15 @@ for col in categorical_columns:
 print("\nLabel-Encoded Data for Visualisation:")
 print(label_encoded_data.head())
 
-#
-numeric_data_LableEncoded = all_data_LableEncoded = pd.concat([label_encoded_data], axis=1)
-# Nicht-numerische Spalten entfernen (z. B. 'name'), um Skalierung zu ermöglichen
+# concatinates x and y into one point to be visualized
+all_data_LableEncoded = pd.concat([label_encoded_data], axis=1)
+
+# Drops all columes that are non-numeric to make scaling possible
 all_data_LableEncoded = all_data_LableEncoded.select_dtypes(include=['number'])
-sscaler = preprocessing.StandardScaler()
-all_data_LableEncoded = sscaler.fit_transform(all_data_LableEncoded)
+
+# Scale data (normalized)
+#sscaler = preprocessing.StandardScaler()
+#all_data_LableEncoded = sscaler.fit_transform(all_data_LableEncoded)
 nscaler = preprocessing.MinMaxScaler()
 all_data_LableEncoded = nscaler.fit_transform(all_data_LableEncoded)
 
@@ -42,10 +45,6 @@ all_data_LableEncoded = nscaler.fit_transform(all_data_LableEncoded)
 #######################################
 # Visualisation before cleaining Data #
 #######################################
-
-# Zusätzliche Visualisierungen nach Skalierung
-sns.boxplot(data=all_data_LableEncoded, orient='v', palette='Set2')
-plt.show()
 
 # Skalierte Daten wieder in DataFrame mit Spaltennamen überführen
 scaled_df = pd.DataFrame(all_data_LableEncoded, columns=label_encoded_data.select_dtypes(include='number').columns)
@@ -124,11 +123,15 @@ for col in categorical_columns:
 print("\nLabel-Encoded Data (nur zur Referenz):")
 print(label_encoded_data.head())
 
-numeric_data_LableEncoded = all_data_LableEncoded = pd.concat([label_encoded_data], axis=1)
-# Nicht-numerische Spalten entfernen (z. B. 'name'), um Skalierung zu ermöglichen
+# concatinates x and y into one point to be visualized
+all_data_LableEncoded = pd.concat([label_encoded_data], axis=1)
+
+# Drops all columes that are non-numeric to make scaling possible
 all_data_LableEncoded = all_data_LableEncoded.select_dtypes(include=['number'])
-sscaler = preprocessing.StandardScaler()
-all_data_LableEncoded = sscaler.fit_transform(all_data_LableEncoded)
+
+# Scale data (normalized)
+# sscaler = preprocessing.StandardScaler()
+# all_data_LableEncoded = sscaler.fit_transform(all_data_LableEncoded)
 nscaler = preprocessing.MinMaxScaler()
 all_data_LableEncoded = nscaler.fit_transform(all_data_LableEncoded)
 
@@ -136,10 +139,6 @@ all_data_LableEncoded = nscaler.fit_transform(all_data_LableEncoded)
 #######################################
 # Visualisation after cleaining Data #
 #######################################
-
-# Zusätzliche Visualisierungen nach Skalierung
-sns.boxplot(data=all_data_LableEncoded, orient='v', palette='Set2')
-plt.show()
 
 # Skalierte Daten wieder in DataFrame mit Spaltennamen überführen
 scaled_df = pd.DataFrame(all_data_LableEncoded, columns=label_encoded_data.select_dtypes(include='number').columns)
