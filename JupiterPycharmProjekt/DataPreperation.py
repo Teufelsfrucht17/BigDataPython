@@ -35,7 +35,7 @@ all_data_LableEncoded = pd.concat([label_encoded_data], axis=1)
 # Drops all columes that are non-numeric to make scaling possible
 all_data_LableEncoded = all_data_LableEncoded.select_dtypes(include=['number'])
 
-# Scale data (normalized)
+# Scale data (normalized via MinMaxScaler - between 0 and 1)
 #sscaler = preprocessing.StandardScaler()
 #all_data_LableEncoded = sscaler.fit_transform(all_data_LableEncoded)
 nscaler = preprocessing.MinMaxScaler()
@@ -46,45 +46,44 @@ all_data_LableEncoded = nscaler.fit_transform(all_data_LableEncoded)
 # Visualisation before cleaining Data #
 #######################################
 
-# Skalierte Daten wieder in DataFrame mit Spaltennamen überführen
+# Reintegrates Column name for boxplot
 scaled_df = pd.DataFrame(all_data_LableEncoded, columns=label_encoded_data.select_dtypes(include='number').columns)
 
-# 1. Boxplot mit lesbaren Achsenbeschriftungen
+# Boxplot with readable x-achsis
 plt.figure(figsize=(12, 6))
 sns.boxplot(data=scaled_df, orient='v', palette='Set2')
 plt.xticks(rotation=45)
-plt.title("Boxplot der skalierten numerischen Features")
+plt.title("Normed boxplot")
 plt.tight_layout()
 plt.show()
 
-# 2. Boxplot nur für ausgewählte numerische Spalten
+# Boxplot for only numerical data
 selected_cols = ['selling_price', 'km_driven', 'year']
 plt.figure(figsize=(8, 5))
 sns.boxplot(data=scaled_df[selected_cols], orient='v', palette='Set3')
-plt.title("Boxplot ausgewählter Merkmale")
+plt.title("Normed boxplot for numerical data only")
 plt.tight_layout()
 plt.show()
 
-# 3. Pairplot für Verteilungen und Korrelationen
+# Pairplot to show correlation
 sns.pairplot(scaled_df[selected_cols])
-plt.suptitle("Paarweise Verteilungen ausgewählter Merkmale", y=1.02)
+plt.suptitle("Pairplot for select charactaristics", y=1.02)
 plt.show()
-#print("Trainingsdaten zusätzlich als 'prepared_used_car_data_train.parquet' gespeichert.")
-#print("Testdaten zusätzlich als 'prepared_used_car_data_test.parquet' gespeichert.")
-#print("Gesamtdaten zusätzlich als 'prepared_used_car_data.parquet' gespeichert.")
 
 
 ######################################
 # Clean Data & Create variable Brand #
 ######################################
 
-# Fehlende Werte entfernen
+# Remove missing data
 data = data.dropna()
-print("Daten nach Entfernen fehlender Werte:")
-print(data.isnull().sum())
-print(f"Verbleibende Zeilen: {len(data)}")
 
-# Ausreißerentfernung mit IQR-Methode
+# Show how much data was removed
+print("Data after removing data:")
+print(data.isnull().sum())
+print(f"Remaining rows: {len(data)}")
+
+# Remove Outlires with IQR-method
 def remove_outliers_iqr(df, column):
     Q1 = df[column].quantile(0.25)
     Q3 = df[column].quantile(0.75)
