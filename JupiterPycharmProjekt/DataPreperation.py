@@ -20,7 +20,7 @@ categorical_columns = ['fuel', 'seller_type', 'transmission', 'owner']
 label_encoded_data = data.copy()
 label_encoders = {}
 
-#run lable-encoder for every previosly defined columne (function imported from sklearn)
+# Run lable-encoder for every previosly defined columne (function imported from sklearn)
 for col in categorical_columns:
     le = LabelEncoder()
     label_encoded_data[col] = le.fit_transform(label_encoded_data[col])
