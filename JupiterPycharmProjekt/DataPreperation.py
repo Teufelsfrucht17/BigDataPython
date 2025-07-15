@@ -4,8 +4,9 @@ from sklearn.model_selection import train_test_split
 import seaborn as sns
 from sklearn import preprocessing
 from sklearn.preprocessing import LabelEncoder
+import numpy as np
 
-# Read original Data from CSV 
+# Read original Data from CSV
 data = pd.read_csv('UsedCarSellingPrices.csv')
 
 
@@ -83,10 +84,11 @@ print("Data after removing data:")
 print(data.isnull().sum())
 print(f"Remaining rows: {len(data)}")
 
-# Remove Outlires with IQR-method
+# [nicht in PDF] IQR-basierte Ausreißerentfernung
+# Quelle: https://medium.com/@karthickrajaraja424/write-a-function-to-detect-outliers-in-a-dataset-using-the-iqr-method-6141cb9b0b91
 def remove_outliers_iqr(df, column):
-    Q1 = df[column].quantile(0.25)
-    Q3 = df[column].quantile(0.75)
+    Q1 = np.percentile(df[column], 25)
+    Q3 = np.percentile(df[column], 75)
     IQR = Q3 - Q1
     lower_bound = Q1 - 1.5 * IQR
     upper_bound = Q3 + 1.5 * IQR
