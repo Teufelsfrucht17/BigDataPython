@@ -1,5 +1,6 @@
 from sklearn.linear_model import Ridge
 import pandas as pd
+import matplotlib.pyplot as plt
 
 
 
@@ -28,4 +29,16 @@ print("R² on training set =", round(r2, 4))
 
 
 
+
+# [nicht in PDF] Scatterplot: Tatsächlicher vs. Vorhergesagter Preis
+plt.figure(figsize=(8, 5))
+plt.scatter(y_train_rig, Y_train_pred, alpha=0.5)
+plt.plot([y_train_rig.min(), y_train_rig.max()],
+         [y_train_rig.min(), y_train_rig.max()],
+         color='red', linestyle='--')  # 45° Referenzlinie
+plt.xlabel("Tatsächlicher Verkaufspreis")
+plt.ylabel("Vorhergesagter Verkaufspreis")
+plt.title("Vorhersagegenauigkeit – Ridge Regression (Trainingsdaten)")
+plt.tight_layout()
+plt.show()
 
