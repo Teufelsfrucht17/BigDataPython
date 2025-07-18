@@ -21,7 +21,7 @@ categorical_columns = ['fuel', 'seller_type', 'transmission', 'owner']
 label_encoded_data = data.copy()
 label_encoders = {}
 
-# Run lable-encoder for every previosly defined columne (function imported from sklearn)
+# Run lable-encoder for every previosly defined columne (function imported from sklearn)xx
 for col in categorical_columns:
     le = LabelEncoder()
     label_encoded_data[col] = le.fit_transform(label_encoded_data[col])
@@ -84,8 +84,8 @@ print("Data after removing data:")
 print(data.isnull().sum())
 print(f"Remaining rows: {len(data)}")
 
-# [nicht in PDF] IQR-basierte Ausreißerentfernung
-# Quelle: https://medium.com/@karthickrajaraja424/write-a-function-to-detect-outliers-in-a-dataset-using-the-iqr-method-6141cb9b0b91
+# [not in PDF] IQR-based removal of outlires
+# Source: https://medium.com/@karthickrajaraja424/write-a-function-to-detect-outliers-in-a-dataset-using-the-iqr-method-6141cb9b0b91
 def remove_outliers_iqr(df, column):
     Q1 = np.percentile(df[column], 25)
     Q3 = np.percentile(df[column], 75)
@@ -94,7 +94,7 @@ def remove_outliers_iqr(df, column):
     upper_bound = Q3 + 1.5 * IQR
     return df[(df[column] >= lower_bound) & (df[column] <= upper_bound)]
 
-# Auf die wichtigsten Spalten anwenden
+# Use IQR on relavant columns
 data = remove_outliers_iqr(data, 'selling_price')
 data = remove_outliers_iqr(data, 'km_driven')
 
@@ -112,10 +112,14 @@ print(data)
 # Label-Encoding for Visualisation after cleaning #
 ###################################################
 
+# Define columns that need to be lable-encoded
 categorical_columns = ['fuel', 'seller_type', 'transmission', 'owner']
+
+# Copy data into var label_encoded_data; create empty array lable_encoders
 label_encoded_data = data.copy()
 label_encoders = {}
 
+# Run lable-encoder for every previosly defined columne (function imported from sklearn)
 for col in categorical_columns:
     le = LabelEncoder()
     label_encoded_data[col] = le.fit_transform(label_encoded_data[col])
@@ -141,10 +145,10 @@ all_data_LableEncoded = nscaler.fit_transform(all_data_LableEncoded)
 # Visualisation after cleaining Data #
 #######################################
 
-# Skalierte Daten wieder in DataFrame mit Spaltennamen überführen
+# Reintegrates Column name for boxplot
 scaled_df = pd.DataFrame(all_data_LableEncoded, columns=label_encoded_data.select_dtypes(include='number').columns)
 
-# 1. Boxplot mit lesbaren Achsenbeschriftungen
+# Boxplot with readable x-achsis
 plt.figure(figsize=(12, 6))
 sns.boxplot(data=scaled_df, orient='v', palette='Set2')
 plt.xticks(rotation=45)
@@ -152,7 +156,7 @@ plt.title("Boxplot der skalierten numerischen Features")
 plt.tight_layout()
 plt.show()
 
-# 2. Boxplot nur für ausgewählte numerische Spalten
+# Boxplot for only numerical data
 selected_cols = ['selling_price', 'km_driven', 'year']
 plt.figure(figsize=(8, 5))
 sns.boxplot(data=scaled_df[selected_cols], orient='v', palette='Set3')
@@ -160,49 +164,47 @@ plt.title("Boxplot ausgewählter Merkmale")
 plt.tight_layout()
 plt.show()
 
-# 3. Pairplot für Verteilungen und Korrelationen
+# Pairplot to show correlation
 sns.pairplot(scaled_df[selected_cols])
 plt.suptitle("Paarweise Verteilungen ausgewählter Merkmale", y=1.02)
 plt.show()
-#print("Trainingsdaten zusätzlich als 'prepared_used_car_data_train.parquet' gespeichert.")
-#print("Testdaten zusätzlich als 'prepared_used_car_data_test.parquet' gespeichert.")
-#print("Gesamtdaten zusätzlich als 'prepared_used_car_data.parquet' gespeichert.")
 
 
 ############################################################
 # One-Hot-Encoding for Regression Model Training & Testing #
 ############################################################
 
-# One-Hot-Encoding für kategoriale Variablen
+# One-Hot-Encoding for categorical variables
 encoded_data = pd.get_dummies(data, columns=categorical_columns, drop_first=True)
 
+# Print One-Hot-Encoded data
 print("\nOne-Hot-Encoded Data:")
 print(encoded_data.head())
-
 print(encoded_data)
 
-# Daten sortieren nach Jahr und Kilometerstand
+# Sort data according to year and kilometers
 encoded_data_sorted = encoded_data.sort_values(by=['year', 'km_driven'], ascending=[False, True])
 
-# Regressionsdaten vorbereiten
+# Regressiondata preperation - set features for regression and target
 features = encoded_data_sorted.columns.drop(['name', 'selling_price'])
 target = 'selling_price'
 
+# Encode prepered regressiondata
 X = encoded_data_sorted[features]
 y = encoded_data_sorted[target]
 
-# Testdaten speichern
+# Save all data in CSV
 all_data = pd.concat([X, y], axis=1)
 all_data.to_csv('prepared_used_car_data_all.csv', index=False)
 
-# Trainings- und Testdaten erstellen (optional, zur Kontrolle)
+# Create Training- and Testdata (optional - for control reasons)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Trainingsdaten speichern
+# Save Trainingdata
 train_data = pd.concat([X_train, y_train], axis=1)
 train_data.to_csv('prepared_used_car_data_train.csv', index=False)
 
-# Testdaten speichern
+# Save Testdata
 test_data = pd.concat([X_test, y_test], axis=1)
 test_data.to_csv('prepared_used_car_data_test.csv', index=False)
 
