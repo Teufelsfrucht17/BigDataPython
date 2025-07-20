@@ -27,7 +27,7 @@ for col in categorical_columns:
     label_encoded_data[col] = le.fit_transform(label_encoded_data[col])
     label_encoders[col] = dict(zip(le.classes_, le.transform(le.classes_)))
 
-print("\nLabel-Encoded Data for Visualisation:")
+print("\nLabel-Encoded data for visualisation:")
 print(label_encoded_data.head())
 
 # concatinates x and y into one point to be visualized
@@ -98,10 +98,10 @@ def remove_outliers_iqr(df, column):
 data = remove_outliers_iqr(data, 'selling_price')
 data = remove_outliers_iqr(data, 'km_driven')
 
-print("\nDaten nach IQR-basierter Ausreißerbereinigung:")
-print(f"Max. Verkaufspreis: {data['selling_price'].max()}")
-print(f"Max. Kilometerstand: {data['km_driven'].max()}")
-print(f"Verbleibende Zeilen nach IQR-Filter: {len(data)}")
+print("\nData after IQR based data cleaning:")
+print(f"Max. Selling price: {data['selling_price'].max()}")
+print(f"Max. kilometer driven: {data['km_driven'].max()}")
+print(f"Remaining rows after IQR: {len(data)}")
 
 # Create 'Brand' as new columne
 data['brand'] = data['name'].str.split().str[0]
@@ -125,7 +125,7 @@ for col in categorical_columns:
     label_encoded_data[col] = le.fit_transform(label_encoded_data[col])
     label_encoders[col] = dict(zip(le.classes_, le.transform(le.classes_)))
 
-print("\nLabel-Encoded Data (nur zur Referenz):")
+print("\nLabel-Encoded Data:")
 print(label_encoded_data.head())
 
 # concatinates x and y into one point to be visualized
@@ -152,7 +152,7 @@ scaled_df = pd.DataFrame(all_data_LableEncoded, columns=label_encoded_data.selec
 plt.figure(figsize=(12, 6))
 sns.boxplot(data=scaled_df, orient='v', palette='Set2')
 plt.xticks(rotation=45)
-plt.title("Boxplot der skalierten numerischen Features")
+plt.title("Boxplot of scaled numerical features")
 plt.tight_layout()
 plt.show()
 
@@ -160,13 +160,13 @@ plt.show()
 selected_cols = ['selling_price', 'km_driven', 'year']
 plt.figure(figsize=(8, 5))
 sns.boxplot(data=scaled_df[selected_cols], orient='v', palette='Set3')
-plt.title("Boxplot ausgewählter Merkmale")
+plt.title("Boxplot of scaled numerical features")
 plt.tight_layout()
 plt.show()
 
 # Pairplot to show correlation
 sns.pairplot(scaled_df[selected_cols])
-plt.suptitle("Paarweise Verteilungen ausgewählter Merkmale", y=1.02)
+plt.suptitle("Pairplot of selected features", y=1.02)
 plt.show()
 
 
@@ -178,7 +178,7 @@ plt.show()
 encoded_data = pd.get_dummies(data, columns=categorical_columns, drop_first=True)
 
 # Print One-Hot-Encoded data
-print("\nOne-Hot-Encoded Data:")
+print("\nOne-Hot-Encoded data:")
 print(encoded_data.head())
 print(encoded_data)
 
@@ -208,5 +208,5 @@ train_data.to_csv('prepared_used_car_data_train.csv', index=False)
 test_data = pd.concat([X_test, y_test], axis=1)
 test_data.to_csv('prepared_used_car_data_test.csv', index=False)
 
-print("\nTrainingsdaten gespeichert als 'prepared_used_car_data_train.csv'")
-print("Testdaten gespeichert als 'prepared_used_car_data_test.csv'")
+print("\nTrainingdata saved as 'prepared_used_car_data_train.csv'")
+print("Testdata saved as 'prepared_used_car_data_test.csv'")
