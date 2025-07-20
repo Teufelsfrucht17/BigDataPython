@@ -46,16 +46,18 @@ X_train_ols = var_filter.fit_transform(X_train_ols)  # [nicht in PDF]
 X_test_ols = var_filter.transform(X_test_ols)  # [nicht in PDF]
 '''
 
-
+'''
 # [nicht in PDF] NaN-/Inf-Prüfung (not a number & infinite)
+Checen ob nicht numerische Zahlen vorhanden sind oder Zahlen die unendlich sind - beides funktioniert nicht mit OLS Regression 
 print("NaN in X_train:", np.isnan(X_train_ols).sum())  # [nicht in PDF]
 print("Inf in X_train:", np.isinf(X_train_ols).sum())  # [nicht in PDF]
+'''
 
-# Modell trainieren
+# Model training
 ols_model = LinearRegression()
 ols_model.fit(X_train_ols, y_train_ols)
 
-# Vorhersagen und Bewertung
+# Prediction and result
 y_train_pred = ols_model.predict(X_train_ols)
 y_test_pred = ols_model.predict(X_test_ols)
 
@@ -72,8 +74,8 @@ import matplotlib.pyplot as plt  # [nicht in PDF]
 residuals = y_test_ols - y_test_pred
 plt.scatter(y_test_ols, residuals)
 plt.axhline(0, color='r', linestyle='--')
-plt.xlabel("Tatsächlicher Verkaufspreis")
-plt.ylabel("Residuum")
-plt.title("Residuenplot: OLS")
+plt.xlabel("Selling price")
+plt.ylabel("Residual")
+plt.title("Residual plot - OLS")
 plt.tight_layout()
 plt.show()
