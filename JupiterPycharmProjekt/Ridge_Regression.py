@@ -25,7 +25,12 @@ Y_train_meandev = sum((y_train_rig - y_train_rig.mean())**2)  # [aus PDF]
 r2 = 1 - Y_train_dev / Y_train_meandev  # [aus PDF]
 print("R² on training set =", round(r2, 4))
 
-
+# Predict on test data and compute Pseudo-R²
+Y_test_pred = rige.predict(X_test_rig)
+Y_test_dev = sum((y_test_rig - Y_test_pred)**2)
+Y_train_meandev = sum((y_test_rig - y_test_rig.mean())**2)  # [aus PDF]
+pseudor2 = 1 - Y_test_dev / Y_train_meandev
+print("Pseudo-R² on test set =", round(pseudor2, 4))
 
 
 
