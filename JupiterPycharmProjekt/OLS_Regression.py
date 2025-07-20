@@ -1,16 +1,17 @@
+##################
+# OLS Regression #
+##################
 
-
-
-# OLS Regression – Start gemäß BostonHousing-PDF
+import numpy as np
+import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
-import numpy as np  # [nicht in PDF]
-import pandas as pd  # [nicht in PDF]
+from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
-#
-# [nicht in PDF] CSV-Daten für OLS aus vorbereiteten Trainingsdaten laden
-data_ols_train = pd.read_csv("prepared_used_car_data_train.csv")  # [nicht in PDF]
+
+# read training and test data - prepaired in 'DataPreperation'
+data_ols_train = pd.read_csv("prepared_used_car_data_train.csv")
 data_ols_test = pd.read_csv("prepared_used_car_data_test.csv")
 
 '''
@@ -21,6 +22,7 @@ X_ols = data_ols.drop(columns=['selling_price'])  # [nicht in PDF]
 X_ols = scaler.fit_transform(X_ols)  # [nicht in PDF]
 y_ols = data_ols['selling_price']  # [nicht in PDF]
 '''
+
 # [nicht in PDF] Train-Test-Split wie zuvor
 X_train_ols = data_ols_train.drop(columns=['selling_price'])  # [nicht in PDF]
 y_train_ols = data_ols_train['selling_price']  # [nicht in PDF]
@@ -31,19 +33,21 @@ X_train_ols = X_train_ols.select_dtypes(include=['number'])
 X_test_ols = X_test_ols.select_dtypes(include=['number'])
 
 # [nicht in PDF] Standardisierung wie im BostonHousing-PDF (S. 10)
-
-from sklearn.preprocessing import StandardScaler  # [nicht in PDF]
 scaler = StandardScaler()  # [nicht in PDF]
 X_train_ols = scaler.fit_transform(X_train_ols)  # [nicht in PDF]
 X_test_ols = scaler.transform(X_test_ols)  # [nicht in PDF]
 
+'''
 # [nicht in PDF] Entferne Spalten mit 0-Varianz im Trainingsset
+Sollten wir eh nicht haben - 0 varianz impelziert das es eine Zeihle gibt mit immer den gleichen wärten die damit nichts zu dem modell beiträgt. Haben wir nicht gemacht, entsprechend lassen wir das erstmal raus und gucken uns sonnst online nochmal die quellen dazu an.
 from sklearn.feature_selection import VarianceThreshold  # [nicht in PDF]
 var_filter = VarianceThreshold(threshold=0.0)  # [nicht in PDF]
 X_train_ols = var_filter.fit_transform(X_train_ols)  # [nicht in PDF]
 X_test_ols = var_filter.transform(X_test_ols)  # [nicht in PDF]
+'''
 
-# [nicht in PDF] NaN-/Inf-Prüfung
+
+# [nicht in PDF] NaN-/Inf-Prüfung (not a number & infinite)
 print("NaN in X_train:", np.isnan(X_train_ols).sum())  # [nicht in PDF]
 print("Inf in X_train:", np.isinf(X_train_ols).sum())  # [nicht in PDF]
 
@@ -58,7 +62,7 @@ y_test_pred = ols_model.predict(X_test_ols)
 r2_train = r2_score(y_train_ols, y_train_pred)
 r2_test = r2_score(y_test_ols, y_test_pred)
 
-print("\nOLS Regression Ergebnisse:")
+print("\nOLS Regression result:")
 print(f"R² (Train): {r2_train:.4f}")
 print(f"R² (Test): {r2_test:.4f}")
 print(f"RMSE (Test): {np.sqrt(mean_squared_error(y_test_ols, y_test_pred)):.2f}")
