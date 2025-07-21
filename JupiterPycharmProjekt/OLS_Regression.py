@@ -4,6 +4,7 @@
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
@@ -23,14 +24,15 @@ X_ols = scaler.fit_transform(X_ols)  # [nicht in PDF]
 y_ols = data_ols['selling_price']  # [nicht in PDF]
 '''
 
-# [nicht in PDF] Train-Test-Split wie zuvor
+# Split train and test data into x and y for regression
 X_train_ols = data_ols_train.drop(columns=['selling_price'])  # [nicht in PDF]
 y_train_ols = data_ols_train['selling_price']  # [nicht in PDF]
 X_test_ols = data_ols_test.drop(columns=['selling_price'])  # [nicht in PDF]
 y_test_ols = data_ols_test['selling_price']  # [nicht in PDF]
-# [nicht in PDF] Nur numerische Spalten behalten
-X_train_ols = X_train_ols.select_dtypes(include=['number'])
-X_test_ols = X_test_ols.select_dtypes(include=['number'])
+
+# only keep numerical columnes
+X_train_ols = X_train_ols.select_dtypes(include=['number']) # [nicht in PDF]
+X_test_ols = X_test_ols.select_dtypes(include=['number']) # [nicht in PDF]
 
 # [nicht in PDF] Standardisierung wie im BostonHousing-PDF (S. 10)
 scaler = StandardScaler()  # [nicht in PDF]
@@ -53,7 +55,12 @@ print("NaN in X_train:", np.isnan(X_train_ols).sum())  # [nicht in PDF]
 print("Inf in X_train:", np.isinf(X_train_ols).sum())  # [nicht in PDF]
 '''
 
-# Model training
+
+#################
+# Run OLS Model #
+#################
+
+# Set model specs
 ols_model = LinearRegression()
 ols_model.fit(X_train_ols, y_train_ols)
 
@@ -69,8 +76,12 @@ print(f"R² (Train): {r2_train:.4f}")
 print(f"R² (Test): {r2_test:.4f}")
 print(f"RMSE (Test): {np.sqrt(mean_squared_error(y_test_ols, y_test_pred)):.2f}")
 
-# [nicht in PDF] Residuenplot (optional)
-import matplotlib.pyplot as plt  # [nicht in PDF]
+
+#############################
+# Visulise OLS model result #
+#############################
+
+# Residual plot based on OLS result
 residuals = y_test_ols - y_test_pred
 plt.scatter(y_test_ols, residuals)
 plt.axhline(0, color='r', linestyle='--')
