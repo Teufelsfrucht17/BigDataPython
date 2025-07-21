@@ -24,7 +24,7 @@ X_ols = scaler.fit_transform(X_ols)  # [nicht in PDF]
 y_ols = data_ols['selling_price']  # [nicht in PDF]
 '''
 
-# Split train and test data into x and y for regression
+# Split train and test data into x - input and y - target for regression
 X_train_ols = data_ols_train.drop(columns=['selling_price'])  # [nicht in PDF]
 y_train_ols = data_ols_train['selling_price']  # [nicht in PDF]
 X_test_ols = data_ols_test.drop(columns=['selling_price'])  # [nicht in PDF]
