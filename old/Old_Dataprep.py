@@ -18,11 +18,8 @@ data = pd.read_csv('UsedCarSellingPrices.csv')
 # Label-Encoding for Visualisation before cleaning #
 ####################################################
 
-# Create 'brand' as new columne before any encoding
-data['brand'] = data['name'].str.split().str[0]  # [nicht in PDF]
-
 # Define columns that need to be lable-encoded
-categorical_columns = ['fuel', 'seller_type', 'transmission', 'owner', 'brand']
+categorical_columns = ['fuel', 'seller_type', 'transmission', 'owner']
 
 # Copy data into var label_encoded_data; create empty array lable_encoders
 label_encoded_data = data.copy()
@@ -33,9 +30,6 @@ for col in categorical_columns:
     le = LabelEncoder()
     label_encoded_data[col] = le.fit_transform(label_encoded_data[col])
     label_encoders[col] = dict(zip(le.classes_, le.transform(le.classes_)))
-
-# [nicht in PDF] Falls Label-Encoding NaNs erzeugt (z. B. durch unerwartete Werte), mit 0 füllen
-label_encoded_data = label_encoded_data.fillna(0)
 
 print("\nLabel-Encoded data for visualisation:")
 print(label_encoded_data.head())
@@ -113,6 +107,8 @@ print(f"Max. Selling price: {data['selling_price'].max()}")
 print(f"Max. kilometer driven: {data['km_driven'].max()}")
 print(f"Remaining rows after IQR: {len(data)}")
 
+# Create 'Brand' as new columne
+data['brand'] = data['name'].str.split().str[0]
 print(data)
 
 
@@ -121,7 +117,7 @@ print(data)
 ###################################################
 
 # Define columns that need to be lable-encoded
-categorical_columns = ['fuel', 'seller_type', 'transmission', 'owner', 'brand']
+categorical_columns = ['fuel', 'seller_type', 'transmission', 'owner']
 
 # Copy data into var label_encoded_data; create empty array lable_encoders
 label_encoded_data = data.copy()
@@ -132,9 +128,6 @@ for col in categorical_columns:
     le = LabelEncoder()
     label_encoded_data[col] = le.fit_transform(label_encoded_data[col])
     label_encoders[col] = dict(zip(le.classes_, le.transform(le.classes_)))
-
-# [nicht in PDF] Falls Label-Encoding NaNs erzeugt (z. B. durch unerwartete Werte), mit 0 füllen
-label_encoded_data = label_encoded_data.fillna(0)
 
 print("\nLabel-Encoded Data:")
 print(label_encoded_data.head())
@@ -182,53 +175,43 @@ plt.show()
 
 
 ############################################################
-# Hybride Kodierung für Modelltraining                    #
-# One-Hot: fuel, seller_type, transmission                #
-# Label-Encoding: owner, brand                            #
+# One-Hot-Encoding for Regression Model Training & Testing #
 ############################################################
 
-# 1. One-Hot-Encoding für ausgewählte Features
-onehot_features = ['fuel', 'seller_type', 'transmission', 'brand']
-encoded_data = pd.get_dummies(data, columns=onehot_features, drop_first=True)
+# One-Hot-Encoding for categorical variables
+categorical_columns = ['fuel', 'seller_type', 'transmission', 'owner', 'brand']
+encoded_data = pd.get_dummies(data, columns=categorical_columns, drop_first=True)
 
-# 2. Label-Encoding für owner und brand
-label_columns = ['owner']
-label_encoders = {}
-
-for col in label_columns:
-    le = LabelEncoder()
-    encoded_data[col] = le.fit_transform(encoded_data[col])
-    label_encoders[col] = dict(zip(le.classes_, le.transform(le.classes_)))
-
-# [nicht in PDF] Fehlende Werte absichern
-encoded_data = encoded_data.fillna(0)
-
-print("\nHybrid codierte Daten für das Modelltraining:")
+# Print One-Hot-Encoded data
+print("\nOne-Hot-Encoded data:")
 print(encoded_data.head())
+print(encoded_data)
 
-# Sortiere nach Jahr und Kilometerstand
+# Sort data according to year and kilometers
 encoded_data_sorted = encoded_data.sort_values(by=['year', 'km_driven'], ascending=[False, True])
 
-# Features und Zielspalte definieren
-features = encoded_data_sorted.columns.drop(['name', 'selling_price']) if 'name' in encoded_data_sorted.columns else encoded_data_sorted.columns.drop('selling_price')
+# Regressiondata preperation - set features for regression and target
+features = encoded_data_sorted.columns.drop(['name', 'selling_price'])
 target = 'selling_price'
 
+# Encode prepered regressiondata
 X = encoded_data_sorted[features]
 y = encoded_data_sorted[target]
 
-# Speichere vollständige Daten
+# Save all data in CSV
 all_data = pd.concat([X, y], axis=1)
 all_data.to_csv('prepared_used_car_data_all.csv', index=False)
 
-# Train/Test Split
+# Create Training- and Testdata (optional - for control reasons)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Speichern
+# Save Trainingdata
 train_data = pd.concat([X_train, y_train], axis=1)
 train_data.to_csv('prepared_used_car_data_train.csv', index=False)
 
+# Save Testdata
 test_data = pd.concat([X_test, y_test], axis=1)
 test_data.to_csv('prepared_used_car_data_test.csv', index=False)
 
-print("\nTrainingsdaten gespeichert unter 'prepared_used_car_data_train.csv'")
-print("Testdaten gespeichert unter 'prepared_used_car_data_test.csv'")
+print("\nTrainingdata saved as 'prepared_used_car_data_train.csv'")
+print("Testdata saved as 'prepared_used_car_data_test.csv'")
