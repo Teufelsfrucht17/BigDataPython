@@ -13,7 +13,7 @@ from sklearn.preprocessing import LabelEncoder
 data = pd.read_csv('UsedCarSellingPrices.csv')
 print(data.head())
 
-data['Brand'] = data['Bame'].str.split().str[0]
+data['Brand'] = data['name'].str.split().str[0]
 print(data)
 
 data = data.drop(columns=['name'])
