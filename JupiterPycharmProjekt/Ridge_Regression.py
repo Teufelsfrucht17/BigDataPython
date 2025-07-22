@@ -5,7 +5,7 @@
 from sklearn.linear_model import Ridge
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 
 data_df = pd.read_csv('DataNormed.csv')
 # read training and test data - prepaired in 'DataPreperation'
@@ -18,20 +18,25 @@ X_train_rig, X_test_rig, Y_train_rig, Y_test_rig = train_test_split(X, Y, test_s
 
 print (X_train_rig)
 
-ridge = Ridge(alpha=0.1)
+ridge = Ridge()
+# parameter für Grid festlegen
 
-# Run ridge regression
-ridge.fit(X_train_rig, Y_train_rig)
+param_grid = {'alpha': [0.0001, 0.001, 0.01, 0.1,0.5, 1, 2, 3, 5, 10, 50, 100, 1000]}
 
+CV_rrmodel = GridSearchCV(estimator=ridge,param_grid=param_grid, cv=10)
 
-Y_train_pred = ridge.predict(X_train_rig)
+CV_rrmodel.fit(X_train_rig, Y_train_rig)
+
+print("Best parameters set values:", CV_rrmodel.best_params_)
+
+Y_train_pred = CV_rrmodel.predict(X_train_rig)
 Y_train_dev = sum((Y_train_rig - Y_train_pred)**2)
 Y_train_meandev = sum((Y_train_rig - Y_train_rig.mean())**2)  # [aus PDF]
 r2 = 1 - Y_train_dev / Y_train_meandev  # [aus PDF]
 print("R² on training set =", round(r2, 4))
 
 # Predict based on test data and compute Pseudo-R²
-Y_test_pred = ridge.predict(X_test_rig)
+Y_test_pred = CV_rrmodel.predict(X_test_rig)
 Y_test_dev = sum((Y_test_rig - Y_test_pred)**2)
 Y_train_meandev = sum((Y_test_rig - Y_test_rig.mean())**2)  # [aus PDF]
 pseudor2 = 1 - Y_test_dev / Y_train_meandev
