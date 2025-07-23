@@ -6,15 +6,10 @@ from sklearn.linear_model import Ridge
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split, GridSearchCV
-
-data_df = pd.read_csv('DataNormed.csv')
-# read training and test data - prepaired in 'DataPreperation'
+import DataPrep
 
 
-X = data_df.drop(columns=['selling_price']) # Feature
-Y = data_df['selling_price'] # Variable
-
-X_train_rig, X_test_rig, Y_train_rig, Y_test_rig = train_test_split(X, Y, test_size=0.2, random_state=42)
+X_train_rig, X_test_rig, Y_train_rig, Y_test_rig = train_test_split(DataPrep.X_OH, DataPrep.Y_OH, test_size=0.2, random_state=42)
 
 print (X_train_rig)
 

@@ -38,8 +38,7 @@ data_df_LE = pd.DataFrame(data_scaled_LE, columns=data.columns)
 X_LE = data_df_LE.drop(columns=['selling_price']) # Feature
 Y_LE = data_df_LE['selling_price'] # Variable
 
-Y_LE.to_csv('Y_LableEncoding.csv', index=False)
-Y_LE.to_csv('X_LableEncoding.csv', index=False)
+
 
 
 ###########
@@ -63,5 +62,3 @@ data_df_OH.to_csv('One_Hot_Data.csv', index=False)
 X_OH = data_df_OH.drop(columns=['selling_price']) # Feature
 Y_OH = data_df_OH['selling_price'] # Variable
 
-X_OH.to_csv('X_OneHot.csv', index=False)
-Y_OH.to_csv('X_OneHot.csv', index=False)
