@@ -12,7 +12,7 @@ import DataPrep
 X_train_rig, X_test_rig, Y_train_rig, Y_test_rig = train_test_split(DataPrep.X_OH, DataPrep.Y_OH, test_size=0.2, random_state=42)
 
 print (X_train_rig)
-
+#
 ridge = Ridge()
 # parameter für Grid festlegen
 
