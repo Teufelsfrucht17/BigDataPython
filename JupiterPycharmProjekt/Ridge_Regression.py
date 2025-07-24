@@ -34,7 +34,7 @@ Y_test_dev = sum((Y_test_rig - Y_test_pred)**2)
 Y_train_meandev = sum((Y_test_rig - Y_test_rig.mean())**2)  # [aus PDF]
 pseudor2 = 1 - Y_test_dev / Y_train_meandev
 
-DataPrep.report.loc[len(DataPrep.report)] = ['Rige RegressionLE', r2, pseudor2,"", "", ""]
+DataPrep.report.loc[len(DataPrep.report)] = ['Rige RegressionLE', r2, pseudor2,"", CV_rrmodel.cv_results_['mean_test_score'][CV_rrmodel.best_index_], CV_rrmodel.cv_results_['std_test_score'][CV_rrmodel.best_index_]]
 
 ##########################################
 # Visulise Ridge Regression model result #
@@ -90,7 +90,7 @@ Y_test_dev = sum((Y_test_rig - Y_test_pred)**2)
 Y_train_meandev = sum((Y_test_rig - Y_test_rig.mean())**2)  # [aus PDF]
 pseudor2 = 1 - Y_test_dev / Y_train_meandev
 
-DataPrep.report.loc[len(DataPrep.report)] = ['Rige RegressionOH', r2, pseudor2,"", "", ""]
+DataPrep.report.loc[len(DataPrep.report)] = ["Rige RegressionOH ", r2, pseudor2,"", CV_rrmodel.cv_results_['mean_test_score'][CV_rrmodel.best_index_], CV_rrmodel.cv_results_['std_test_score'][CV_rrmodel.best_index_]]
 
 print(DataPrep.report.head())
 
