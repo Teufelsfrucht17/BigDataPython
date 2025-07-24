@@ -27,14 +27,14 @@ Y_train_pred = CV_rrmodel.predict(X_train_rig)
 Y_train_dev = sum((Y_train_rig - Y_train_pred)**2)
 Y_train_meandev = sum((Y_train_rig - Y_train_rig.mean())**2)  # [aus PDF]
 r2 = 1 - Y_train_dev / Y_train_meandev  # [aus PDF]
-print("R² on training set =", round(r2, 4))
 
 # Predict based on test data and compute Pseudo-R²
 Y_test_pred = CV_rrmodel.predict(X_test_rig)
 Y_test_dev = sum((Y_test_rig - Y_test_pred)**2)
 Y_train_meandev = sum((Y_test_rig - Y_test_rig.mean())**2)  # [aus PDF]
 pseudor2 = 1 - Y_test_dev / Y_train_meandev
-print("Pseudo-R² on test set =", round(pseudor2, 4))
+
+DataPrep.report.loc[len(DataPrep.report)] = ['Rige RegressionLE', r2, pseudor2,"", "", ""]
 
 ##########################################
 # Visulise Ridge Regression model result #
@@ -83,14 +83,16 @@ Y_train_pred = CV_rrmodel.predict(X_train_rig)
 Y_train_dev = sum((Y_train_rig - Y_train_pred)**2)
 Y_train_meandev = sum((Y_train_rig - Y_train_rig.mean())**2)  # [aus PDF]
 r2 = 1 - Y_train_dev / Y_train_meandev  # [aus PDF]
-print("R² on training set =", round(r2, 4))
 
 # Predict based on test data and compute Pseudo-R²
 Y_test_pred = CV_rrmodel.predict(X_test_rig)
 Y_test_dev = sum((Y_test_rig - Y_test_pred)**2)
 Y_train_meandev = sum((Y_test_rig - Y_test_rig.mean())**2)  # [aus PDF]
 pseudor2 = 1 - Y_test_dev / Y_train_meandev
-print("Pseudo-R² on test set =", round(pseudor2, 4))
+
+DataPrep.report.loc[len(DataPrep.report)] = ['Rige RegressionOH', r2, pseudor2,"", "", ""]
+
+print(DataPrep.report.head())
 
 ##########################################
 # Visulise Ridge Regression model result #
