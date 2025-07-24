@@ -26,11 +26,10 @@ y_test_pred = ols_model.predict(X_test_OLS)
 r2_train = r2_score(Y_train_OLS, y_train_pred)
 r2_test = r2_score(Y_test_OLS, y_test_pred)
 
-print("\nOLS Regression result with lable encodeding:")
-print(f"R² (Train): {r2_train:.4f}")
-print(f"R² (Test): {r2_test:.4f}")
-print(f"RMSE (Test): {np.sqrt(mean_squared_error(Y_test_OLS, y_test_pred)):.2f}")
 
+DataPrep.report.loc[len(DataPrep.report)] = ['OLS RegressionLC', r2_train, r2_test,np.sqrt(mean_squared_error(Y_test_OLS, y_test_pred)), "", ""]
+
+print(DataPrep.report.head())
 
 #############################
 # Visulise OLS model result #

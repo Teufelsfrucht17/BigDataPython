@@ -80,3 +80,6 @@ data_df_OH.to_csv('One_Hot_Data.csv', index=False)
 X_OH = data_df_OH.drop(columns=['selling_price']) # Feature
 Y_OH = data_df_OH['selling_price'] # Variable
 
+## creating a report sheam
+
+report = pd.DataFrame(columns=['Model','R2.Train','R2.Test','RMSE','R2_Mean_CV','R2_Std_CV'])
