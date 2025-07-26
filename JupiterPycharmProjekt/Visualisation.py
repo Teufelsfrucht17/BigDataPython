@@ -32,7 +32,6 @@ sns.pairplot(data=DataPrep.data_df_LE_before_IQR[selected_cols], palette='Set3')
 plt.title("Pairplot - Original - All Label Encoded Data")
 plt.show()
 
-
 #######################################
 # Visualisation AFTER cleaining Data #
 #######################################
