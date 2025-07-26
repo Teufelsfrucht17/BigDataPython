@@ -7,28 +7,49 @@ from sklearn import preprocessing
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
 
+# Load All Data containes NO names but brands
+data = pd.read_csv('Lable_Encoded_Data.csv')
+selected_cols = ['selling_price', 'km_driven', 'year']
+
 #######################################
-# Visualisation before cleaining Data #
+# Visualisation BEFORE cleaining Data #
 #######################################
 
-# All Data containes NO names but brands
-data = pd.read_csv('AllData.csv')
+# Visualisation of all data Lable encoded
+plt.figure(figsize=(12, 6))
+sns.boxplot(data=DataPrep.data_df_LE_before_IQR, orient='v', palette='Set2')
+plt.title("Boxplot - Original - All Label Encoded Data")
+plt.show()
 
-'''
+# Visualisation of only nomerical values Lable encoded
+plt.figure(figsize=(12, 6))
+sns.boxplot(data=DataPrep.data_df_LE_before_IQR[selected_cols], orient='v', palette='Set2')
+plt.title("Boxplot - Original - Numerical values Label Encoded Data")
+plt.show()
+
+# Visualisation of all data Lable encoded
+sns.pairplot(data=DataPrep.data_df_LE_before_IQR[selected_cols], palette='Set3')
+plt.title("Pairplot - Original - All Label Encoded Data")
+plt.show()
+
+
+#######################################
+# Visualisation AFTER cleaining Data #
+#######################################
+
+# Visualisation of all data Lable encoded
 plt.figure(figsize=(12, 6))
 sns.boxplot(data=data, orient='v', palette='Set2')
-plt.show()
-'''
-
-# Visualisation of all data Lable encoded
-plt.figure(figsize=(12, 6))
-sns.boxplot(data=DataPrep.data_df_LE, orient='v', palette='Set2')
-plt.title("Boxplot - All Label Encoded Data")
+plt.title("Boxplot - Cleaned - All Label Encoded Data")
 plt.show()
 
-#DataFocus = DataPrep.data_df_LE[]
-# Visualisation of all data Lable encoded
+# Visualisation of only nomerical values Lable encoded
 plt.figure(figsize=(12, 6))
-selected_cols = ['selling_price', 'km_driven', 'year']
-sns.pairplot(data=DataPrep.data_df_LE[selected_cols], palette='Set3')
+sns.boxplot(data=data[selected_cols], orient='v', palette='Set2')
+plt.title("Boxplot - Cleaned - Numerical values Label Encoded Data")
+plt.show()
+
+# Visualisation of all data Lable encoded
+sns.pairplot(data=data[selected_cols], palette='Set3')
+plt.title("Pairplot - Cleaned - All Label Encoded Data")
 plt.show()

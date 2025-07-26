@@ -1,9 +1,18 @@
 from sklearn.linear_model import LinearRegression
 import pandas as pd
+import numpy as np
 from sklearn.metrics import r2_score
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 from sklearn.preprocessing import LabelEncoder
+
+def remove_outliers_iqr(df, column):
+    Q1 = np.percentile(df[column], 25)
+    Q3 = np.percentile(df[column], 75)
+    IQR = Q3 - Q1
+    lower_bound = Q1 - 1.5 * IQR
+    upper_bound = Q3 + 1.5 * IQR
+    return df[(df[column] >= lower_bound) & (df[column] <= upper_bound)]
 
 ################
 # Prepare Data #
@@ -19,6 +28,12 @@ data['Brand'] = data['name'].str.split().str[0]
 
 # Drop Variable "name" to make Lable encoding and One-Hot-Encoding possible - Regression can only handle numerical values
 data = data.drop(columns=['name'])
+
+data_before_IQR = data.copy()
+
+data = remove_outliers_iqr(data, column='selling_price')
+data = remove_outliers_iqr(data, column='km_driven')
+data = remove_outliers_iqr(data, column='year')
 
 # Save non-Encoded data as CSV
 data.to_csv('AllData.csv', index=False)
@@ -80,6 +95,29 @@ data_df_OH.to_csv('One_Hot_Data.csv', index=False)
 X_OH = data_df_OH.drop(columns=['selling_price']) # Feature
 Y_OH = data_df_OH['selling_price'] # Variable
 
-## creating a report sheam
+###########################
+# creating a report shema #
+###########################
 
 report = pd.DataFrame(columns=['Model','R2.Train','R2.Test','RMSE','R2_Mean_CV','R2_Std_CV'])
+
+################################################
+# Lable encoding without IQR for Visualization #
+################################################
+
+# Select all variables (columns) that have data in type "Object" - non-numeric values - and save them in variable "categorical_columns"
+categorical_columns = data_before_IQR.select_dtypes(include=['object']).columns
+
+# Introduce Lable Encoder function and let is run thrughe all columns defined in variable "categorical_columns", changing them into numerical values
+label_encoder = LabelEncoder()
+for column in categorical_columns:
+    data_before_IQR[column] = label_encoder.fit_transform(data_before_IQR[column])
+
+# scale the numerical values via Min-Max-scaler
+nscaler = preprocessing.MinMaxScaler()
+data_scaled_LE_before_IQR = nscaler.fit_transform(data_before_IQR)
+
+# Reeitroduce the Columne names using dataframe
+data_df_LE_before_IQR = pd.DataFrame(data_scaled_LE_before_IQR, columns=data.columns)
+#print(data_df_LE.shape)
+#print(data_df_LE)

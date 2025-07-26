@@ -11,7 +11,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,365000,78000,CNG,Individual,Manual,First Owner,Maruti
 2015,260000,35000,Petrol,Individual,Manual,First Owner,Chevrolet
 2014,250000,100000,Petrol,Individual,Manual,First Owner,Tata
-2018,1650000,25000,Petrol,Dealer,Automatic,First Owner,Toyota
 2007,60000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2007,135000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2012,600000,100000,Diesel,Individual,Manual,First Owner,Hyundai
@@ -24,26 +23,15 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,365000,78000,CNG,Individual,Manual,First Owner,Maruti
 2015,260000,35000,Petrol,Individual,Manual,First Owner,Chevrolet
 2014,250000,100000,Petrol,Individual,Manual,First Owner,Tata
-2018,1650000,25000,Petrol,Dealer,Automatic,First Owner,Toyota
 2015,585000,24000,Petrol,Dealer,Manual,First Owner,Maruti
-2019,1195000,5000,Diesel,Dealer,Manual,First Owner,Hyundai
 2013,390000,33000,Diesel,Individual,Manual,Second Owner,Chevrolet
-2014,1964999,28000,Diesel,Dealer,Automatic,First Owner,Jaguar
-2013,1425000,59000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
 2018,975000,4500,Diesel,Dealer,Automatic,First Owner,Maruti
-2011,1190000,175900,Diesel,Dealer,Automatic,First Owner,Audi
 2018,930000,14500,Petrol,Dealer,Manual,First Owner,Honda
 2018,525000,15000,Petrol,Individual,Manual,First Owner,Tata
-2013,1735000,50000,Diesel,Dealer,Automatic,First Owner,Audi
-2012,1375000,33800,Diesel,Dealer,Automatic,Second Owner,Mercedes-Benz
 2011,450000,130400,Diesel,Dealer,Automatic,Second Owner,Skoda
 2016,900000,50000,Petrol,Individual,Automatic,First Owner,Toyota
-2015,1300000,80000,Diesel,Individual,Manual,First Owner,Toyota
-2019,1400000,10000,Petrol,Individual,Manual,First Owner,Jeep
 2010,850000,119000,Petrol,Dealer,Automatic,First Owner,Mercedes-Benz
 2014,229999,60000,Petrol,Individual,Manual,Fourth & Above Owner,Hyundai
-2013,1550000,75800,Diesel,Dealer,Automatic,Second Owner,BMW
-2009,1250000,78000,Diesel,Dealer,Automatic,Third Owner,Audi
 2012,625000,40000,Diesel,Individual,Manual,First Owner,Hyundai
 2014,1050000,50000,Diesel,Individual,Manual,First Owner,Mahindra
 2014,560000,74000,Diesel,Individual,Manual,Second Owner,Honda
@@ -60,7 +48,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,665000,46000,Diesel,Dealer,Manual,First Owner,Maruti
 2014,465000,70000,Diesel,Dealer,Manual,First Owner,Hyundai
 2012,160000,60000,Petrol,Individual,Manual,Second Owner,Maruti
-1996,250000,35000,Diesel,Individual,Manual,Second Owner,Mahindra
 2014,675000,90000,Diesel,Dealer,Manual,First Owner,Honda
 2013,300000,80000,Petrol,Dealer,Manual,First Owner,Maruti
 2005,70000,80000,Diesel,Individual,Manual,First Owner,Tata
@@ -68,8 +55,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,525000,92000,Diesel,Dealer,Manual,First Owner,Toyota
 2009,151000,66764,Petrol,Dealer,Manual,Second Owner,Maruti
 2009,140000,100000,Petrol,Individual,Manual,First Owner,Maruti
-2010,280000,350000,Diesel,Individual,Manual,Second Owner,Chevrolet
-2011,350000,230000,Diesel,Individual,Manual,First Owner,Toyota
 2017,570000,60000,Diesel,Individual,Manual,First Owner,Mahindra
 2018,300000,31000,Petrol,Individual,Manual,First Owner,Hyundai
 2007,100000,39000,Diesel,Individual,Manual,First Owner,Tata
@@ -88,23 +73,16 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,495000,11958,Petrol,Dealer,Manual,First Owner,Honda
 2015,371000,20000,Petrol,Dealer,Manual,First Owner,Honda
 2017,1025000,9000,Petrol,Dealer,Manual,First Owner,Hyundai
-2017,8150000,6500,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
 2015,750000,70000,Diesel,Individual,Manual,First Owner,Mahindra
 2013,600000,120000,Diesel,Individual,Manual,First Owner,Renault
 2007,80000,58000,Petrol,Dealer,Manual,Second Owner,Hyundai
 2013,325000,62200,Diesel,Dealer,Manual,First Owner,Mahindra
-2014,1470000,34000,Diesel,Dealer,Automatic,Second Owner,Audi
 2015,350000,53000,Diesel,Individual,Manual,Second Owner,Fiat
-2013,2800000,49000,Diesel,Dealer,Automatic,First Owner,Audi
 2017,210000,15000,Petrol,Dealer,Manual,Second Owner,Datsun
 2013,450000,50000,Petrol,Individual,Manual,First Owner,Volkswagen
 2013,1150000,53000,Diesel,Dealer,Automatic,First Owner,Audi
 2009,210000,63500,Petrol,Dealer,Automatic,First Owner,Honda
-2018,4500000,9800,Petrol,Dealer,Automatic,First Owner,Mercedes-Benz
-2017,2750000,13000,Diesel,Individual,Automatic,First Owner,BMW
-2018,1975000,21000,Diesel,Dealer,Automatic,First Owner,Volvo
 2008,175000,29173,Petrol,Dealer,Manual,First Owner,Maruti
-2012,2500000,48000,Diesel,Dealer,Automatic,First Owner,BMW
 2017,628000,120000,Diesel,Individual,Manual,First Owner,Mahindra
 2010,600000,100000,Diesel,Individual,Manual,First Owner,Hyundai
 2017,399000,30000,Petrol,Individual,Manual,First Owner,Nissan
@@ -136,11 +114,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,530000,14272,Petrol,Dealer,Manual,First Owner,Ford
 2017,840000,49213,Diesel,Dealer,Manual,First Owner,Ford
 2015,229999,40000,Petrol,Individual,Manual,First Owner,Hyundai
-1998,40000,40000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2012,130000,80000,Petrol,Individual,Manual,First Owner,Chevrolet
 2015,200000,70000,Petrol,Individual,Manual,First Owner,Hyundai
 2011,120000,70000,Diesel,Individual,Manual,First Owner,Tata
-2003,75000,57000,Petrol,Individual,Manual,First Owner,Hyundai
 2016,250000,120000,Diesel,Individual,Manual,First Owner,Tata
 2005,100000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2013,280000,3240,Petrol,Individual,Manual,Second Owner,Hyundai
@@ -148,7 +124,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2018,700000,10000,Petrol,Individual,Manual,First Owner,Hyundai
 2015,525000,100000,Diesel,Individual,Manual,First Owner,Maruti
 2016,430000,80000,Diesel,Individual,Manual,First Owner,Hyundai
-2002,65000,70000,Petrol,Individual,Manual,First Owner,Hyundai
 2018,800000,35000,Diesel,Individual,Manual,First Owner,Maruti
 2007,75000,114000,Petrol,Individual,Manual,Second Owner,Hyundai
 2008,210000,53772,Petrol,Individual,Manual,First Owner,Hyundai
@@ -158,11 +133,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,225000,25000,Petrol,Individual,Manual,First Owner,Renault
 2014,210000,90000,LPG,Individual,Manual,First Owner,Maruti
 2020,240000,120000,Petrol,Individual,Manual,First Owner,Maruti
-2015,300000,175000,Diesel,Individual,Manual,First Owner,Chevrolet
 2011,99000,100000,Petrol,Individual,Manual,Third Owner,Chevrolet
 2014,620000,36000,Petrol,Individual,Manual,First Owner,Honda
 2013,500000,30000,Diesel,Individual,Manual,First Owner,Honda
-2010,2550000,40000,Petrol,Individual,Automatic,Second Owner,Jaguar
 2013,260000,70000,Petrol,Individual,Manual,Second Owner,Honda
 2017,550000,60000,Petrol,Individual,Manual,First Owner,Maruti
 2011,150000,155500,Diesel,Individual,Manual,First Owner,Tata
@@ -186,24 +159,20 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,280000,110000,Petrol,Individual,Manual,Second Owner,Hyundai
 2018,430000,30000,Petrol,Individual,Manual,First Owner,Tata
 2019,800000,15000,Diesel,Individual,Manual,First Owner,Mahindra
-2003,75000,100000,Diesel,Individual,Manual,Second Owner,Maruti
 2016,650000,70000,Diesel,Individual,Automatic,First Owner,Volkswagen
 2017,390000,24000,Petrol,Individual,Manual,First Owner,Maruti
 2005,100000,120000,Petrol,Individual,Manual,Second Owner,Honda
-2013,1500000,35000,Diesel,Individual,Automatic,First Owner,Mercedes-Benz
 2007,175000,78380,Petrol,Individual,Manual,First Owner,Maruti
 2012,434999,110000,Diesel,Individual,Manual,Second Owner,Renault
 2010,170000,90000,Diesel,Individual,Manual,Third Owner,Ford
 2011,190000,90000,Diesel,Individual,Manual,Third Owner,Ford
 2009,250000,150000,Diesel,Individual,Manual,Third Owner,Maruti
-2009,229999,230000,Diesel,Individual,Manual,Third Owner,Mahindra
 2006,140000,70000,Petrol,Individual,Manual,Third Owner,Maruti
 2017,600000,80362,Diesel,Individual,Manual,First Owner,Maruti
 2012,280000,110000,Petrol,Individual,Manual,Third Owner,Hyundai
 2012,150000,60000,Diesel,Individual,Manual,First Owner,Chevrolet
 2015,650000,50000,Diesel,Individual,Automatic,First Owner,Chevrolet
 2014,210000,40000,Petrol,Individual,Manual,Second Owner,Nissan
-2017,2900000,40000,Diesel,Individual,Automatic,First Owner,BMW
 2013,425000,20000,Diesel,Dealer,Manual,First Owner,Chevrolet
 2014,265000,55000,Petrol,Dealer,Manual,First Owner,Hyundai
 2018,890000,1136,Petrol,Dealer,Manual,First Owner,Fiat
@@ -217,16 +186,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,590000,65000,Diesel,Dealer,Manual,First Owner,Nissan
 2017,800000,40000,Diesel,Individual,Manual,First Owner,Maruti
 2012,385000,58000,Diesel,Dealer,Manual,First Owner,Hyundai
-2013,2000000,15000,Diesel,Individual,Automatic,First Owner,Mercedes-Benz
 2012,235000,54000,Petrol,Dealer,Manual,First Owner,Hyundai
 2017,640000,56000,Diesel,Dealer,Manual,First Owner,Volkswagen
 2006,52000,120000,Petrol,Individual,Manual,Third Owner,Maruti
 2009,80000,90000,LPG,Individual,Manual,Second Owner,Maruti
 2012,140000,70000,Petrol,Individual,Manual,Second Owner,Maruti
 2008,120000,90000,Petrol,Individual,Manual,Second Owner,Hyundai
-2008,89999,213000,Diesel,Individual,Manual,First Owner,Mahindra
 2012,180000,120000,Diesel,Individual,Manual,First Owner,Chevrolet
-2017,1500000,20000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,700000,10000,Petrol,Individual,Manual,First Owner,Hyundai
 2012,285000,80000,Diesel,Individual,Manual,Second Owner,Maruti
 2015,390000,90000,Petrol,Individual,Manual,First Owner,Hyundai
@@ -258,17 +224,14 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,290000,49000,Petrol,Individual,Manual,First Owner,Hyundai
 2006,115999,100000,Diesel,Individual,Manual,Second Owner,Tata
 2018,360000,26500,Petrol,Individual,Manual,First Owner,Renault
-2002,65000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,685000,72000,Diesel,Dealer,Manual,First Owner,Maruti
 2009,300000,50000,Petrol,Individual,Manual,First Owner,Honda
 2017,680000,44000,Diesel,Dealer,Manual,First Owner,Hyundai
 2017,1000000,60000,Diesel,Individual,Manual,Second Owner,Maruti
-2002,100000,120000,Diesel,Individual,Manual,First Owner,Tata
 2010,160000,130000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,450000,70000,Diesel,Individual,Manual,First Owner,Maruti
 2014,600000,20000,Petrol,Individual,Manual,First Owner,Maruti
 2009,180000,60000,Diesel,Individual,Manual,Second Owner,Hyundai
-2007,100000,195000,Petrol,Individual,Manual,First Owner,Maruti
 2010,120000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2006,130000,80000,Petrol,Individual,Manual,Third Owner,Hyundai
 2011,160000,155000,Petrol,Individual,Manual,First Owner,Maruti
@@ -288,9 +251,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,395000,49000,Petrol,Individual,Manual,Second Owner,Maruti
 2011,650000,70000,Diesel,Individual,Automatic,Second Owner,Mahindra
 2011,350000,90000,Diesel,Individual,Manual,Second Owner,Mahindra
-2020,1400000,25000,Diesel,Dealer,Manual,First Owner,Mahindra
 2018,360000,4000,Petrol,Individual,Manual,First Owner,Tata
-2018,1300000,10000,Diesel,Individual,Manual,First Owner,Mahindra
 2015,800000,15000,Diesel,Individual,Manual,First Owner,Renault
 2018,229999,30000,Petrol,Individual,Manual,First Owner,Hyundai
 2014,315000,41000,Petrol,Dealer,Manual,First Owner,Maruti
@@ -305,7 +266,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,350000,30000,Petrol,Individual,Manual,First Owner,Chevrolet
 2014,495000,80000,Diesel,Dealer,Manual,First Owner,Honda
 2017,500000,50000,Petrol,Individual,Manual,First Owner,Hyundai
-2015,430000,200000,Diesel,Individual,Manual,First Owner,Mahindra
 2013,345000,44000,Petrol,Dealer,Manual,First Owner,Hyundai
 2015,500000,10000,Petrol,Individual,Manual,First Owner,Maruti
 2019,425000,19600,Petrol,Individual,Manual,First Owner,Tata
@@ -314,16 +274,11 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,180000,46730,Petrol,Individual,Manual,First Owner,Maruti
 2015,250000,40000,Petrol,Individual,Manual,Second Owner,Datsun
 2011,350000,80000,Diesel,Individual,Manual,First Owner,Skoda
-2002,60000,80000,Petrol,Individual,Manual,Second Owner,Maruti
 2018,900000,24000,Diesel,Individual,Manual,First Owner,Hyundai
 2017,700000,21170,Diesel,Dealer,Manual,First Owner,Ford
-2013,2000000,167223,Diesel,Dealer,Automatic,First Owner,BMW
 2017,1000000,40000,Diesel,Individual,Manual,First Owner,Maruti
-2011,1375000,60000,Diesel,Individual,Automatic,First Owner,BMW
-2016,1800000,141440,Diesel,Dealer,Manual,First Owner,Toyota
 2007,160000,120000,Diesel,Individual,Manual,Third Owner,Chevrolet
 2012,525000,140000,Petrol,Individual,Automatic,First Owner,Mitsubishi
-2012,850000,212814,Diesel,Dealer,Manual,First Owner,Mahindra
 2019,800000,30000,Diesel,Individual,Manual,First Owner,Maruti
 2017,700000,88635,Diesel,Dealer,Manual,First Owner,Ford
 2018,800000,25000,Diesel,Individual,Manual,First Owner,Maruti
@@ -333,17 +288,14 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,600000,149674,Diesel,Dealer,Manual,Second Owner,Ford
 2007,370000,100000,Diesel,Individual,Manual,Third Owner,Mahindra
 2006,80000,120000,Petrol,Individual,Manual,Third Owner,Maruti
-2003,50000,120000,Diesel,Individual,Manual,Second Owner,Tata
 2018,900000,25000,Diesel,Individual,Manual,First Owner,Hyundai
 2014,300000,35000,Petrol,Individual,Manual,Second Owner,Maruti
-2002,125000,40000,Petrol,Individual,Manual,First Owner,Tata
 2015,490000,60000,Diesel,Individual,Manual,Second Owner,Maruti
 2012,300000,50000,Diesel,Individual,Manual,Second Owner,Toyota
 2013,55000,25000,Petrol,Individual,Manual,Fourth & Above Owner,Tata
 2016,350000,25000,Petrol,Individual,Manual,First Owner,Hyundai
 2019,755000,8000,Diesel,Individual,Manual,First Owner,Hyundai
 2017,720000,60000,Diesel,Individual,Manual,First Owner,Maruti
-2006,229999,200000,Diesel,Individual,Manual,Third Owner,Mahindra
 2018,1100000,20000,Diesel,Individual,Manual,First Owner,Mahindra
 2013,400000,100000,Petrol,Individual,Manual,First Owner,Volkswagen
 2015,350000,70000,Diesel,Individual,Manual,Second Owner,Hyundai
@@ -369,9 +321,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,550000,80000,Diesel,Individual,Manual,First Owner,Mahindra
 2018,325000,35000,Petrol,Individual,Manual,First Owner,Renault
 2017,860000,82080,Diesel,Individual,Automatic,First Owner,Skoda
-2012,600000,200000,Diesel,Individual,Manual,First Owner,Mahindra
 2009,125000,70000,Petrol,Individual,Manual,First Owner,Chevrolet
-2000,60000,40000,Petrol,Individual,Manual,Third Owner,Maruti
 2010,300000,120000,Diesel,Individual,Manual,Third Owner,Chevrolet
 2007,190000,60000,Petrol,Individual,Manual,Third Owner,Ford
 2013,400000,110000,Diesel,Individual,Manual,First Owner,Maruti
@@ -380,7 +330,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,250000,40000,Petrol,Individual,Manual,First Owner,Hyundai
 2019,600000,10000,Petrol,Individual,Manual,First Owner,Hyundai
 2010,175000,52047,Petrol,Individual,Manual,First Owner,Maruti
-2011,450000,200000,Diesel,Individual,Manual,Third Owner,Toyota
 2019,350000,15000,Petrol,Individual,Automatic,Second Owner,Tata
 2018,800000,50000,Diesel,Individual,Manual,First Owner,Maruti
 2011,250000,70000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -390,17 +339,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2006,90000,62009,Petrol,Individual,Manual,Second Owner,Maruti
 2017,595000,33100,Petrol,Individual,Manual,Second Owner,Hyundai
 2014,190000,40000,Petrol,Individual,Manual,Second Owner,Hyundai
-1999,50000,120000,Petrol,Individual,Manual,Second Owner,Hyundai
 2007,95000,80000,Petrol,Individual,Manual,First Owner,Maruti
 2016,1000000,70000,Diesel,Individual,Manual,First Owner,Tata
-2006,220000,220000,Petrol,Individual,Manual,Second Owner,Mahindra
 2010,400000,50000,Diesel,Individual,Manual,First Owner,Mahindra
 2015,315000,45000,Petrol,Individual,Manual,Second Owner,Datsun
 2014,1000000,110000,Diesel,Individual,Manual,First Owner,Toyota
 2014,500000,49000,Diesel,Individual,Manual,First Owner,Ford
-2018,1600000,35000,Diesel,Individual,Automatic,First Owner,Mahindra
 2017,500000,160000,Diesel,Individual,Manual,First Owner,Mahindra
-2007,70000,180000,Petrol,Individual,Manual,Third Owner,Maruti
 2007,105000,60000,Petrol,Individual,Manual,Second Owner,Maruti
 2008,400000,110000,Diesel,Individual,Manual,Third Owner,Ford
 2004,80000,60000,Petrol,Individual,Manual,Third Owner,Maruti
@@ -409,7 +354,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,250000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2010,250000,120000,Diesel,Individual,Manual,Second Owner,Tata
 2012,215000,80000,Diesel,Individual,Manual,Third Owner,Maruti
-2015,1400000,120000,Diesel,Individual,Manual,First Owner,Toyota
 2018,475000,20000,Petrol,Individual,Manual,First Owner,Honda
 2018,475000,22000,Petrol,Individual,Manual,First Owner,Honda
 2008,75000,35000,Petrol,Individual,Manual,Second Owner,Chevrolet
@@ -426,11 +370,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,120000,60000,Petrol,Individual,Manual,Third Owner,Ford
 2004,130000,46000,Petrol,Individual,Manual,First Owner,Maruti
 2004,275000,22288,Diesel,Dealer,Manual,Second Owner,Ford
-2011,270000,180000,Diesel,Individual,Manual,Second Owner,Volkswagen
 2015,500000,30000,Diesel,Individual,Manual,Second Owner,Volkswagen
 2015,400000,61690,Petrol,Dealer,Manual,First Owner,Hyundai
 2015,600000,64484,Petrol,Dealer,Manual,First Owner,Hyundai
-2012,1350000,90000,Diesel,Individual,Automatic,Second Owner,Audi
 2013,400000,75976,Diesel,Dealer,Manual,Second Owner,Renault
 2011,220000,70000,Diesel,Individual,Manual,Second Owner,Ford
 2012,300000,85962,Petrol,Dealer,Manual,Second Owner,Honda
@@ -456,11 +398,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2019,550000,10000,Petrol,Individual,Manual,First Owner,Tata
 2016,550000,78000,Diesel,Individual,Manual,Third Owner,Maruti
 2018,760000,50000,Diesel,Individual,Manual,First Owner,Mahindra
-2001,43000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2018,250000,20000,Petrol,Individual,Manual,First Owner,Maruti
 2019,500000,1250,Petrol,Individual,Manual,First Owner,Hyundai
 2015,380000,17152,Petrol,Individual,Manual,First Owner,Tata
-2019,1850000,5000,Diesel,Individual,Automatic,First Owner,Mahindra
 2012,350000,77000,Diesel,Individual,Manual,First Owner,Volkswagen
 2008,195000,90000,Diesel,Individual,Manual,Second Owner,Hyundai
 2011,225000,80000,Petrol,Individual,Manual,Second Owner,Chevrolet
@@ -501,7 +441,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,425000,81632,Diesel,Dealer,Manual,First Owner,Ford
 2016,600000,155201,Diesel,Dealer,Manual,First Owner,Ford
 2013,600000,93283,Diesel,Dealer,Manual,First Owner,Ford
-2009,300000,217871,Diesel,Dealer,Manual,First Owner,Maruti
 2012,450000,90165,Diesel,Dealer,Manual,First Owner,Ford
 2014,750000,101504,Diesel,Dealer,Manual,First Owner,Ford
 2010,325000,86017,Diesel,Dealer,Manual,Second Owner,Ford
@@ -524,21 +463,15 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2007,225000,50000,Diesel,Dealer,Manual,First Owner,Maruti
 2011,135000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2007,140000,49000,Petrol,Dealer,Manual,First Owner,Maruti
-2016,665000,560000,Diesel,Dealer,Manual,First Owner,Maruti
 2015,275000,14365,Petrol,Dealer,Manual,First Owner,Renault
-2017,2750000,41000,Diesel,Individual,Automatic,First Owner,Toyota
 2013,484999,65000,Diesel,Dealer,Manual,First Owner,Hyundai
 2015,565000,65000,Diesel,Dealer,Manual,First Owner,Maruti
 2013,425000,61083,Diesel,Dealer,Manual,First Owner,Maruti
 2013,925000,75000,Diesel,Individual,Manual,First Owner,Toyota
 2012,565000,72000,Diesel,Dealer,Manual,First Owner,Mahindra
 2014,525000,65000,Diesel,Dealer,Manual,First Owner,Renault
-2017,1650000,55000,Diesel,Dealer,Manual,First Owner,Hyundai
 2015,295000,21000,Petrol,Dealer,Manual,Second Owner,Hyundai
-2012,2050000,66363,Petrol,Dealer,Automatic,Second Owner,Jaguar
-2018,1475000,11700,Petrol,Dealer,Automatic,First Owner,Hyundai
 2017,1100000,10000,Petrol,Individual,Automatic,First Owner,Hyundai
-2014,4400000,100000,Diesel,Individual,Automatic,Second Owner,Mercedes-Benz
 2016,670000,7104,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
@@ -549,12 +482,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,770000,64672,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2015,1150000,54634,Diesel,Trustmark Dealer,Automatic,Second Owner,Hyundai
 2015,775000,66521,Petrol,Trustmark Dealer,Manual,First Owner,Honda
-2018,1725000,23974,Diesel,Dealer,Automatic,Second Owner,Toyota
-2016,2150000,43000,Diesel,Dealer,Automatic,First Owner,BMW
 2013,450000,1000,Diesel,Dealer,Manual,Second Owner,Renault
-2018,3800000,10000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2019,4950000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2016,535000,52600,Diesel,Individual,Manual,First Owner,Hyundai
 2012,225000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
@@ -562,18 +490,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,625000,11918,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2017,520000,10510,Petrol,Dealer,Automatic,First Owner,Hyundai
 2016,239000,41000,Petrol,Dealer,Manual,First Owner,Chevrolet
-2017,2600000,47162,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2012,229999,49824,Petrol,Dealer,Manual,First Owner,Hyundai
-2013,1300000,58500,Diesel,Dealer,Automatic,First Owner,Audi
 2005,80000,56580,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,385000,52000,Diesel,Dealer,Manual,First Owner,Skoda
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
 2017,600000,46507,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2013,450000,1000,Diesel,Dealer,Manual,Second Owner,Renault
-2018,3800000,10000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2019,4950000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2016,535000,52600,Diesel,Individual,Manual,First Owner,Hyundai
 2012,225000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
@@ -581,18 +504,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,625000,11918,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2017,520000,10510,Petrol,Dealer,Automatic,First Owner,Hyundai
 2016,239000,41000,Petrol,Dealer,Manual,First Owner,Chevrolet
-2017,2600000,47162,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2012,229999,49824,Petrol,Dealer,Manual,First Owner,Hyundai
-2013,1300000,58500,Diesel,Dealer,Automatic,First Owner,Audi
 2005,80000,56580,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,385000,52000,Diesel,Dealer,Manual,First Owner,Skoda
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
 2017,600000,46507,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2013,450000,1000,Diesel,Dealer,Manual,Second Owner,Renault
-2018,3800000,10000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2019,4950000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2016,535000,52600,Diesel,Individual,Manual,First Owner,Hyundai
 2012,225000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
@@ -600,18 +518,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,625000,11918,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2017,520000,10510,Petrol,Dealer,Automatic,First Owner,Hyundai
 2016,239000,41000,Petrol,Dealer,Manual,First Owner,Chevrolet
-2017,2600000,47162,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2012,229999,49824,Petrol,Dealer,Manual,First Owner,Hyundai
-2013,1300000,58500,Diesel,Dealer,Automatic,First Owner,Audi
 2005,80000,56580,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,385000,52000,Diesel,Dealer,Manual,First Owner,Skoda
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
 2017,600000,46507,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2013,450000,1000,Diesel,Dealer,Manual,Second Owner,Renault
-2018,3800000,10000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2019,4950000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2016,535000,52600,Diesel,Individual,Manual,First Owner,Hyundai
 2012,225000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
@@ -619,10 +532,8 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,625000,11918,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2017,520000,10510,Petrol,Dealer,Automatic,First Owner,Hyundai
 2016,239000,41000,Petrol,Dealer,Manual,First Owner,Chevrolet
-2017,2600000,47162,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2012,229999,49824,Petrol,Dealer,Manual,First Owner,Hyundai
-2013,1300000,58500,Diesel,Dealer,Automatic,First Owner,Audi
 2005,80000,56580,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,385000,52000,Diesel,Dealer,Manual,First Owner,Skoda
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
@@ -630,7 +541,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,350000,50000,Petrol,Individual,Manual,Second Owner,Hyundai
 2014,114999,30000,Petrol,Individual,Manual,First Owner,Maruti
 2013,380000,50000,Petrol,Individual,Manual,Second Owner,Hyundai
-1995,95000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2016,900000,35000,Diesel,Individual,Manual,First Owner,Mahindra
 2012,200999,90000,Petrol,Individual,Manual,Second Owner,Chevrolet
 2014,229999,11451,Petrol,Individual,Manual,First Owner,Maruti
@@ -643,7 +553,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2006,80000,66508,Petrol,Individual,Manual,Second Owner,Maruti
 2007,225000,55000,Petrol,Individual,Manual,Second Owner,Honda
 2012,75000,29900,Petrol,Individual,Manual,First Owner,Tata
-2017,1600000,3000,Diesel,Individual,Manual,First Owner,Tata
 2012,185000,85000,Diesel,Individual,Manual,First Owner,Tata
 2011,425000,50000,Diesel,Individual,Manual,First Owner,Mahindra
 2010,100000,120000,Diesel,Individual,Manual,Second Owner,Tata
@@ -655,16 +564,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,110000,20000,Petrol,Individual,Manual,First Owner,Maruti
 2018,540000,17500,Petrol,Individual,Manual,First Owner,Maruti
 2008,145000,25000,Petrol,Individual,Manual,First Owner,Mahindra
-2013,360000,206500,Diesel,Individual,Manual,First Owner,Tata
 2013,250000,88600,LPG,Individual,Manual,First Owner,Hyundai
 2012,110000,80000,Diesel,Individual,Manual,First Owner,Tata
 2008,250000,100000,Diesel,Individual,Manual,Fourth & Above Owner,Chevrolet
-2011,150000,186000,Diesel,Individual,Manual,Second Owner,Ford
 2010,140000,60000,Petrol,Individual,Manual,First Owner,Chevrolet
 2019,925000,11000,Petrol,Individual,Manual,First Owner,Maruti
 2017,969999,30000,Diesel,Individual,Manual,First Owner,Tata
 2007,90000,80000,CNG,Individual,Manual,Third Owner,Hyundai
-2001,55000,60000,Petrol,Individual,Manual,Third Owner,Hyundai
 2007,155000,100000,Diesel,Individual,Manual,Fourth & Above Owner,Hyundai
 2019,900000,15000,Diesel,Individual,Manual,First Owner,Mahindra
 2011,135000,90000,Petrol,Individual,Manual,First Owner,Maruti
@@ -710,7 +616,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,325000,100000,Diesel,Individual,Manual,First Owner,Hyundai
 2016,639000,28205,Petrol,Dealer,Manual,First Owner,Honda
 2017,415000,32670,Petrol,Dealer,Automatic,First Owner,Maruti
-2016,1199000,30093,Diesel,Dealer,Automatic,First Owner,Hyundai
 2013,525000,56228,CNG,Dealer,Manual,First Owner,Maruti
 2013,425000,59319,Petrol,Dealer,Manual,First Owner,Hyundai
 2016,699000,39503,Diesel,Dealer,Manual,First Owner,Maruti
@@ -720,7 +625,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,399000,44049,Diesel,Dealer,Manual,First Owner,Volkswagen
 2017,475000,45087,Diesel,Dealer,Manual,First Owner,Mahindra
 2011,249000,41125,Petrol,Dealer,Manual,First Owner,Toyota
-2014,1549000,42215,Diesel,Dealer,Automatic,First Owner,Audi
 2011,254999,54206,Petrol,Dealer,Manual,First Owner,Volkswagen
 2012,269000,52547,Petrol,Dealer,Manual,First Owner,Skoda
 2014,665000,59110,Diesel,Dealer,Manual,First Owner,Maruti
@@ -728,25 +632,20 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,265000,47564,Petrol,Dealer,Manual,Second Owner,Hyundai
 2010,211000,45143,Petrol,Dealer,Manual,Second Owner,Volkswagen
 2013,599000,61624,Petrol,Dealer,Automatic,Second Owner,Skoda
-2007,55000,195000,Diesel,Individual,Manual,Third Owner,Tata
 2014,550000,50000,Diesel,Individual,Manual,First Owner,Hyundai
-2018,4000000,68000,Diesel,Individual,Automatic,First Owner,Land
 2010,220000,120000,Diesel,Individual,Manual,Second Owner,Tata
 2019,500000,20000,Petrol,Individual,Manual,First Owner,Maruti
 2010,140000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2013,325000,60000,Diesel,Individual,Manual,First Owner,Maruti
 2010,210000,90000,Petrol,Individual,Manual,Third Owner,Hyundai
 2008,110000,90000,Petrol,Individual,Manual,Second Owner,Maruti
-2019,1200000,25000,Diesel,Individual,Manual,First Owner,Hyundai
 2017,229999,40000,Petrol,Individual,Manual,First Owner,Maruti
 2012,225000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2006,165000,132000,Petrol,Individual,Manual,First Owner,Maruti
 2018,525000,10980,Petrol,Dealer,Automatic,First Owner,Tata
 2018,325000,20629,Petrol,Dealer,Manual,First Owner,Hyundai
-2018,1500000,50000,Diesel,Individual,Manual,First Owner,Toyota
 2015,400000,30000,Petrol,Individual,Automatic,First Owner,Hyundai
 2015,550000,69782,Petrol,Dealer,Manual,First Owner,Maruti
-2003,98000,54000,Petrol,Individual,Manual,First Owner,Maruti
 2013,900000,63654,Diesel,Dealer,Manual,First Owner,Mahindra
 2017,700000,60000,Diesel,Individual,Manual,First Owner,Renault
 2015,890000,52000,Diesel,Dealer,Manual,First Owner,Mahindra
@@ -756,7 +655,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,550000,78413,Diesel,Dealer,Manual,Second Owner,Mahindra
 2018,790000,40890,Diesel,Dealer,Manual,First Owner,Mahindra
 2015,350000,34823,Petrol,Dealer,Manual,Second Owner,Honda
-2017,1700000,75000,Diesel,Individual,Automatic,First Owner,Toyota
 2017,750000,55545,Diesel,Dealer,Manual,First Owner,Maruti
 2014,409999,56541,Diesel,Dealer,Manual,First Owner,Honda
 2016,220000,43700,Petrol,Individual,Manual,First Owner,Hyundai
@@ -769,8 +667,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2006,80000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2018,875000,1440,Petrol,Individual,Manual,First Owner,Honda
 2019,300000,50000,Petrol,Individual,Manual,First Owner,Maruti
-2017,2800000,20000,Diesel,Individual,Automatic,First Owner,Toyota
-2017,1330000,91195,Diesel,Dealer,Manual,First Owner,Toyota
 2011,220000,63657,Diesel,Dealer,Manual,First Owner,Volkswagen
 2013,250000,60000,Diesel,Individual,Manual,First Owner,Mahindra
 2016,919999,75000,Diesel,Dealer,Manual,First Owner,Toyota
@@ -819,15 +715,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,220000,60000,Petrol,Individual,Manual,Third Owner,Renault
 2012,480000,120000,Diesel,Individual,Manual,Fourth & Above Owner,Maruti
 2017,370000,82000,Petrol,Individual,Automatic,First Owner,Maruti
-2003,55000,35000,Diesel,Individual,Manual,Second Owner,Fiat
-2013,125000,205000,Petrol,Individual,Manual,First Owner,Hyundai
 2011,260000,125000,Diesel,Individual,Manual,Third Owner,Hyundai
 2015,350000,130000,Diesel,Individual,Manual,First Owner,Fiat
 2012,170000,97000,CNG,Individual,Manual,Second Owner,Maruti
 2015,350000,90000,Petrol,Individual,Manual,Second Owner,Hyundai
 2009,250000,60000,Petrol,Individual,Manual,Third Owner,Maruti
 2013,170000,60000,Diesel,Individual,Manual,First Owner,Tata
-2018,1300000,35000,Diesel,Individual,Manual,First Owner,Mahindra
 2019,550000,25000,Petrol,Individual,Manual,First Owner,Hyundai
 2017,400000,15000,Petrol,Individual,Manual,First Owner,Honda
 2011,120000,20000,Petrol,Individual,Manual,First Owner,Tata
@@ -835,9 +728,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,275000,70000,Petrol,Individual,Manual,First Owner,Ford
 2016,285000,90000,Petrol,Individual,Manual,First Owner,Tata
 2016,900000,80000,Diesel,Individual,Manual,First Owner,Hyundai
-2014,2500000,79500,Diesel,Individual,Automatic,Second Owner,Mercedes-Benz
 2013,620000,70000,Diesel,Individual,Manual,Second Owner,Hyundai
-2018,1700000,5000,Diesel,Individual,Manual,First Owner,Toyota
 2018,650000,15000,Petrol,Individual,Manual,First Owner,Ford
 2014,500000,35000,Petrol,Individual,Manual,First Owner,Maruti
 2009,250000,120000,Diesel,Individual,Manual,Second Owner,Tata
@@ -848,10 +739,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,400000,90000,Petrol,Individual,Manual,First Owner,Maruti
 2018,200000,10000,Petrol,Individual,Manual,First Owner,Maruti
 2009,250000,72000,Diesel,Individual,Manual,Second Owner,Hyundai
-2011,550000,197000,Petrol,Individual,Manual,Second Owner,Toyota
-1999,85000,70000,Petrol,Individual,Manual,Second Owner,Maruti
-2001,52000,50000,Petrol,Individual,Manual,Third Owner,Hyundai
-2017,1200000,50000,Diesel,Individual,Automatic,First Owner,Tata
 2011,450000,60000,Petrol,Individual,Automatic,Third Owner,Hyundai
 2018,615000,40000,Petrol,Individual,Manual,First Owner,Maruti
 2012,400000,60000,Diesel,Individual,Manual,Second Owner,Maruti
@@ -877,7 +764,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,150000,60000,Petrol,Individual,Manual,First Owner,Maruti
 2013,500000,100000,Diesel,Individual,Manual,Second Owner,Mahindra
 2011,40000,19000,Petrol,Individual,Manual,First Owner,Tata
-2006,140000,200000,Diesel,Individual,Manual,Third Owner,Chevrolet
 2015,227000,70000,Diesel,Individual,Manual,Second Owner,Mahindra
 2011,285000,50000,Diesel,Individual,Manual,Second Owner,Maruti
 2012,155000,19077,Petrol,Individual,Manual,Second Owner,Maruti
@@ -897,9 +783,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,240000,50000,Petrol,Individual,Manual,Second Owner,Maruti
 2013,450000,70000,Diesel,Individual,Manual,Second Owner,Toyota
 2013,450000,1000,Diesel,Dealer,Manual,Second Owner,Renault
-2018,3800000,10000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2019,4950000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2016,535000,52600,Diesel,Individual,Manual,First Owner,Hyundai
 2012,225000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
@@ -907,18 +790,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,625000,11918,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2017,520000,10510,Petrol,Dealer,Automatic,First Owner,Hyundai
 2016,239000,41000,Petrol,Dealer,Manual,First Owner,Chevrolet
-2017,2600000,47162,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2012,229999,49824,Petrol,Dealer,Manual,First Owner,Hyundai
-2013,1300000,58500,Diesel,Dealer,Automatic,First Owner,Audi
 2005,80000,56580,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,385000,52000,Diesel,Dealer,Manual,First Owner,Skoda
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
 2017,600000,46507,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2013,450000,1000,Diesel,Dealer,Manual,Second Owner,Renault
-2018,3800000,10000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2019,4950000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2016,535000,52600,Diesel,Individual,Manual,First Owner,Hyundai
 2012,225000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
@@ -926,10 +804,8 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,625000,11918,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2017,520000,10510,Petrol,Dealer,Automatic,First Owner,Hyundai
 2016,239000,41000,Petrol,Dealer,Manual,First Owner,Chevrolet
-2017,2600000,47162,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2012,229999,49824,Petrol,Dealer,Manual,First Owner,Hyundai
-2013,1300000,58500,Diesel,Dealer,Automatic,First Owner,Audi
 2005,80000,56580,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,385000,52000,Diesel,Dealer,Manual,First Owner,Skoda
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
@@ -944,7 +820,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,525000,9745,Petrol,Dealer,Automatic,First Owner,Maruti
 2017,550000,9748,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,271000,49000,Petrol,Dealer,Manual,First Owner,Volkswagen
-2018,1490000,20694,Diesel,Dealer,Manual,First Owner,Hyundai
 2015,490000,31080,Petrol,Dealer,Manual,First Owner,Hyundai
 2014,260000,37605,Petrol,Dealer,Manual,First Owner,Hyundai
 2014,455000,55850,Diesel,Dealer,Manual,First Owner,Hyundai
@@ -957,24 +832,18 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2007,110000,60000,Petrol,Individual,Manual,Fourth & Above Owner,Hyundai
 2016,250000,25000,Petrol,Individual,Manual,First Owner,Renault
 2012,600000,110000,Diesel,Individual,Manual,Fourth & Above Owner,Mahindra
-2008,280000,190000,Diesel,Individual,Manual,Second Owner,Ford
-2018,2700000,25000,Diesel,Individual,Automatic,First Owner,Audi
 2008,80000,90000,Petrol,Individual,Manual,First Owner,Mahindra
 2019,350000,5000,Petrol,Individual,Manual,First Owner,Maruti
 2015,475000,60000,Diesel,Individual,Manual,First Owner,Maruti
-2020,4700000,1500,Diesel,Individual,Automatic,First Owner,Audi
 2018,500000,50000,Diesel,Individual,Manual,First Owner,Maruti
 2014,250000,120000,Diesel,Individual,Manual,First Owner,Chevrolet
 2005,100000,120000,Diesel,Individual,Manual,Second Owner,Hyundai
 2019,350000,5000,Petrol,Individual,Manual,First Owner,Maruti
-2014,4000000,47000,Diesel,Individual,Automatic,First Owner,BMW
-2017,1900000,20000,Petrol,Individual,Automatic,First Owner,Toyota
 2005,95000,120000,Petrol,Individual,Manual,Second Owner,Hyundai
 2015,409999,58000,Diesel,Individual,Manual,First Owner,Hyundai
 2018,1050000,35000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,320000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2019,1000000,10000,Diesel,Individual,Manual,First Owner,Mahindra
-2017,1770000,25000,Diesel,Individual,Manual,First Owner,Toyota
 2018,950000,20000,Diesel,Individual,Manual,First Owner,Mahindra
 2018,750000,50000,Diesel,Individual,Manual,First Owner,Maruti
 2014,220000,42000,Petrol,Individual,Manual,First Owner,Hyundai
@@ -987,7 +856,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,950000,60000,Diesel,Individual,Manual,First Owner,Hyundai
 2007,400000,110000,Diesel,Individual,Automatic,Fourth & Above Owner,Ford
 2014,250000,25000,Diesel,Individual,Manual,First Owner,Tata
-2018,4000000,68000,Petrol,Individual,Automatic,First Owner,Land
 2014,210000,20000,Petrol,Individual,Manual,First Owner,Maruti
 2011,147000,110000,Petrol,Individual,Manual,Second Owner,Hyundai
 2018,725000,26350,Diesel,Individual,Manual,First Owner,Maruti
@@ -997,10 +865,8 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2006,70000,60000,Petrol,Individual,Manual,Second Owner,Tata
 2012,160000,70000,Petrol,Individual,Manual,Third Owner,Hyundai
 2011,1000000,90000,Diesel,Individual,Automatic,Second Owner,Ford
-2001,68000,70000,Petrol,Individual,Manual,First Owner,Hyundai
 2017,500000,26500,Petrol,Individual,Manual,First Owner,Hyundai
 2013,170000,60000,Diesel,Individual,Manual,First Owner,Tata
-2018,1300000,35000,Diesel,Individual,Manual,First Owner,Mahindra
 2020,1050000,10000,Diesel,Individual,Manual,First Owner,Hyundai
 2009,300000,15000,Petrol,Individual,Manual,First Owner,Maruti
 2016,600000,25000,Petrol,Individual,Manual,First Owner,Hyundai
@@ -1020,28 +886,19 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,650000,71042,Diesel,Dealer,Manual,First Owner,Mahindra
 2012,1025000,167870,Diesel,Dealer,Manual,Second Owner,Mitsubishi
 2011,195000,133564,Diesel,Dealer,Manual,First Owner,Ford
-2018,3800000,10000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2013,1490000,40000,Diesel,Dealer,Automatic,First Owner,BMW
-2019,4950000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2018,1140000,23038,Petrol,Trustmark Dealer,Automatic,First Owner,Honda
 2011,95000,70000,Diesel,Individual,Manual,First Owner,Chevrolet
-2017,3050000,30000,Diesel,Individual,Automatic,First Owner,BMW
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
 2015,625000,11918,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2017,520000,10510,Petrol,Dealer,Automatic,First Owner,Hyundai
 2016,239000,41000,Petrol,Dealer,Manual,First Owner,Chevrolet
-2017,2600000,47162,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2012,229999,49824,Petrol,Dealer,Manual,First Owner,Hyundai
-2013,1300000,58500,Diesel,Dealer,Automatic,First Owner,Audi
 2017,585000,43608,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2018,825000,11212,Petrol,Trustmark Dealer,Automatic,First Owner,Maruti
 2013,280000,52000,Diesel,Dealer,Manual,First Owner,Hyundai
 2016,725000,49217,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2015,300000,90000,Diesel,Individual,Manual,First Owner,Mahindra
 2015,375000,70000,Petrol,Individual,Manual,First Owner,Hyundai
-2003,310000,90000,Petrol,Individual,Manual,Fourth & Above Owner,Honda
-2011,375000,190000,Diesel,Individual,Manual,Third Owner,Maruti
-2016,1950000,106000,Diesel,Individual,Automatic,First Owner,Ford
 2012,400000,80000,Diesel,Individual,Manual,Second Owner,Tata
 2014,550000,80000,Diesel,Individual,Manual,Second Owner,Nissan
 2018,270000,20000,Petrol,Individual,Manual,First Owner,Maruti
@@ -1049,22 +906,17 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,500000,60000,Diesel,Individual,Manual,Second Owner,Ford
 2010,400000,130000,Diesel,Individual,Automatic,Second Owner,Skoda
 2017,280000,28838,Petrol,Individual,Manual,First Owner,Hyundai
-2008,80000,200000,Petrol,Individual,Manual,First Owner,Tata
 2006,55000,100000,Diesel,Individual,Manual,First Owner,Tata
 2014,250000,50000,Petrol,Individual,Manual,First Owner,Maruti
-2010,250000,190000,Diesel,Individual,Manual,Fourth & Above Owner,Mahindra
 2007,95000,100000,Diesel,Individual,Manual,Second Owner,Mahindra
 2014,725000,135000,Diesel,Individual,Manual,Second Owner,Mahindra
 2015,320000,50000,Diesel,Individual,Manual,Third Owner,Mahindra
-2014,1200000,135000,Diesel,Individual,Automatic,Third Owner,Skoda
 2012,160000,50000,Diesel,Individual,Manual,First Owner,Chevrolet
 2018,790000,19571,Diesel,Dealer,Manual,First Owner,Honda
-2018,1200000,29600,Petrol,Dealer,Manual,First Owner,Honda
 2011,175000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2018,950000,15000,Diesel,Individual,Automatic,First Owner,Maruti
 2019,340000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2017,825000,13500,Diesel,Individual,Manual,First Owner,Renault
-2018,3100000,22000,Petrol,Individual,Automatic,First Owner,Audi
 2018,780000,25000,Diesel,Dealer,Manual,First Owner,Honda
 2010,350000,80000,Petrol,Individual,Automatic,Third Owner,Toyota
 2018,690000,39000,Petrol,Dealer,Manual,First Owner,Honda
@@ -1076,18 +928,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2008,140000,120000,Petrol,Individual,Manual,First Owner,Maruti
 2019,1100000,30000,Diesel,Individual,Manual,First Owner,Maruti
 2015,715000,35000,Diesel,Individual,Manual,First Owner,Renault
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2015,1750000,127643,Diesel,Dealer,Automatic,First Owner,Audi
 2018,400000,54000,Petrol,Dealer,Manual,Second Owner,Tata
-2014,1750000,102354,Diesel,Dealer,Automatic,First Owner,Audi
-2014,1850000,62237,Petrol,Dealer,Automatic,First Owner,Audi
 2005,114999,90000,Petrol,Dealer,Manual,Second Owner,Hyundai
 2018,950000,21394,Diesel,Dealer,Manual,First Owner,Ford
 2015,310000,32686,Petrol,Dealer,Manual,First Owner,Datsun
 2006,575000,1001,Diesel,Dealer,Manual,First Owner,Mahindra
 2017,490000,22000,Diesel,Dealer,Manual,First Owner,Renault
 2017,480000,53261,Petrol,Dealer,Manual,First Owner,Hyundai
-2016,3500000,53000,Diesel,Dealer,Automatic,First Owner,Land
 2018,370000,10000,Petrol,Dealer,Manual,First Owner,Renault
 2017,835000,14000,Diesel,Dealer,Manual,First Owner,Maruti
 2017,650000,44000,Petrol,Dealer,Manual,First Owner,Volkswagen
@@ -1100,22 +947,18 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,509999,42000,Diesel,Individual,Manual,First Owner,Tata
 2014,520000,110000,Diesel,Individual,Manual,First Owner,Honda
 2005,100000,100000,Diesel,Individual,Manual,First Owner,Tata
-2006,85000,300000,Diesel,Individual,Manual,Second Owner,Tata
 2009,130000,110000,Diesel,Individual,Manual,Third Owner,Tata
 2018,950000,27620,Diesel,Dealer,Manual,First Owner,Ford
 2015,450000,70000,Petrol,Individual,Manual,First Owner,Ford
 2012,320000,50000,Petrol,Individual,Manual,Second Owner,Honda
 2015,480000,50000,Diesel,Individual,Manual,First Owner,Maruti
-2014,2490000,46000,Diesel,Individual,Automatic,First Owner,Mercedes-Benz
 2012,790000,82000,Diesel,Individual,Manual,First Owner,Toyota
 2016,120000,120000,Petrol,Individual,Manual,First Owner,Maruti
 2006,75000,80000,Petrol,Individual,Manual,Third Owner,Maruti
 2010,99000,70000,Petrol,Individual,Manual,First Owner,Tata
 2018,1015000,20000,Diesel,Individual,Manual,First Owner,Maruti
-2013,250000,200000,Diesel,Individual,Manual,Second Owner,Mahindra
 2011,520000,120000,Diesel,Individual,Manual,First Owner,Toyota
 2018,1100000,30000,Diesel,Individual,Automatic,First Owner,Hyundai
-2005,200000,223000,Diesel,Individual,Manual,First Owner,Toyota
 2016,525000,60000,Diesel,Individual,Manual,First Owner,Maruti
 2016,500000,40000,Petrol,Individual,Manual,First Owner,Hyundai
 2016,675000,161327,Diesel,Individual,Manual,First Owner,Mahindra
@@ -1125,10 +968,8 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,150000,68000,Petrol,Individual,Manual,Second Owner,Hyundai
 2012,200000,85000,Diesel,Individual,Manual,First Owner,Chevrolet
 2011,525000,70000,Diesel,Individual,Automatic,First Owner,Mahindra
-1999,60000,35000,Petrol,Individual,Manual,Second Owner,Maruti
 2010,180000,100000,Diesel,Individual,Manual,Second Owner,Maruti
 2015,475000,110000,Diesel,Individual,Manual,First Owner,Honda
-2010,380000,195000,Diesel,Individual,Automatic,Second Owner,Mahindra
 2015,285000,46000,Petrol,Individual,Manual,Second Owner,Maruti
 2008,91200,60000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,250000,46000,Petrol,Individual,Manual,First Owner,Datsun
@@ -1155,7 +996,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,350000,65000,Diesel,Dealer,Manual,First Owner,Tata
 2015,245000,32000,Petrol,Dealer,Manual,First Owner,Hyundai
 2016,600000,56000,Diesel,Dealer,Manual,First Owner,Mahindra
-2017,2400000,30000,Diesel,Individual,Automatic,First Owner,BMW
 2014,620000,80000,Diesel,Dealer,Manual,First Owner,Mahindra
 2014,395000,52000,Petrol,Dealer,Manual,Second Owner,Maruti
 2014,635000,13250,Petrol,Dealer,Manual,First Owner,Maruti
@@ -1183,7 +1023,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,150000,90246,Petrol,Individual,Manual,Third Owner,Maruti
 2008,110000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2010,150000,40000,Petrol,Individual,Manual,Second Owner,Maruti
-2000,165000,60000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2017,610000,32000,Diesel,Individual,Manual,Second Owner,Renault
 2013,170000,60400,Diesel,Individual,Manual,First Owner,Tata
 2008,150000,70950,Diesel,Individual,Manual,Second Owner,Hyundai
@@ -1201,7 +1040,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,200000,107143,Diesel,Individual,Manual,Second Owner,Maruti
 2017,450000,15000,Petrol,Individual,Automatic,First Owner,Maruti
 2012,170000,50000,Petrol,Individual,Manual,Second Owner,Hyundai
-2017,1900000,100000,Diesel,Individual,Manual,First Owner,Toyota
 2016,500000,60000,Diesel,Individual,Manual,First Owner,Mahindra
 2016,819999,85000,Diesel,Individual,Manual,First Owner,Maruti
 2014,351000,40000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -1213,7 +1051,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,75000,35000,Petrol,Individual,Manual,Second Owner,Tata
 2017,750000,80000,Diesel,Individual,Manual,First Owner,Mahindra
 2011,60000,40000,Petrol,Individual,Manual,First Owner,Tata
-2015,1500000,46412,Diesel,Individual,Manual,First Owner,Toyota
 2011,390000,150000,Diesel,Individual,Manual,Fourth & Above Owner,Mahindra
 2016,630000,50000,Diesel,Individual,Manual,First Owner,Mahindra
 2018,1085000,15000,Diesel,Individual,Manual,First Owner,Tata
@@ -1242,7 +1079,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,300000,25000,Petrol,Individual,Manual,First Owner,Chevrolet
 2015,300000,66755,Diesel,Dealer,Manual,First Owner,Honda
 2013,380000,123084,Petrol,Dealer,Manual,First Owner,Honda
-2009,250000,806599,Petrol,Dealer,Manual,First Owner,Maruti
 2013,310000,95851,Diesel,Dealer,Manual,First Owner,Honda
 2010,260000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2008,150000,50000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -1252,7 +1088,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,375000,20000,Petrol,Individual,Manual,Second Owner,Datsun
 2006,125000,120000,Diesel,Individual,Manual,Third Owner,Hyundai
 2012,250000,110000,Diesel,Individual,Manual,First Owner,Chevrolet
-2014,715000,234000,Diesel,Individual,Manual,First Owner,Toyota
 2011,220000,70000,Diesel,Individual,Manual,First Owner,Hyundai
 2010,110000,110000,Diesel,Individual,Manual,Second Owner,Tata
 2007,150000,84000,Petrol,Individual,Manual,Second Owner,Hyundai
@@ -1280,16 +1115,11 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,450000,82695,Diesel,Dealer,Manual,First Owner,Volkswagen
 2014,285000,68293,Diesel,Dealer,Manual,Second Owner,Ford
 2016,580000,32000,Petrol,Dealer,Automatic,First Owner,Honda
-2014,300000,190621,Diesel,Dealer,Manual,First Owner,Maruti
-2018,1200000,60000,Diesel,Individual,Manual,First Owner,Hyundai
 2006,78000,64700,Petrol,Individual,Manual,First Owner,Maruti
-2002,65000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2016,400000,88470,Diesel,Individual,Manual,First Owner,Tata
 2016,850000,75000,Diesel,Individual,Manual,First Owner,Hyundai
 2013,450000,120000,Diesel,Individual,Manual,Second Owner,Volkswagen
-2012,2500000,35000,Diesel,Individual,Automatic,First Owner,Mercedes-Benz
 2017,780000,70000,Diesel,Individual,Manual,First Owner,Toyota
-2017,3200000,57000,Diesel,Individual,Automatic,First Owner,Toyota
 2020,350000,1000,Petrol,Individual,Manual,First Owner,Maruti
 2013,285000,120000,Diesel,Individual,Manual,Second Owner,Mahindra
 2015,525000,98000,Diesel,Dealer,Manual,First Owner,Volkswagen
@@ -1298,11 +1128,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,75000,25000,Petrol,Individual,Manual,Third Owner,Tata
 2009,185000,60000,Diesel,Individual,Manual,Third Owner,Tata
 2007,110000,90000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
-2004,180000,200000,Petrol,Individual,Manual,Second Owner,Honda
 2010,350000,110000,Diesel,Individual,Manual,Second Owner,Volkswagen
 2005,60000,126000,Petrol,Individual,Manual,Second Owner,Chevrolet
 2018,695000,70000,Diesel,Individual,Manual,First Owner,Mahindra
-2019,2700000,5000,Diesel,Individual,Automatic,First Owner,Mahindra
 2007,135000,74183,Petrol,Individual,Manual,Second Owner,Maruti
 2015,640000,70000,Diesel,Individual,Manual,Second Owner,Mahindra
 2014,160000,90000,Petrol,Individual,Manual,First Owner,Maruti
@@ -1310,9 +1138,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,340000,110000,Diesel,Individual,Manual,Second Owner,Maruti
 2012,110000,80000,Diesel,Individual,Manual,Second Owner,Maruti
 2013,250000,90000,Diesel,Individual,Manual,Second Owner,Tata
-2017,1300000,70000,Diesel,Individual,Manual,First Owner,Toyota
 2014,250000,1,Diesel,Individual,Manual,Second Owner,Mahindra
-2009,450000,192000,Diesel,Individual,Manual,First Owner,Toyota
 2013,240000,70000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2007,225000,120000,Diesel,Individual,Manual,Second Owner,Mahindra
 2015,275000,60000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -1324,7 +1150,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2008,350000,80000,Diesel,Individual,Manual,Second Owner,Mahindra
 2009,355000,100000,Diesel,Individual,Automatic,Second Owner,Skoda
 2020,619000,1500,Petrol,Individual,Manual,First Owner,Maruti
-2018,1700000,50000,Diesel,Individual,Manual,First Owner,Jeep
 2006,55000,100000,Diesel,Individual,Manual,Second Owner,Tata
 2006,95000,83411,Petrol,Individual,Manual,First Owner,Ford
 2011,300000,120000,Diesel,Individual,Manual,Second Owner,Volkswagen
@@ -1349,7 +1174,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,450000,110000,Diesel,Individual,Manual,Second Owner,Hyundai
 2012,550000,80000,Diesel,Individual,Manual,Second Owner,Hyundai
 2012,220000,80000,Petrol,Individual,Manual,Second Owner,Maruti
-2001,40000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2017,300000,20000,Petrol,Individual,Automatic,First Owner,Renault
 2018,630000,40000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,610000,40000,Diesel,Individual,Manual,Second Owner,Maruti
@@ -1361,8 +1185,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2008,125000,102000,Petrol,Dealer,Manual,First Owner,Maruti
 2014,725000,110000,Diesel,Individual,Manual,First Owner,Honda
 2011,170000,90000,Petrol,Individual,Manual,Second Owner,Maruti
-2015,1200000,70000,Diesel,Individual,Manual,Third Owner,Toyota
-2003,70000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2007,100000,70000,Petrol,Individual,Manual,Second Owner,Maruti
 2006,300000,80000,Petrol,Individual,Manual,Second Owner,Honda
 2013,450000,100000,Diesel,Individual,Manual,Second Owner,Maruti
@@ -1396,27 +1218,20 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,495000,90000,Diesel,Individual,Manual,Second Owner,Tata
 2014,325000,80322,Diesel,Dealer,Manual,First Owner,Ford
 2019,650000,8000,Petrol,Individual,Manual,First Owner,Ford
-2000,155000,50000,Diesel,Individual,Manual,Second Owner,Mahindra
 2007,75000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2015,350000,61658,Diesel,Dealer,Manual,First Owner,Hyundai
 2010,90000,50000,Petrol,Individual,Manual,Third Owner,Maruti
 2016,600000,80000,Diesel,Individual,Manual,First Owner,Maruti
-2010,400000,185000,Diesel,Individual,Manual,First Owner,Mahindra
 2014,370000,57000,Diesel,Individual,Manual,Second Owner,Maruti
-2000,50000,60000,Petrol,Individual,Manual,First Owner,Maruti
 2004,125000,120000,Petrol,Individual,Manual,Second Owner,Honda
-2018,1800000,26000,Diesel,Individual,Automatic,First Owner,Honda
 2019,650000,20000,Petrol,Individual,Automatic,First Owner,Hyundai
 2017,800000,30600,Petrol,Individual,Automatic,First Owner,Maruti
 2020,802000,5000,Petrol,Individual,Manual,First Owner,Volkswagen
-2015,2300000,35000,Diesel,Individual,Automatic,Third Owner,Audi
 2016,430000,35000,Diesel,Individual,Manual,First Owner,Hyundai
 2017,650000,23000,Petrol,Individual,Manual,First Owner,Hyundai
 2004,170000,120000,Diesel,Individual,Manual,First Owner,Mahindra
-2011,450000,235000,Diesel,Individual,Automatic,First Owner,Skoda
 2013,250000,87000,Petrol,Individual,Manual,First Owner,Maruti
 2014,550000,72000,Petrol,Individual,Manual,Second Owner,Ford
-2013,2000000,64000,Diesel,Individual,Automatic,Second Owner,Jaguar
 2007,140000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2012,155000,12000,Petrol,Individual,Manual,First Owner,Chevrolet
 2010,120000,67000,Petrol,Individual,Manual,Third Owner,Hyundai
@@ -1425,7 +1240,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,235000,74500,Petrol,Individual,Manual,Second Owner,Hyundai
 2011,300000,118700,Diesel,Individual,Manual,Second Owner,Hyundai
 2015,434999,40000,Petrol,Individual,Automatic,Second Owner,Nissan
-2004,225000,223660,Diesel,Individual,Automatic,Third Owner,Mahindra
 2006,160000,140000,Petrol,Individual,Manual,Second Owner,Toyota
 2020,600000,5000,Petrol,Individual,Manual,First Owner,Hyundai
 2016,470000,100000,Diesel,Individual,Manual,Second Owner,Chevrolet
@@ -1440,19 +1254,14 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2008,160000,110000,Petrol,Individual,Manual,Third Owner,Hyundai
 2017,325000,15000,Petrol,Individual,Manual,First Owner,Maruti
 2006,200000,73756,Diesel,Individual,Manual,First Owner,Mahindra
-2018,2800000,40000,Diesel,Individual,Automatic,First Owner,Toyota
 2011,125000,60000,Petrol,Individual,Manual,Third Owner,Chevrolet
 2008,155000,60000,Petrol,Individual,Manual,Fourth & Above Owner,Hyundai
 2015,550000,90000,Diesel,Individual,Manual,First Owner,Hyundai
 2009,130000,70000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
-2002,80000,70000,Petrol,Individual,Manual,Second Owner,Maruti
 2015,500000,80000,Diesel,Individual,Manual,Second Owner,Toyota
 2019,250000,27000,Petrol,Individual,Manual,First Owner,Renault
 2012,580000,70000,Diesel,Individual,Manual,First Owner,Mahindra
-2002,60000,50000,Petrol,Individual,Manual,First Owner,Daewoo
-2012,300000,185000,Diesel,Individual,Manual,First Owner,Toyota
 2014,200000,90000,Diesel,Individual,Manual,Second Owner,Ford
-2017,1200000,16400,Diesel,Individual,Manual,First Owner,Tata
 2015,350000,80000,Diesel,Individual,Manual,Second Owner,Toyota
 2012,600000,80000,Diesel,Individual,Manual,Second Owner,Mahindra
 2019,650000,4000,Petrol,Individual,Manual,First Owner,Honda
@@ -1461,31 +1270,24 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2018,950000,41395,Petrol,Individual,Automatic,First Owner,Hyundai
 2012,250999,35000,Diesel,Individual,Manual,Second Owner,Tata
 2012,385000,52000,Diesel,Dealer,Manual,First Owner,Skoda
-2009,1250000,47000,Diesel,Dealer,Automatic,Second Owner,Audi
 2013,165000,50000,Petrol,Individual,Manual,First Owner,Chevrolet
 2015,700000,48000,Petrol,Dealer,Manual,First Owner,Hyundai
 2015,750000,53000,Diesel,Dealer,Manual,First Owner,Mahindra
-2008,89999,213000,Diesel,Individual,Manual,First Owner,Mahindra
 2018,290000,15000,Petrol,Dealer,Automatic,First Owner,Datsun
 2014,45000,7000,Petrol,Individual,Manual,Second Owner,Tata
 2013,675000,88000,Diesel,Dealer,Automatic,First Owner,Skoda
 2015,530000,55000,Diesel,Dealer,Manual,First Owner,Nissan
-2014,1485000,48000,Diesel,Dealer,Automatic,First Owner,BMW
 2014,325000,71014,Diesel,Dealer,Manual,First Owner,Chevrolet
 2015,400000,60000,Diesel,Dealer,Manual,First Owner,Honda
 2017,380000,71000,Diesel,Dealer,Manual,First Owner,Mahindra
 2016,750000,45000,Petrol,Dealer,Automatic,First Owner,Honda
 2017,390000,45000,Petrol,Dealer,Manual,First Owner,Honda
 2009,110000,20000,Petrol,Individual,Manual,First Owner,Maruti
-2019,1825000,14000,Diesel,Dealer,Manual,First Owner,MG
-2019,3256000,17000,Diesel,Dealer,Automatic,First Owner,Audi
 2015,370000,60000,Diesel,Dealer,Manual,First Owner,Renault
 2013,210000,80000,Diesel,Individual,Manual,Second Owner,Chevrolet
-2007,175000,181000,Diesel,Individual,Manual,Fourth & Above Owner,Skoda
 2012,575000,89550,Diesel,Individual,Manual,Second Owner,Hyundai
 2010,320000,90000,Diesel,Individual,Manual,Third Owner,Mahindra
 2010,280000,149500,Diesel,Individual,Manual,Third Owner,Maruti
-2013,500000,190000,Diesel,Individual,Manual,Second Owner,Renault
 2013,380000,83000,Diesel,Dealer,Manual,First Owner,Ford
 2005,120000,20000,Petrol,Individual,Manual,Second Owner,Maruti
 2018,395000,20000,Petrol,Individual,Manual,First Owner,Maruti
@@ -1501,7 +1303,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,800000,156000,Diesel,Individual,Manual,First Owner,Mahindra
 2010,819999,120000,Diesel,Individual,Manual,Second Owner,Toyota
 2007,163000,100000,Petrol,Individual,Manual,Second Owner,Maruti
-2001,350000,100000,Diesel,Individual,Manual,Second Owner,Mercedes-Benz
 2006,75000,100000,Petrol,Individual,Manual,Second Owner,Tata
 2012,180000,60000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,675000,30000,Diesel,Individual,Manual,First Owner,Ford
@@ -1515,7 +1316,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,500000,90000,Diesel,Individual,Manual,Second Owner,Renault
 2012,275000,120000,Diesel,Individual,Manual,Second Owner,Skoda
 2012,450000,120000,Diesel,Individual,Manual,Second Owner,Hyundai
-2020,1400000,25000,Diesel,Dealer,Manual,First Owner,Mahindra
 2015,800000,15000,Diesel,Individual,Manual,First Owner,Renault
 2014,315000,41000,Petrol,Dealer,Manual,First Owner,Maruti
 2019,700000,16000,Petrol,Individual,Manual,First Owner,Maruti
@@ -1531,7 +1331,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,250000,48000,Petrol,Individual,Manual,First Owner,Chevrolet
 2016,990000,146000,Diesel,Dealer,Manual,First Owner,Toyota
 2013,220000,100000,Diesel,Individual,Manual,Fourth & Above Owner,Mahindra
-2012,1800000,50000,Diesel,Individual,Automatic,Second Owner,Jaguar
 2014,530000,50000,Petrol,Individual,Manual,First Owner,Honda
 2016,575000,50000,Diesel,Individual,Manual,First Owner,Maruti
 2012,400000,99000,Diesel,Dealer,Manual,First Owner,Mahindra
@@ -1571,14 +1370,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,290000,60000,Diesel,Individual,Manual,Second Owner,Volkswagen
 2013,350000,70000,Petrol,Individual,Manual,First Owner,Fiat
 2014,110000,25000,Petrol,Individual,Manual,First Owner,Maruti
-2003,70000,80000,Petrol,Individual,Manual,Third Owner,Hyundai
 2011,300000,70000,Petrol,Individual,Automatic,Third Owner,Volkswagen
 2017,180000,60000,Petrol,Individual,Manual,First Owner,Maruti
 2020,300000,20000,Petrol,Individual,Manual,First Owner,Renault
 2017,509000,60000,Petrol,Individual,Manual,First Owner,Maruti
 2016,650000,80000,Diesel,Individual,Manual,First Owner,Maruti
 2015,450000,70000,Diesel,Individual,Manual,Third Owner,Maruti
-1999,170000,2020,Diesel,Individual,Manual,Second Owner,Mahindra
 2007,210000,100000,Diesel,Individual,Manual,Second Owner,Mahindra
 2013,360000,80000,Diesel,Individual,Manual,Second Owner,Hyundai
 2011,495000,120000,Diesel,Individual,Manual,Second Owner,Toyota
@@ -1590,14 +1387,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,250000,60000,Petrol,Individual,Manual,Second Owner,Maruti
 2013,325000,94000,Diesel,Individual,Manual,Second Owner,Honda
 2008,69000,100000,Petrol,Individual,Manual,First Owner,Maruti
-2018,1380000,25000,Diesel,Individual,Manual,First Owner,Mahindra
 2007,90000,90000,Petrol,Individual,Manual,First Owner,Maruti
 2016,1000000,40000,Diesel,Individual,Manual,First Owner,Mahindra
 2010,145000,90000,CNG,Individual,Manual,Second Owner,Hyundai
 2020,250000,1100,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2011,256000,70000,Diesel,Individual,Manual,Third Owner,Maruti
 2005,70000,120000,Diesel,Individual,Manual,First Owner,Tata
-2000,50000,88500,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2016,240000,70000,Petrol,Individual,Manual,Second Owner,Renault
 2010,97000,128000,Petrol,Individual,Manual,First Owner,Tata
 2012,130000,120000,Diesel,Individual,Manual,First Owner,Tata
@@ -1622,7 +1417,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,415000,28217,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2016,640000,72787,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2017,780000,31063,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
-2017,2595000,79641,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2015,850000,58692,Diesel,Trustmark Dealer,Manual,First Owner,Hyundai
 2015,900000,54784,Diesel,Trustmark Dealer,Manual,First Owner,Hyundai
 2016,1150000,64156,Petrol,Trustmark Dealer,Manual,First Owner,Toyota
@@ -1645,7 +1439,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,130000,120000,Diesel,Individual,Manual,First Owner,Tata
 2016,250000,30000,Petrol,Individual,Manual,First Owner,Chevrolet
 2012,270000,80000,Diesel,Individual,Manual,Second Owner,Tata
-2019,2600000,9500,Diesel,Individual,Automatic,First Owner,BMW
 2013,160000,80000,Petrol,Individual,Manual,First Owner,Hyundai
 2016,229999,80000,Petrol,Individual,Manual,First Owner,Hyundai
 2017,750000,29000,Diesel,Individual,Manual,First Owner,Mahindra
@@ -1658,7 +1451,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2007,120000,81366,Petrol,Individual,Manual,First Owner,Maruti
 2006,95000,110000,Petrol,Individual,Manual,First Owner,Maruti
 2013,400000,100000,Petrol,Individual,Manual,First Owner,Volkswagen
-2006,229999,300000,Diesel,Individual,Manual,First Owner,Toyota
 2016,430000,20000,Diesel,Individual,Manual,First Owner,Mahindra
 2012,300000,90000,Diesel,Individual,Manual,First Owner,Renault
 2013,350000,70000,Petrol,Individual,Manual,First Owner,Fiat
@@ -1667,13 +1459,10 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,250000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2012,368000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2012,368000,90000,Petrol,Individual,Manual,Second Owner,Maruti
-2014,650000,244000,Diesel,Individual,Manual,First Owner,Toyota
-1997,150000,120000,Diesel,Individual,Manual,Third Owner,Mahindra
 2012,180000,60000,LPG,Individual,Manual,First Owner,Maruti
 2017,525000,15000,Petrol,Individual,Manual,First Owner,Hyundai
 2005,350000,150000,Diesel,Individual,Manual,Second Owner,Ford
 2018,850000,30000,Diesel,Individual,Manual,Second Owner,Mahindra
-2011,350000,312000,Diesel,Individual,Manual,Third Owner,Volkswagen
 2007,75000,54000,Petrol,Individual,Manual,First Owner,Maruti
 2005,160000,67000,Petrol,Individual,Manual,First Owner,Maruti
 2017,500000,40000,Diesel,Individual,Manual,First Owner,Maruti
@@ -1687,7 +1476,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,370000,80000,Diesel,Individual,Manual,Third Owner,Maruti
 2011,229999,100000,CNG,Individual,Manual,First Owner,Chevrolet
 2011,140000,90000,Diesel,Individual,Manual,Third Owner,Ford
-2013,700000,200000,Diesel,Individual,Manual,First Owner,Toyota
 2020,545000,7300,Petrol,Individual,Manual,First Owner,Hyundai
 2017,200000,30000,Petrol,Individual,Manual,First Owner,Datsun
 2015,500000,120000,Diesel,Individual,Manual,First Owner,Tata
@@ -1698,19 +1486,15 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,160000,36000,Petrol,Individual,Manual,First Owner,Maruti
 2016,760000,49000,Diesel,Individual,Manual,First Owner,Maruti
 2015,300000,22000,Petrol,Individual,Manual,First Owner,Hyundai
-1998,50000,35000,LPG,Individual,Manual,Second Owner,Maruti
 2019,800000,24000,Diesel,Individual,Manual,First Owner,Mahindra
 2018,680000,20000,Diesel,Individual,Manual,First Owner,Maruti
 2009,85000,50000,LPG,Individual,Manual,Second Owner,Maruti
-2016,1300000,70000,Diesel,Individual,Manual,First Owner,Toyota
 2016,500000,60000,Petrol,Individual,Manual,First Owner,Maruti
-2015,3500000,35000,Diesel,Individual,Automatic,First Owner,Audi
 2008,145000,60000,Petrol,Individual,Manual,First Owner,Hyundai
 2013,300000,60000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,600000,60000,Diesel,Individual,Manual,Second Owner,Maruti
 2015,400000,70000,Petrol,Individual,Manual,Second Owner,Maruti
 2007,130000,135000,Petrol,Individual,Manual,Second Owner,Hyundai
-2001,45000,72539,Petrol,Individual,Manual,Second Owner,Maruti
 2017,641000,25000,Petrol,Individual,Manual,First Owner,Maruti
 2015,650000,50000,Diesel,Individual,Manual,First Owner,Maruti
 2020,784000,101,Diesel,Dealer,Manual,Test Drive Car,Ford
@@ -1718,11 +1502,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2020,1000000,101,Diesel,Dealer,Manual,Test Drive Car,Ford
 2015,495000,52328,Diesel,Dealer,Manual,First Owner,Ford
 2013,324000,30000,Petrol,Individual,Manual,First Owner,Hyundai
-2016,2100000,91505,Diesel,Dealer,Automatic,First Owner,Ford
 2018,200000,35000,Petrol,Individual,Manual,First Owner,Maruti
 2015,320000,60000,Diesel,Individual,Manual,First Owner,Maruti
 2015,300000,20500,Petrol,Individual,Manual,First Owner,Hyundai
-2013,180000,200000,Diesel,Individual,Manual,First Owner,Tata
 2008,500000,154000,Diesel,Individual,Manual,Third Owner,Toyota
 2011,305000,120000,Petrol,Individual,Manual,Second Owner,Toyota
 2009,125000,50000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
@@ -1732,7 +1514,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,580000,70000,Diesel,Individual,Manual,First Owner,Maruti
 2011,350000,133000,Diesel,Individual,Manual,Second Owner,Maruti
 2004,120000,110000,Petrol,Individual,Manual,Second Owner,Hyundai
-2013,150000,180000,Diesel,Individual,Manual,Third Owner,Tata
 2013,650000,120000,Diesel,Individual,Manual,First Owner,Renault
 2010,225000,80000,Petrol,Individual,Manual,Second Owner,Maruti
 2014,400000,15000,Petrol,Individual,Automatic,First Owner,Honda
@@ -1777,9 +1558,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2020,1119000,1010,Petrol,Dealer,Manual,Test Drive Car,Ford
 2020,746000,1111,Petrol,Dealer,Manual,Test Drive Car,Ford
 2020,1030000,1010,Petrol,Dealer,Manual,Test Drive Car,Ford
-2020,1334000,1010,Diesel,Dealer,Manual,Test Drive Car,Ford
 2020,811999,1010,Petrol,Dealer,Manual,Test Drive Car,Ford
-2020,1331000,1010,Diesel,Dealer,Manual,Test Drive Car,Ford
 2020,852000,1010,Petrol,Dealer,Manual,Test Drive Car,Ford
 2006,45000,120000,Diesel,Individual,Manual,Second Owner,Tata
 2013,430000,70000,Diesel,Individual,Manual,Third Owner,Renault
@@ -1797,7 +1576,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2019,1100000,5166,Petrol,Dealer,Manual,Test Drive Car,Ford
 2012,650000,76290,Diesel,Dealer,Manual,First Owner,Mahindra
 2016,969999,70000,Diesel,Individual,Automatic,Second Owner,Mahindra
-2016,1250000,35000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,715000,25000,Diesel,Individual,Automatic,First Owner,Maruti
 2017,715000,25000,Diesel,Individual,Automatic,First Owner,Maruti
 2016,565000,47000,Diesel,Dealer,Manual,First Owner,Maruti
@@ -1829,13 +1607,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,175000,90000,Diesel,Individual,Manual,Third Owner,Volkswagen
 2012,260000,89000,Diesel,Individual,Manual,Second Owner,Mahindra
 2013,950000,80000,Diesel,Individual,Manual,Third Owner,Toyota
-2009,250000,200000,Diesel,Individual,Manual,Fourth & Above Owner,Maruti
 2015,630000,50000,Diesel,Individual,Manual,First Owner,Mahindra
 2012,35000,35000,Petrol,Individual,Manual,Third Owner,Tata
 2013,450000,1000,Diesel,Dealer,Manual,Second Owner,Renault
-2018,3800000,10000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2019,4950000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2016,535000,52600,Diesel,Individual,Manual,First Owner,Hyundai
 2012,225000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
@@ -1843,15 +1617,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,625000,11918,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2017,520000,10510,Petrol,Dealer,Automatic,First Owner,Hyundai
 2016,239000,41000,Petrol,Dealer,Manual,First Owner,Chevrolet
-2017,2600000,47162,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2012,229999,49824,Petrol,Dealer,Manual,First Owner,Hyundai
-2013,1300000,58500,Diesel,Dealer,Automatic,First Owner,Audi
 2005,80000,56580,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,385000,52000,Diesel,Dealer,Manual,First Owner,Skoda
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
 2017,600000,46507,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
-2014,330000,200000,Diesel,Individual,Manual,Third Owner,Chevrolet
 2009,150000,120000,Petrol,Individual,Manual,First Owner,Maruti
 2008,105000,90000,Diesel,Individual,Manual,First Owner,Tata
 2013,185000,65000,Diesel,Individual,Manual,First Owner,Tata
@@ -1914,7 +1685,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2019,725000,22000,Diesel,Individual,Automatic,First Owner,Maruti
 2007,100000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2019,1100000,40000,Diesel,Individual,Manual,First Owner,Tata
-2017,2700000,30000,Diesel,Individual,Automatic,First Owner,Ford
 2016,280000,23000,Petrol,Individual,Manual,First Owner,Renault
 2009,150000,30000,Diesel,Individual,Manual,First Owner,Tata
 2010,200000,50000,Petrol,Individual,Manual,First Owner,Tata
@@ -1922,27 +1692,22 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,254999,70000,Petrol,Individual,Manual,Second Owner,Maruti
 2013,360000,60000,Petrol,Individual,Manual,Second Owner,Maruti
 2006,95000,90000,Petrol,Individual,Manual,Second Owner,Maruti
-2007,185000,230000,Diesel,Individual,Manual,Second Owner,Mahindra
 2012,185000,40000,Diesel,Individual,Manual,First Owner,Tata
 2019,300000,15000,Petrol,Individual,Manual,First Owner,Renault
 2018,800000,40000,Petrol,Individual,Manual,First Owner,Hyundai
-2000,60000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2010,80000,50000,Petrol,Individual,Manual,Second Owner,Fiat
 2018,500000,8000,Petrol,Individual,Manual,First Owner,Hyundai
 2013,250000,35000,Petrol,Individual,Manual,First Owner,Hyundai
 2010,250000,80000,Diesel,Individual,Manual,First Owner,Tata
 2005,125000,50000,Petrol,Individual,Manual,Second Owner,Maruti
-2002,100000,80000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2010,480000,90000,Diesel,Individual,Manual,First Owner,Mahindra
 2018,320000,30000,Petrol,Individual,Manual,Second Owner,Mahindra
 2010,130000,70000,Petrol,Individual,Manual,Second Owner,Maruti
 2006,57000,80000,Diesel,Individual,Manual,Second Owner,Tata
 2005,75000,60000,Petrol,Individual,Manual,First Owner,Hyundai
-2003,60000,35000,Petrol,Individual,Manual,First Owner,Maruti
 2008,125000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2004,105000,100000,Petrol,Individual,Manual,Third Owner,Honda
 2008,125000,152000,LPG,Individual,Manual,Second Owner,Maruti
-1998,69000,70000,Petrol,Individual,Manual,Second Owner,Maruti
 2012,130000,90000,Diesel,Individual,Manual,Second Owner,Tata
 2019,630000,40000,Petrol,Individual,Manual,First Owner,Maruti
 2016,330000,50000,Petrol,Individual,Manual,Second Owner,Honda
@@ -1971,12 +1736,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,200000,120000,Diesel,Individual,Manual,First Owner,Maruti
 2004,315000,110000,Diesel,Individual,Manual,Third Owner,Mahindra
 2019,1100000,40000,Diesel,Individual,Manual,First Owner,Tata
-2001,52000,50000,Petrol,Individual,Manual,Third Owner,Hyundai
 2017,600000,10000,Petrol,Individual,Manual,First Owner,Hyundai
-2019,1700000,10000,Diesel,Individual,Manual,First Owner,Tata
 2015,451000,100000,Diesel,Individual,Manual,First Owner,Nissan
 2016,370000,60000,Petrol,Individual,Manual,First Owner,Mahindra
-2017,2700000,30000,Diesel,Individual,Automatic,First Owner,Ford
 2016,280000,23000,Petrol,Individual,Manual,First Owner,Renault
 2017,350000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2011,250000,50000,Petrol,Individual,Manual,First Owner,Hyundai
@@ -1987,7 +1749,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,170000,44800,Petrol,Individual,Manual,Second Owner,Chevrolet
 2010,200000,50000,Petrol,Individual,Manual,First Owner,Tata
 2018,800000,52000,Diesel,Individual,Manual,First Owner,Hyundai
-2017,1200000,50000,Diesel,Individual,Automatic,First Owner,Tata
 2008,400000,35000,Petrol,Individual,Manual,Second Owner,Toyota
 2010,148000,100000,Diesel,Individual,Manual,Second Owner,Maruti
 2014,200000,100000,Diesel,Individual,Manual,First Owner,Tata
@@ -1998,7 +1759,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,110000,77073,Petrol,Individual,Manual,Second Owner,Tata
 2016,400000,70000,Diesel,Individual,Manual,First Owner,Ford
 2013,275000,90000,LPG,Individual,Manual,Second Owner,Hyundai
-2013,800000,186000,Diesel,Individual,Manual,Third Owner,Toyota
 2014,550000,90000,Diesel,Individual,Manual,First Owner,Mahindra
 2007,125000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2010,135000,80000,Petrol,Individual,Manual,Second Owner,Chevrolet
@@ -2027,13 +1787,10 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,221000,51000,Petrol,Dealer,Manual,First Owner,Maruti
 2016,381000,38000,Diesel,Dealer,Manual,First Owner,Tata
 2015,250999,35000,Petrol,Dealer,Manual,First Owner,Maruti
-2002,60000,120000,Petrol,Individual,Manual,Third Owner,Hyundai
 2016,380000,38000,Diesel,Dealer,Manual,First Owner,Tata
 2008,180000,144000,Diesel,Individual,Manual,Third Owner,Skoda
 2017,751000,64000,Diesel,Dealer,Manual,First Owner,Maruti
-2015,1250000,60000,Diesel,Dealer,Automatic,First Owner,Mahindra
 2014,229999,65000,Petrol,Dealer,Manual,First Owner,Hyundai
-2019,1250000,24000,Diesel,Individual,Manual,First Owner,Tata
 2014,782000,58000,Diesel,Dealer,Manual,Second Owner,Mahindra
 2014,780000,58000,Diesel,Dealer,Manual,Second Owner,Mahindra
 2016,245000,68000,Petrol,Dealer,Manual,First Owner,Maruti
@@ -2043,7 +1800,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,400000,75000,Diesel,Dealer,Manual,First Owner,Volkswagen
 2013,370000,90000,Petrol,Individual,Manual,First Owner,Maruti
 2007,175000,80000,Diesel,Individual,Manual,Second Owner,Hyundai
-1998,1000000,35000,Petrol,Individual,Automatic,Second Owner,Mercedes-Benz
 2013,92800,25000,Petrol,Individual,Manual,Second Owner,Maruti
 2014,291000,90000,Diesel,Individual,Manual,First Owner,Tata
 2013,92800,25000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -2053,7 +1809,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2019,375000,10000,Petrol,Individual,Manual,First Owner,Renault
 2012,215000,70000,Petrol,Individual,Manual,Second Owner,Hyundai
 2009,150000,110000,Diesel,Individual,Manual,Second Owner,Ford
-2003,60000,5000,Petrol,Individual,Manual,Second Owner,Maruti
 2006,52000,120000,Petrol,Individual,Manual,Third Owner,Maruti
 2009,80000,90000,LPG,Individual,Manual,Second Owner,Maruti
 2012,140000,70000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -2096,7 +1851,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,465000,63063,Petrol,Dealer,Automatic,First Owner,Hyundai
 2008,263000,70000,Diesel,Individual,Manual,First Owner,Maruti
 2012,250000,90000,Petrol,Individual,Manual,First Owner,Maruti
-1999,60000,90000,Petrol,Individual,Manual,Fourth & Above Owner,Hyundai
 2005,70000,90000,Petrol,Individual,Manual,Third Owner,Hyundai
 2016,250000,30000,Petrol,Individual,Manual,First Owner,Chevrolet
 2016,229999,80000,Petrol,Individual,Manual,First Owner,Hyundai
@@ -2128,7 +1882,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,484999,99000,Diesel,Individual,Manual,Second Owner,Mahindra
 2009,175000,80000,Diesel,Individual,Manual,Third Owner,Maruti
 2006,220000,120000,Petrol,Individual,Manual,Third Owner,Honda
-2020,1250000,1100,Petrol,Dealer,Manual,First Owner,Honda
 2017,215000,34000,Petrol,Dealer,Manual,First Owner,Maruti
 2014,625000,68000,Diesel,Dealer,Manual,First Owner,Mahindra
 2018,615000,15000,Diesel,Individual,Manual,First Owner,Ford
@@ -2137,9 +1890,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,150000,70000,Diesel,Individual,Manual,Second Owner,Tata
 2011,195000,60000,Diesel,Individual,Manual,Third Owner,Tata
 2020,550000,90000,Diesel,Individual,Manual,First Owner,Maruti
-2018,1500000,40000,Diesel,Individual,Manual,First Owner,Isuzu
 2010,400000,80000,Petrol,Individual,Manual,Second Owner,Skoda
-2019,1350000,15000,Diesel,Individual,Manual,First Owner,Nissan
 2015,217000,45000,Petrol,Individual,Manual,First Owner,Maruti
 2011,290000,130000,Diesel,Individual,Manual,Second Owner,Maruti
 2018,700000,80000,Diesel,Individual,Manual,First Owner,Mahindra
@@ -2166,18 +1917,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,430000,100000,Diesel,Individual,Manual,Second Owner,Hyundai
 2014,390000,90000,Diesel,Individual,Manual,First Owner,Maruti
 2012,225000,129000,Diesel,Individual,Manual,First Owner,Nissan
-2010,350000,186000,Diesel,Individual,Automatic,Second Owner,Mahindra
 2009,100000,66778,Diesel,Individual,Manual,First Owner,Tata
 2014,190000,50000,Petrol,Individual,Manual,First Owner,Hyundai
 2014,315000,110000,Diesel,Individual,Manual,Second Owner,Hyundai
 2015,300000,60000,Diesel,Individual,Manual,Second Owner,Hyundai
 2016,280000,40000,Petrol,Individual,Manual,First Owner,Renault
-2017,1650000,55000,Diesel,Dealer,Manual,First Owner,Hyundai
 2015,295000,21000,Petrol,Dealer,Manual,Second Owner,Hyundai
-2012,2050000,66363,Petrol,Dealer,Automatic,Second Owner,Jaguar
-2018,1475000,11700,Petrol,Dealer,Automatic,First Owner,Hyundai
 2017,1100000,10000,Petrol,Individual,Automatic,First Owner,Hyundai
-2014,4400000,100000,Diesel,Individual,Automatic,Second Owner,Mercedes-Benz
 2016,670000,7104,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
@@ -2189,15 +1935,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,1150000,54634,Diesel,Trustmark Dealer,Automatic,Second Owner,Hyundai
 2015,775000,66521,Petrol,Trustmark Dealer,Manual,First Owner,Honda
 2019,720000,3000,Petrol,Individual,Automatic,First Owner,Hyundai
-2018,1725000,23974,Diesel,Dealer,Automatic,Second Owner,Toyota
 2018,539000,10000,Petrol,Individual,Manual,First Owner,Tata
 2017,420000,50000,Petrol,Individual,Manual,First Owner,Maruti
-2001,85000,70000,Petrol,Individual,Manual,Third Owner,Maruti
 2004,142000,73000,Petrol,Individual,Manual,Fourth & Above Owner,OpelCorsa
 2014,180000,76000,Petrol,Individual,Manual,Second Owner,Hyundai
 2014,400000,120000,Diesel,Individual,Manual,Second Owner,Chevrolet
 2009,360000,170000,Diesel,Individual,Automatic,Third Owner,Mahindra
-2003,85000,110000,Petrol,Individual,Manual,Second Owner,Hyundai
 2016,350000,63400,Petrol,Individual,Manual,First Owner,Honda
 2015,380000,25000,Petrol,Individual,Manual,First Owner,Datsun
 2009,140000,80000,Petrol,Individual,Manual,Third Owner,Hyundai
@@ -2215,15 +1958,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,910000,43377,Diesel,Dealer,Manual,First Owner,Honda
 2010,160000,102307,Diesel,Dealer,Manual,First Owner,Ford
 2004,105000,79000,Petrol,Individual,Manual,Second Owner,Maruti
-2014,1200000,135000,Diesel,Individual,Automatic,Third Owner,Skoda
 2018,300000,10500,Petrol,Individual,Manual,First Owner,Renault
 2004,70000,90000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2012,160000,110000,Diesel,Individual,Manual,First Owner,Chevrolet
 2012,160000,50000,Diesel,Individual,Manual,First Owner,Chevrolet
 2013,225000,80000,Diesel,Individual,Manual,First Owner,Chevrolet
 2018,790000,19571,Diesel,Dealer,Manual,First Owner,Honda
-2002,145000,100000,Petrol,Individual,Manual,First Owner,Honda
-2018,1200000,29600,Petrol,Dealer,Manual,First Owner,Honda
 2018,930000,20000,Diesel,Individual,Manual,First Owner,Ford
 2016,210000,30000,Petrol,Individual,Manual,First Owner,Hyundai
 2008,110000,154000,Diesel,Individual,Manual,Third Owner,Hyundai
@@ -2236,9 +1976,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,825000,13500,Diesel,Individual,Manual,First Owner,Renault
 2016,509999,35000,Petrol,Individual,Manual,First Owner,Toyota
 2013,450000,1000,Diesel,Dealer,Manual,Second Owner,Renault
-2018,3800000,10000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2019,4950000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2016,535000,52600,Diesel,Individual,Manual,First Owner,Hyundai
 2012,225000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
@@ -2246,18 +1983,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,625000,11918,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2017,520000,10510,Petrol,Dealer,Automatic,First Owner,Hyundai
 2016,239000,41000,Petrol,Dealer,Manual,First Owner,Chevrolet
-2017,2600000,47162,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2012,229999,49824,Petrol,Dealer,Manual,First Owner,Hyundai
-2013,1300000,58500,Diesel,Dealer,Automatic,First Owner,Audi
 2005,80000,56580,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,385000,52000,Diesel,Dealer,Manual,First Owner,Skoda
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
 2017,600000,46507,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2013,450000,1000,Diesel,Dealer,Manual,Second Owner,Renault
-2018,3800000,10000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2019,4950000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2016,535000,52600,Diesel,Individual,Manual,First Owner,Hyundai
 2012,225000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
@@ -2265,10 +1997,8 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,625000,11918,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2017,520000,10510,Petrol,Dealer,Automatic,First Owner,Hyundai
 2016,239000,41000,Petrol,Dealer,Manual,First Owner,Chevrolet
-2017,2600000,47162,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2012,229999,49824,Petrol,Dealer,Manual,First Owner,Hyundai
-2013,1300000,58500,Diesel,Dealer,Automatic,First Owner,Audi
 2005,80000,56580,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,385000,52000,Diesel,Dealer,Manual,First Owner,Skoda
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
@@ -2277,12 +2007,10 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,140000,60000,Petrol,Individual,Manual,Second Owner,Chevrolet
 2011,150000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2018,450000,10000,Petrol,Individual,Manual,Second Owner,Datsun
-2006,170000,245244,Diesel,Individual,Manual,Fourth & Above Owner,Hyundai
 2017,400000,60000,Petrol,Individual,Manual,First Owner,Renault
 2016,300000,30000,Petrol,Individual,Manual,First Owner,Tata
 2012,250000,8000,Petrol,Individual,Manual,First Owner,Maruti
 2019,500000,10000,Petrol,Individual,Manual,First Owner,Tata
-2002,85000,100000,Diesel,Individual,Manual,Third Owner,Hyundai
 2012,300000,110000,Diesel,Individual,Manual,First Owner,Nissan
 2005,80000,56580,Petrol,Dealer,Manual,First Owner,Hyundai
 2015,740000,45000,Diesel,Dealer,Automatic,First Owner,Mahindra
@@ -2294,11 +2022,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2005,56000,23000,Petrol,Individual,Manual,Second Owner,Maruti
 2006,1050000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2010,190000,38000,Petrol,Dealer,Manual,First Owner,Hyundai
-2018,3899000,22000,Diesel,Dealer,Automatic,First Owner,Audi
 2011,235000,43100,Petrol,Dealer,Manual,First Owner,Hyundai
 2017,350000,10171,Petrol,Dealer,Manual,First Owner,Datsun
 2015,465000,41123,Diesel,Dealer,Manual,First Owner,Renault
-2017,1900000,20118,Petrol,Dealer,Automatic,First Owner,Toyota
 2014,450000,40000,Diesel,Dealer,Manual,First Owner,Honda
 2015,790000,52517,Diesel,Dealer,Manual,First Owner,Volkswagen
 2019,900000,20000,Diesel,Individual,Manual,First Owner,Mahindra
@@ -2314,15 +2040,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,600000,43500,Petrol,Individual,Manual,First Owner,Honda
 2016,270000,60000,Petrol,Individual,Manual,Second Owner,Renault
 2016,240000,70000,Petrol,Individual,Manual,Second Owner,Renault
-2014,1200000,135000,Diesel,Individual,Automatic,Third Owner,Skoda
 2012,160000,50000,Diesel,Individual,Manual,First Owner,Chevrolet
 2018,790000,19571,Diesel,Dealer,Manual,First Owner,Honda
-2018,1200000,29600,Petrol,Dealer,Manual,First Owner,Honda
 2011,175000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2018,950000,15000,Diesel,Individual,Automatic,First Owner,Maruti
 2019,340000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2017,825000,13500,Diesel,Individual,Manual,First Owner,Renault
-2018,3100000,22000,Petrol,Individual,Automatic,First Owner,Audi
 2018,780000,25000,Diesel,Dealer,Manual,First Owner,Honda
 2010,350000,80000,Petrol,Individual,Automatic,Third Owner,Toyota
 2018,690000,39000,Petrol,Dealer,Manual,First Owner,Honda
@@ -2336,12 +2059,10 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,715000,35000,Diesel,Individual,Manual,First Owner,Renault
 2013,370000,90000,Petrol,Individual,Manual,First Owner,Maruti
 2007,175000,80000,Diesel,Individual,Manual,Second Owner,Hyundai
-1998,1000000,35000,Petrol,Individual,Automatic,Second Owner,Mercedes-Benz
 2013,92800,25000,Petrol,Individual,Manual,Second Owner,Maruti
 2014,291000,90000,Diesel,Individual,Manual,First Owner,Tata
 2013,92800,25000,Petrol,Individual,Manual,Second Owner,Maruti
 2016,350000,20000,Petrol,Individual,Manual,First Owner,Renault
-1998,65000,60000,Petrol,Dealer,Manual,Third Owner,Maruti
 2015,650000,58000,Diesel,Individual,Manual,First Owner,Maruti
 2014,350000,40000,Petrol,Dealer,Manual,First Owner,Maruti
 2005,75000,70000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -2350,15 +2071,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,1150000,135000,Diesel,Dealer,Manual,First Owner,Toyota
 2015,238000,70000,Petrol,Dealer,Manual,First Owner,Maruti
 2013,1100000,40000,Petrol,Individual,Automatic,Second Owner,Mercedes-Benz
-2015,1200000,75000,Diesel,Dealer,Manual,Second Owner,Mahindra
 2010,260000,150000,Diesel,Individual,Manual,First Owner,Skoda
 2012,350000,140000,Diesel,Individual,Manual,Third Owner,Toyota
 2015,480000,70000,Diesel,Individual,Manual,First Owner,Toyota
 2012,345000,137250,Diesel,Individual,Manual,Second Owner,Toyota
 2013,500000,110000,Diesel,Individual,Manual,Second Owner,Mahindra
 2017,595000,27000,Petrol,Dealer,Manual,First Owner,Hyundai
-2019,1295000,9000,Diesel,Dealer,Manual,First Owner,Hyundai
-2019,1350000,5400,Diesel,Dealer,Manual,Test Drive Car,Volkswagen
 2020,541000,1000,Petrol,Dealer,Manual,Test Drive Car,Renault
 2018,515000,16000,Petrol,Dealer,Manual,First Owner,Hyundai
 2019,894999,13000,Diesel,Dealer,Manual,Test Drive Car,Ford
@@ -2372,7 +2090,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,325000,80000,Diesel,Individual,Manual,First Owner,Maruti
 2017,600000,90000,Diesel,Individual,Manual,First Owner,Renault
 2018,700000,30000,Petrol,Individual,Manual,First Owner,Maruti
-2003,95000,120000,Petrol,Individual,Automatic,Second Owner,Toyota
 2019,490000,20000,Petrol,Dealer,Manual,First Owner,Maruti
 2013,380000,100000,Diesel,Individual,Manual,First Owner,Tata
 2018,550000,31000,Petrol,Dealer,Manual,First Owner,Hyundai
@@ -2393,17 +2110,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,110000,73000,Petrol,Individual,Manual,First Owner,Chevrolet
 2012,350000,55000,Diesel,Dealer,Manual,First Owner,Maruti
 2016,240000,5800,Petrol,Individual,Manual,Second Owner,Maruti
-2009,350000,350000,Diesel,Individual,Manual,First Owner,Toyota
 2018,600000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2018,750000,20000,Diesel,Individual,Manual,First Owner,Maruti
 2018,270000,20000,Petrol,Individual,Manual,First Owner,Hyundai
 2007,90000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2013,350000,65000,Petrol,Individual,Manual,First Owner,Maruti
 2013,285000,90000,Diesel,Individual,Manual,Second Owner,Ford
-2011,665000,267000,Diesel,Individual,Manual,Second Owner,Toyota
-2005,175000,250000,Diesel,Individual,Manual,Second Owner,Mahindra
 2011,350000,140000,Diesel,Individual,Manual,Second Owner,Mahindra
-2018,1225000,22000,Petrol,Dealer,Automatic,First Owner,Honda
 2010,285000,60000,Petrol,Dealer,Manual,Second Owner,Honda
 2018,1000000,28635,Petrol,Dealer,Manual,First Owner,Honda
 2018,780000,32114,Diesel,Dealer,Manual,First Owner,Honda
@@ -2439,14 +2152,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,150000,120000,Diesel,Individual,Manual,Second Owner,Maruti
 2015,300000,104000,Diesel,Individual,Manual,Second Owner,Honda
 2011,150000,100000,Petrol,Individual,Manual,Second Owner,Maruti
-2003,120000,132343,Petrol,Individual,Manual,Second Owner,Honda
 2016,950000,90000,Diesel,Individual,Manual,Second Owner,Hyundai
 2007,100000,60000,Petrol,Individual,Manual,Second Owner,Maruti
 2015,450000,76000,Diesel,Individual,Manual,First Owner,Honda
 2004,30000,60000,Petrol,Individual,Manual,Third Owner,Maruti
 2009,200000,30000,Petrol,Individual,Manual,Second Owner,Mahindra
 2010,250000,96000,Diesel,Individual,Manual,Second Owner,Tata
-2018,1300000,10000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,425000,36000,Diesel,Dealer,Manual,First Owner,Toyota
 2017,550000,12997,Diesel,Dealer,Manual,First Owner,Honda
 2017,500000,40000,Petrol,Individual,Automatic,First Owner,Maruti
@@ -2481,7 +2192,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,600000,50000,Diesel,Individual,Manual,First Owner,Honda
 2019,575000,30000,Petrol,Dealer,Manual,First Owner,Maruti
 2020,520000,5000,Petrol,Individual,Manual,First Owner,Hyundai
-2018,1400000,30000,Diesel,Individual,Automatic,First Owner,Mahindra
 2018,600000,7600,Petrol,Individual,Automatic,First Owner,Maruti
 2013,195000,47253,Diesel,Dealer,Manual,First Owner,Chevrolet
 2015,281000,4432,Petrol,Dealer,Automatic,Second Owner,Maruti
@@ -2494,15 +2204,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,450000,43000,Diesel,Individual,Manual,First Owner,Hyundai
 2010,88000,80251,CNG,Dealer,Manual,Second Owner,Maruti
 2010,250000,34500,Petrol,Individual,Manual,Second Owner,Hyundai
-2000,22000,42743,Petrol,Dealer,Manual,Third Owner,Ford
 2013,130000,93900,Diesel,Individual,Manual,Second Owner,Chevrolet
 2004,79000,80000,Petrol,Individual,Manual,First Owner,Maruti
 2012,120000,110000,Diesel,Individual,Manual,First Owner,Chevrolet
-2011,1700000,100000,Diesel,Individual,Automatic,Second Owner,BMW
 2012,300000,25000,Diesel,Individual,Manual,First Owner,Chevrolet
 2012,300000,25000,Diesel,Individual,Manual,First Owner,Chevrolet
 2009,145000,25000,Petrol,Individual,Manual,First Owner,Maruti
-2019,3200000,20000,Diesel,Individual,Automatic,First Owner,Ford
 2013,240000,10000,Petrol,Individual,Manual,First Owner,Chevrolet
 2018,700000,30000,Diesel,Individual,Manual,First Owner,Honda
 2010,145000,110000,Petrol,Individual,Manual,Second Owner,Hyundai
@@ -2510,14 +2217,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,420000,21000,Petrol,Individual,Manual,First Owner,Mahindra
 2016,350000,20000,Petrol,Individual,Manual,First Owner,Maruti
 2015,550000,32000,Diesel,Individual,Manual,First Owner,Maruti
-2007,750000,180000,Diesel,Individual,Manual,First Owner,Mitsubishi
 2012,198000,70000,Diesel,Individual,Manual,Second Owner,Tata
 2013,420000,50000,Diesel,Individual,Manual,First Owner,Hyundai
 2013,420000,50000,Diesel,Individual,Manual,First Owner,Hyundai
 2004,195000,120000,Diesel,Individual,Manual,First Owner,Ford
 2012,150000,55766,Petrol,Individual,Manual,Second Owner,Hyundai
 2011,275000,40000,Petrol,Individual,Manual,Second Owner,Nissan
-2001,65000,60000,Petrol,Individual,Manual,Third Owner,Maruti
 2008,200000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2010,250000,110000,Diesel,Individual,Manual,Second Owner,Maruti
 2013,450000,1000,Diesel,Dealer,Manual,Second Owner,Renault
@@ -2540,13 +2245,11 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,470000,31367,Diesel,Dealer,Manual,First Owner,Mahindra
 2008,221000,35008,Petrol,Dealer,Manual,First Owner,Maruti
 2009,195000,27005,Petrol,Dealer,Manual,First Owner,Hyundai
-2001,85000,86000,Petrol,Individual,Manual,Second Owner,Maruti
 2013,400000,50000,Diesel,Individual,Manual,First Owner,Maruti
 2017,650000,20000,Diesel,Individual,Manual,First Owner,Maruti
 2010,400000,50000,Petrol,Individual,Manual,First Owner,Hyundai
 2012,295000,80000,Diesel,Individual,Manual,Second Owner,Tata
 2006,60000,135000,LPG,Individual,Manual,Fourth & Above Owner,Maruti
-2003,110000,120000,Diesel,Individual,Manual,Third Owner,Maruti
 2015,550000,113600,Diesel,Individual,Manual,First Owner,Fiat
 2008,190000,70000,Petrol,Individual,Manual,Third Owner,Hyundai
 2018,861999,20000,Diesel,Dealer,Manual,First Owner,Ford
@@ -2559,7 +2262,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,340000,60000,Diesel,Individual,Manual,First Owner,Tata
 2020,550000,5000,Petrol,Individual,Manual,First Owner,Maruti
 2008,114999,70000,Petrol,Individual,Manual,Third Owner,Chevrolet
-2000,105000,80000,Petrol,Individual,Manual,First Owner,Maruti
 2019,890000,20000,Diesel,Individual,Manual,First Owner,Maruti
 2019,715000,8000,Petrol,Individual,Manual,First Owner,Tata
 2014,525000,54000,Petrol,Dealer,Manual,Second Owner,Hyundai
@@ -2571,17 +2273,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,475000,23122,Petrol,Dealer,Manual,Second Owner,Hyundai
 2007,80000,58000,Petrol,Dealer,Manual,Second Owner,Hyundai
 2013,325000,62200,Diesel,Dealer,Manual,First Owner,Mahindra
-2014,1470000,34000,Diesel,Dealer,Automatic,Second Owner,Audi
 2015,350000,53000,Diesel,Individual,Manual,Second Owner,Fiat
-2013,2800000,49000,Diesel,Dealer,Automatic,First Owner,Audi
 2017,210000,15000,Petrol,Dealer,Manual,Second Owner,Datsun
 2012,349000,44500,Diesel,Dealer,Manual,Second Owner,Chevrolet
 2013,450000,50000,Petrol,Individual,Manual,First Owner,Volkswagen
 2013,1150000,53000,Diesel,Dealer,Automatic,First Owner,Audi
 2009,210000,63500,Petrol,Dealer,Automatic,First Owner,Honda
-2018,4500000,9800,Petrol,Dealer,Automatic,First Owner,Mercedes-Benz
 2017,825000,13599,Petrol,Dealer,Automatic,First Owner,Volkswagen
-2017,2750000,13000,Diesel,Individual,Automatic,First Owner,BMW
 2012,160000,110000,Diesel,Individual,Manual,First Owner,Chevrolet
 2014,550000,100000,Diesel,Individual,Manual,Second Owner,Mahindra
 2006,95000,110000,Petrol,Individual,Manual,Third Owner,Maruti
@@ -2594,9 +2292,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,200000,70000,Diesel,Individual,Manual,Second Owner,Chevrolet
 2008,110000,154000,Diesel,Individual,Manual,Third Owner,Hyundai
 2012,150000,80000,Petrol,Individual,Manual,First Owner,Hyundai
-2003,75000,110000,Diesel,Individual,Manual,Second Owner,Maruti
 2013,350000,90000,Diesel,Individual,Manual,Second Owner,Honda
-2018,1700000,15000,Diesel,Individual,Manual,First Owner,Toyota
 2011,890000,86000,Diesel,Individual,Automatic,Second Owner,BMW
 2014,500000,120000,Diesel,Individual,Manual,First Owner,Mahindra
 2019,600000,5200,Petrol,Individual,Manual,First Owner,Hyundai
@@ -2611,11 +2307,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2019,730000,35000,Diesel,Individual,Manual,Second Owner,Hyundai
 2017,450000,12700,Petrol,Individual,Automatic,First Owner,Hyundai
 2011,250000,80000,Diesel,Individual,Manual,First Owner,Maruti
-2018,1400000,20000,Diesel,Individual,Manual,First Owner,Mahindra
 2018,300000,20000,Petrol,Individual,Manual,First Owner,Renault
 2017,800000,19000,Petrol,Individual,Manual,First Owner,Ford
 2009,125000,95000,Diesel,Individual,Manual,Second Owner,Fiat
-2019,2600000,9500,Diesel,Individual,Automatic,First Owner,BMW
 2012,300000,50000,Petrol,Individual,Manual,First Owner,Skoda
 2012,295000,90000,Diesel,Individual,Manual,First Owner,Volkswagen
 2013,650000,45839,Petrol,Dealer,Manual,First Owner,Ford
@@ -2634,13 +2328,11 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,200000,91245,Diesel,Dealer,Manual,First Owner,Ford
 2013,650000,102989,Diesel,Dealer,Manual,First Owner,Mahindra
 2010,400000,50000,Petrol,Individual,Manual,First Owner,Honda
-2000,100000,120000,Petrol,Individual,Manual,First Owner,Maruti
 2014,409999,90000,Diesel,Individual,Manual,First Owner,Maruti
 2018,640000,25000,Diesel,Individual,Manual,First Owner,Maruti
 2007,160000,80000,Petrol,Individual,Manual,Second Owner,Maruti
 2013,182000,100000,Diesel,Individual,Manual,First Owner,Tata
 2018,750000,70000,Diesel,Individual,Manual,First Owner,Maruti
-2002,150000,50000,Diesel,Individual,Manual,Third Owner,Mahindra
 2008,80000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2016,240000,90000,Diesel,Individual,Manual,Third Owner,Maruti
 2005,60000,60000,Petrol,Individual,Manual,Third Owner,Maruti
@@ -2653,8 +2345,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2006,135000,90000,Petrol,Individual,Manual,Third Owner,Maruti
 2010,325000,120000,Diesel,Individual,Manual,Third Owner,Mahindra
 2012,650000,102000,Diesel,Individual,Manual,Second Owner,Mahindra
-2009,300000,178000,Diesel,Individual,Manual,Second Owner,Mahindra
-2014,1200000,200000,Diesel,Individual,Manual,Second Owner,Toyota
 2012,450000,60000,Petrol,Dealer,Manual,First Owner,Ford
 2019,425000,3000,Petrol,Individual,Manual,First Owner,Tata
 2006,150000,75118,Petrol,Individual,Manual,Second Owner,Maruti
@@ -2671,7 +2361,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,425000,100000,Diesel,Individual,Manual,Second Owner,Maruti
 2009,85000,120000,Diesel,Individual,Manual,Second Owner,Tata
 2015,270000,40000,Diesel,Individual,Manual,Second Owner,Maruti
-2009,180000,220000,Diesel,Individual,Manual,First Owner,Maruti
 2018,300000,20000,Petrol,Individual,Manual,First Owner,Renault
 2017,800000,19000,Petrol,Individual,Manual,First Owner,Ford
 2009,125000,95000,Diesel,Individual,Manual,Second Owner,Fiat
@@ -2689,21 +2378,17 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2018,500000,30000,Petrol,Individual,Manual,First Owner,Tata
 2013,385000,80000,Diesel,Individual,Manual,Second Owner,Renault
 2012,350000,90000,Petrol,Individual,Manual,First Owner,Skoda
-2003,60000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2012,300000,50000,Petrol,Individual,Manual,First Owner,Hyundai
 2012,400000,70000,Diesel,Individual,Manual,First Owner,Hyundai
 2014,550000,110000,Diesel,Individual,Manual,First Owner,Ford
 2012,300000,80000,Petrol,Individual,Manual,Second Owner,Nissan
 2012,250000,156000,Diesel,Individual,Manual,First Owner,Maruti
-2012,800000,180000,Diesel,Individual,Manual,First Owner,Toyota
 2018,300000,25000,Petrol,Individual,Manual,First Owner,Maruti
 2004,80000,120000,Petrol,Individual,Manual,First Owner,Maruti
-2020,1200000,11000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,355000,40000,Petrol,Individual,Automatic,First Owner,Renault
 2015,520000,50000,Diesel,Individual,Manual,First Owner,Maruti
 2012,500000,26000,Diesel,Individual,Manual,First Owner,Hyundai
 2008,114999,30000,Petrol,Individual,Manual,First Owner,Maruti
-2014,1800000,50000,Diesel,Individual,Manual,First Owner,Toyota
 2018,800000,20000,Diesel,Individual,Manual,First Owner,Mahindra
 2008,105000,30000,Petrol,Individual,Manual,Second Owner,Maruti
 2011,135000,78000,Petrol,Individual,Manual,First Owner,Maruti
@@ -2714,10 +2399,8 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2008,210000,77000,Petrol,Individual,Automatic,Third Owner,Honda
 2011,260000,150000,Diesel,Individual,Manual,First Owner,Volkswagen
 2016,750000,69000,Diesel,Individual,Manual,First Owner,Maruti
-2016,1350000,120000,Diesel,Individual,Automatic,First Owner,Toyota
 2012,220000,120000,Diesel,Individual,Manual,Second Owner,Maruti
 2008,110000,110000,Petrol,Individual,Manual,Second Owner,Hyundai
-2017,1230000,70000,Diesel,Individual,Automatic,First Owner,Mahindra
 2013,220000,110000,Diesel,Individual,Manual,First Owner,Mahindra
 2009,130000,50000,Diesel,Individual,Manual,First Owner,Tata
 2012,330000,44000,Petrol,Individual,Manual,First Owner,Hyundai
@@ -2736,9 +2419,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,170000,80000,CNG,Individual,Manual,Fourth & Above Owner,Maruti
 2015,500000,35000,Petrol,Individual,Manual,Second Owner,Hyundai
 2013,450000,1000,Diesel,Dealer,Manual,Second Owner,Renault
-2018,3800000,10000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2019,4950000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2016,535000,52600,Diesel,Individual,Manual,First Owner,Hyundai
 2012,225000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
@@ -2746,10 +2426,8 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,625000,11918,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2017,520000,10510,Petrol,Dealer,Automatic,First Owner,Hyundai
 2016,239000,41000,Petrol,Dealer,Manual,First Owner,Chevrolet
-2017,2600000,47162,Diesel,Trustmark Dealer,Automatic,First Owner,Toyota
 2015,750000,45974,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
 2012,229999,49824,Petrol,Dealer,Manual,First Owner,Hyundai
-2013,1300000,58500,Diesel,Dealer,Automatic,First Owner,Audi
 2005,80000,56580,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,385000,52000,Diesel,Dealer,Manual,First Owner,Skoda
 2015,760000,55340,Petrol,Trustmark Dealer,Manual,First Owner,Hyundai
@@ -2759,30 +2437,24 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,550000,120000,Diesel,Individual,Manual,Third Owner,Maruti
 2013,200000,60000,Petrol,Individual,Manual,First Owner,Tata
 2008,80000,90000,Petrol,Individual,Manual,Second Owner,Tata
-2010,300000,250000,Diesel,Individual,Manual,Second Owner,Tata
 2019,675000,15000,Diesel,Individual,Manual,First Owner,Ford
 2017,260000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2019,500000,15000,Petrol,Individual,Manual,First Owner,Hyundai
 2012,150000,55766,Petrol,Individual,Manual,Second Owner,Hyundai
 2006,100000,80000,Petrol,Individual,Manual,First Owner,Maruti
-2001,70000,117000,Petrol,Individual,Manual,Second Owner,Maruti
 2004,100000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2012,730000,110000,Diesel,Individual,Manual,Second Owner,Toyota
 2016,525000,100000,Diesel,Individual,Manual,Second Owner,Nissan
 2016,525000,105000,Diesel,Individual,Manual,Second Owner,Nissan
-2009,550000,182000,Diesel,Individual,Manual,Third Owner,Toyota
 2012,420000,95000,Diesel,Individual,Manual,Second Owner,Toyota
 2015,500000,70000,Petrol,Individual,Manual,First Owner,Honda
 2009,165000,76000,Petrol,Individual,Manual,Second Owner,Maruti
 2014,650000,70000,Diesel,Individual,Manual,Second Owner,Hyundai
 2013,195000,46000,Diesel,Individual,Manual,First Owner,Chevrolet
-1999,75000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2005,100000,120000,Diesel,Individual,Manual,Second Owner,Hyundai
-2017,1770000,25000,Diesel,Individual,Manual,First Owner,Toyota
 2006,90000,90000,Petrol,Individual,Manual,First Owner,Maruti
 2016,515000,50000,Diesel,Individual,Manual,First Owner,Hyundai
 2017,700000,24585,Diesel,Dealer,Manual,Test Drive Car,Honda
-2001,62000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2011,220000,110000,Diesel,Individual,Manual,Third Owner,Toyota
 2019,520000,10000,CNG,Individual,Manual,First Owner,Hyundai
 2010,170000,100000,Petrol,Individual,Manual,First Owner,Fiat
@@ -2795,7 +2467,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,380000,15000,Petrol,Individual,Manual,First Owner,Tata
 2012,200000,82000,Diesel,Individual,Manual,Second Owner,Volkswagen
 2016,495000,40000,Diesel,Individual,Manual,First Owner,Ford
-2014,894999,173000,Diesel,Individual,Manual,Third Owner,Toyota
 2014,600000,151000,Diesel,Individual,Manual,Second Owner,Mahindra
 2015,300000,50000,Petrol,Individual,Manual,First Owner,Honda
 2017,430000,15000,Petrol,Individual,Manual,First Owner,Honda
@@ -2805,7 +2476,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,700000,120000,Diesel,Individual,Automatic,Second Owner,BMW
 2007,100000,70000,LPG,Individual,Manual,Third Owner,Maruti
 2015,300000,90000,Petrol,Individual,Manual,First Owner,Hyundai
-2012,130000,185000,Diesel,Individual,Manual,Second Owner,Tata
 2016,650000,40000,Diesel,Individual,Manual,First Owner,Hyundai
 2017,509999,25000,Diesel,Individual,Manual,First Owner,Maruti
 2013,1000000,117780,Diesel,Individual,Manual,Second Owner,Toyota
@@ -2818,7 +2488,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,600000,60000,Diesel,Individual,Manual,First Owner,Mahindra
 2016,375000,25000,Petrol,Individual,Manual,First Owner,Hyundai
 2015,150000,55000,Diesel,Individual,Manual,Second Owner,Mahindra
-2018,1450000,20000,Diesel,Individual,Manual,First Owner,Mahindra
 2014,500000,100000,Diesel,Individual,Manual,Second Owner,Maruti
 2007,75000,40000,Petrol,Individual,Manual,Second Owner,Maruti
 2006,225000,80000,Petrol,Individual,Automatic,Third Owner,Hyundai
@@ -2841,30 +2510,23 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2008,130000,40000,Petrol,Individual,Manual,Second Owner,Maruti
 2013,300000,70000,Diesel,Individual,Manual,Second Owner,Mahindra
 2019,1100000,4000,Diesel,Individual,Manual,First Owner,Nissan
-2015,2200000,24000,Diesel,Individual,Automatic,First Owner,BMW
 2018,800000,13500,Petrol,Dealer,Manual,First Owner,Honda
 2013,490000,40000,Diesel,Individual,Manual,First Owner,Maruti
 2018,836000,9700,Petrol,Dealer,Manual,First Owner,Honda
 2012,375000,62000,Petrol,Individual,Manual,Second Owner,Volkswagen
-2016,1249000,24000,Diesel,Dealer,Manual,First Owner,Honda
-2019,1240000,13000,Diesel,Dealer,Manual,First Owner,Honda
 2009,35000,50000,Petrol,Individual,Manual,Third Owner,Tata
 2017,1068000,36000,Petrol,Dealer,Manual,First Owner,Honda
-2017,1189000,40000,Diesel,Dealer,Manual,First Owner,Honda
 2018,700000,27000,Petrol,Individual,Manual,First Owner,Hyundai
 2016,350000,40000,Petrol,Individual,Manual,First Owner,Maruti
 2009,254999,80000,Petrol,Individual,Manual,Second Owner,Hyundai
-2005,229999,221000,Diesel,Individual,Manual,Third Owner,Mahindra
 2016,750000,80000,Diesel,Individual,Manual,First Owner,Hyundai
 2012,325000,119000,Diesel,Individual,Manual,Second Owner,Maruti
-2009,760000,190000,Diesel,Individual,Manual,Second Owner,Toyota
 2017,509999,25000,Petrol,Individual,Automatic,First Owner,Maruti
 2013,363000,28740,Petrol,Individual,Manual,First Owner,Nissan
 2010,229999,48500,Petrol,Individual,Manual,First Owner,Maruti
 2012,290000,110000,Petrol,Individual,Manual,Second Owner,Nissan
 2018,550000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2011,125000,120000,Diesel,Individual,Manual,Second Owner,Tata
-2014,2000000,130000,Diesel,Individual,Automatic,First Owner,Volvo
 2008,350000,140000,Diesel,Individual,Manual,Second Owner,Toyota
 2011,390000,90000,Diesel,Individual,Manual,First Owner,Hyundai
 2010,260000,50000,Petrol,Individual,Manual,First Owner,Maruti
@@ -2877,7 +2539,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2019,650000,20000,Diesel,Individual,Manual,First Owner,Maruti
 2017,280000,37000,Petrol,Individual,Manual,First Owner,Maruti
 2016,540000,80000,Diesel,Individual,Manual,First Owner,Maruti
-2002,50000,120000,Diesel,Individual,Manual,Fourth & Above Owner,Ambassador
 2018,800000,20000,Petrol,Individual,Manual,First Owner,Maruti
 2016,515000,25000,Diesel,Individual,Manual,First Owner,Ford
 2010,220000,96000,Petrol,Individual,Manual,Third Owner,Hyundai
@@ -2903,13 +2564,10 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,200000,50000,Diesel,Individual,Manual,First Owner,Chevrolet
 2015,190000,120000,Petrol,Individual,Manual,First Owner,Maruti
 2012,150000,50000,Petrol,Individual,Manual,First Owner,Maruti
-1999,70000,70000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2018,900000,25000,Diesel,Individual,Manual,First Owner,Mahindra
 2019,950000,11000,Petrol,Individual,Automatic,First Owner,Maruti
 2013,475000,80000,Petrol,Individual,Manual,First Owner,Maruti
-1998,55000,80000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2013,450000,75000,Diesel,Individual,Manual,Second Owner,Ford
-2009,1200000,45000,Diesel,Individual,Automatic,Third Owner,BMW
 2007,300000,100000,Diesel,Individual,Manual,Second Owner,Mahindra
 2014,350000,60000,Diesel,Individual,Manual,Second Owner,Honda
 2011,229999,160000,Diesel,Individual,Manual,Second Owner,Tata
@@ -2920,7 +2578,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,459999,148620,Diesel,Dealer,Manual,First Owner,Ford
 2012,310000,70000,Diesel,Individual,Manual,Second Owner,Maruti
 2018,815000,42000,Diesel,Individual,Manual,First Owner,Hyundai
-2017,1200000,40000,Diesel,Individual,Manual,First Owner,Hyundai
 2011,170000,150000,Diesel,Individual,Manual,Second Owner,Chevrolet
 2017,1000000,30000,Diesel,Individual,Manual,First Owner,Maruti
 2010,155000,90000,Petrol,Individual,Manual,Fourth & Above Owner,Hyundai
@@ -2928,7 +2585,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,400000,80000,Diesel,Individual,Manual,Second Owner,Mahindra
 2010,250000,80000,Diesel,Individual,Manual,Second Owner,Tata
 2008,150000,50000,Petrol,Individual,Manual,Third Owner,Tata
-2002,80000,70000,Petrol,Individual,Manual,Second Owner,Hyundai
 2009,130000,120000,Petrol,Individual,Automatic,Second Owner,Maruti
 2014,325000,70000,Diesel,Individual,Automatic,First Owner,Volkswagen
 2012,735000,55300,Diesel,Dealer,Automatic,First Owner,Volkswagen
@@ -2941,7 +2597,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,525000,9745,Petrol,Dealer,Automatic,First Owner,Maruti
 2017,550000,9748,Petrol,Dealer,Manual,First Owner,Hyundai
 2012,271000,49000,Petrol,Dealer,Manual,First Owner,Volkswagen
-2018,1490000,20694,Diesel,Dealer,Manual,First Owner,Hyundai
 2015,490000,31080,Petrol,Dealer,Manual,First Owner,Hyundai
 2014,260000,37605,Petrol,Dealer,Manual,First Owner,Hyundai
 2014,455000,55850,Diesel,Dealer,Manual,First Owner,Hyundai
@@ -2954,16 +2609,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2019,738000,8000,Petrol,Individual,Automatic,First Owner,Hyundai
 2016,300000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2012,150000,110000,Diesel,Individual,Manual,First Owner,Tata
-2007,440000,223000,Diesel,Individual,Manual,Fourth & Above Owner,Toyota
 2011,280000,110000,Diesel,Individual,Manual,First Owner,Volkswagen
 2006,100000,120000,Petrol,Individual,Manual,Second Owner,Hyundai
 2008,150000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2014,380000,100000,Diesel,Individual,Manual,Second Owner,Maruti
 2006,90000,60000,Petrol,Individual,Manual,Second Owner,Maruti
-2008,300000,270000,Diesel,Individual,Manual,Third Owner,Mahindra
 2011,275000,60000,Diesel,Individual,Manual,Second Owner,Skoda
 2009,180000,41090,Petrol,Individual,Manual,First Owner,Maruti
-2012,225000,296823,Diesel,Individual,Manual,First Owner,Maruti
 2014,200000,40000,Petrol,Individual,Manual,First Owner,Maruti
 2011,500000,40000,Petrol,Individual,Manual,Second Owner,Toyota
 2010,300000,70000,Petrol,Individual,Manual,Second Owner,Ford
@@ -2971,7 +2623,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,650000,90000,Diesel,Individual,Manual,First Owner,Maruti
 2017,380000,19000,Petrol,Individual,Manual,First Owner,Maruti
 2014,480000,110000,Diesel,Individual,Manual,Second Owner,Maruti
-1996,200000,60000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,380000,19000,Petrol,Individual,Manual,First Owner,Maruti
 2010,145000,68000,CNG,Individual,Manual,Second Owner,Maruti
 2011,280000,120000,Diesel,Individual,Manual,Second Owner,Maruti
@@ -3025,7 +2676,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,145000,89255,Diesel,Individual,Manual,First Owner,Tata
 2020,347000,5000,Petrol,Individual,Manual,First Owner,Maruti
 2013,275000,110000,Diesel,Individual,Manual,First Owner,Tata
-2010,630000,200000,Diesel,Individual,Manual,Third Owner,Toyota
 2012,160000,90000,Diesel,Individual,Manual,Second Owner,Chevrolet
 2010,150000,63000,Diesel,Individual,Manual,Third Owner,Fiat
 2015,550000,23000,Petrol,Individual,Manual,First Owner,Honda
@@ -3045,7 +2695,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,72000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2014,250000,115000,Diesel,Individual,Manual,First Owner,Maruti
 2019,575000,25000,Petrol,Individual,Automatic,First Owner,Maruti
-2019,1300000,10000,Diesel,Individual,Automatic,First Owner,Kia
 2019,425000,15000,Petrol,Individual,Manual,First Owner,Hyundai
 2019,470000,10000,CNG,Individual,Manual,First Owner,Maruti
 2012,220000,80000,Petrol,Individual,Manual,Third Owner,Toyota
@@ -3063,20 +2712,15 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,200000,70000,Petrol,Individual,Manual,Third Owner,Maruti
 2009,130000,100000,Diesel,Individual,Manual,Third Owner,Ford
 2016,335000,41000,Petrol,Dealer,Manual,First Owner,Tata
-2017,2650000,60000,Diesel,Dealer,Automatic,First Owner,Ford
-2018,2675000,56000,Diesel,Dealer,Automatic,First Owner,Ford
-2017,2675000,60000,Diesel,Dealer,Automatic,First Owner,Ford
 2011,434999,97000,Petrol,Dealer,Automatic,Second Owner,Honda
 2014,500000,60000,Petrol,Individual,Manual,First Owner,Honda
 2017,290000,60000,Petrol,Individual,Manual,First Owner,Maruti
 2014,475000,48000,Petrol,Dealer,Automatic,Second Owner,Ford
-2009,270000,190000,Diesel,Individual,Manual,Third Owner,Maruti
 2019,600000,80000,Petrol,Individual,Manual,First Owner,Hyundai
 2013,300000,70000,Diesel,Individual,Manual,Second Owner,Hyundai
 2012,415000,80000,Diesel,Individual,Manual,Second Owner,Volkswagen
 2018,800000,30000,Diesel,Individual,Automatic,Second Owner,Maruti
 2016,420000,44440,Petrol,Individual,Manual,Second Owner,Hyundai
-2018,1250000,30000,Diesel,Individual,Manual,First Owner,Hyundai
 2011,270000,120000,Diesel,Individual,Manual,First Owner,Maruti
 2015,390000,80000,Diesel,Individual,Manual,Second Owner,Hyundai
 2012,400000,110000,Diesel,Individual,Manual,First Owner,Skoda
@@ -3093,7 +2737,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,540000,31200,Petrol,Dealer,Manual,First Owner,Honda
 2016,665000,51000,Diesel,Dealer,Manual,First Owner,Maruti
 2013,425000,22700,Diesel,Dealer,Manual,Second Owner,Hyundai
-2011,1295000,58000,Diesel,Dealer,Automatic,First Owner,Audi
 2016,675000,50900,Diesel,Dealer,Manual,First Owner,Maruti
 2018,980000,10000,Diesel,Individual,Manual,First Owner,Maruti
 2014,320000,60000,Diesel,Individual,Manual,First Owner,Chevrolet
@@ -3170,13 +2813,11 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2008,120000,80000,Petrol,Individual,Manual,Second Owner,Ford
 2007,70000,55000,Petrol,Individual,Manual,Second Owner,Hyundai
 2017,800000,15000,Petrol,Individual,Manual,First Owner,Maruti
-2014,450000,260000,Diesel,Individual,Manual,Second Owner,Maruti
 2012,525000,145000,Diesel,Individual,Manual,First Owner,Mahindra
 2016,300000,35000,Petrol,Individual,Manual,First Owner,Datsun
 2008,195000,56000,Petrol,Individual,Manual,Second Owner,Hyundai
 2007,130000,98000,Diesel,Individual,Manual,Second Owner,Ford
 2011,300000,135000,Diesel,Individual,Manual,Second Owner,Toyota
-2002,120000,60000,Petrol,Individual,Manual,Third Owner,Maruti
 2010,450000,120000,Diesel,Individual,Manual,Third Owner,Toyota
 2010,160000,102000,Diesel,Individual,Manual,Second Owner,Tata
 2018,800000,35000,Diesel,Individual,Manual,First Owner,Mahindra
@@ -3205,7 +2846,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,550000,100000,Diesel,Individual,Manual,First Owner,Ford
 2011,260000,97000,Diesel,Individual,Manual,Third Owner,Volkswagen
 2015,420000,100000,Diesel,Individual,Manual,First Owner,Renault
-2002,35000,100000,Petrol,Individual,Manual,Third Owner,OpelCorsa
 2018,1150000,20000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,680000,46000,Petrol,Individual,Manual,First Owner,Maruti
 2012,425000,40000,Diesel,Individual,Manual,First Owner,Maruti
@@ -3218,7 +2858,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,520000,70000,Diesel,Individual,Manual,Second Owner,Toyota
 2007,80000,120000,Petrol,Individual,Manual,First Owner,Maruti
 2014,55000,40000,Petrol,Individual,Manual,First Owner,Tata
-2001,80000,100000,Diesel,Individual,Manual,Third Owner,Mahindra
 2019,210000,20000,Petrol,Individual,Manual,First Owner,Maruti
 2015,300000,50000,Petrol,Individual,Manual,Second Owner,Ford
 2017,260000,50000,Diesel,Individual,Manual,First Owner,Tata
@@ -3236,11 +2875,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,530000,14272,Petrol,Dealer,Manual,First Owner,Ford
 2017,840000,49213,Diesel,Dealer,Manual,First Owner,Ford
 2015,229999,40000,Petrol,Individual,Manual,First Owner,Hyundai
-1998,40000,40000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2012,130000,80000,Petrol,Individual,Manual,First Owner,Chevrolet
 2015,200000,70000,Petrol,Individual,Manual,First Owner,Hyundai
 2011,120000,70000,Diesel,Individual,Manual,First Owner,Tata
-2003,75000,57000,Petrol,Individual,Manual,First Owner,Hyundai
 2016,250000,120000,Diesel,Individual,Manual,First Owner,Tata
 2005,100000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2013,280000,3240,Petrol,Individual,Manual,Second Owner,Hyundai
@@ -3260,13 +2897,11 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,130000,93900,Diesel,Individual,Manual,Second Owner,Chevrolet
 2007,60000,70000,Petrol,Individual,Manual,First Owner,Maruti
 2005,120000,120000,Diesel,Individual,Manual,Third Owner,Mahindra
-2017,2900000,40000,Diesel,Individual,Automatic,First Owner,BMW
 2005,100000,120000,Diesel,Individual,Manual,Second Owner,Hyundai
 2004,79000,80000,Petrol,Individual,Manual,First Owner,Maruti
 2012,120000,110000,Diesel,Individual,Manual,First Owner,Chevrolet
 2005,125000,34000,Petrol,Dealer,Manual,First Owner,Maruti
 2013,425000,20000,Diesel,Dealer,Manual,First Owner,Chevrolet
-2001,70000,117000,Petrol,Individual,Manual,Second Owner,Maruti
 2020,619000,1500,Petrol,Individual,Manual,First Owner,Maruti
 2017,415000,48965,Petrol,Dealer,Manual,First Owner,Nissan
 2014,265000,55000,Petrol,Dealer,Manual,First Owner,Hyundai
@@ -3283,10 +2918,8 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,650000,57904,Diesel,Dealer,Manual,First Owner,Ford
 2015,270000,59258,Petrol,Dealer,Manual,First Owner,Maruti
 2016,390000,60826,Petrol,Dealer,Manual,First Owner,Ford
-2018,1500000,50000,Diesel,Individual,Manual,First Owner,Mahindra
 2014,225000,35000,Petrol,Individual,Manual,First Owner,Maruti
 2015,900000,110000,Diesel,Individual,Manual,Second Owner,Mahindra
-2018,1600000,40000,Diesel,Individual,Automatic,First Owner,Hyundai
 2019,800000,10000,Petrol,Individual,Manual,First Owner,Tata
 2013,320000,50000,Diesel,Individual,Manual,First Owner,Honda
 2016,300000,25000,Petrol,Individual,Manual,First Owner,Maruti
@@ -3305,21 +2938,17 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,82000,19000,Petrol,Individual,Manual,First Owner,Tata
 2016,690000,75000,Diesel,Individual,Manual,First Owner,Mahindra
 2015,300000,70000,Diesel,Individual,Manual,First Owner,Hyundai
-2017,1250000,30000,Diesel,Individual,Manual,First Owner,Honda
 2017,799000,31707,Diesel,Individual,Manual,First Owner,Hyundai
-2010,1000000,180000,Diesel,Individual,Manual,First Owner,Toyota
 2014,190000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2014,250000,30000,Diesel,Individual,Manual,First Owner,Mahindra
 2009,200000,60000,Petrol,Individual,Manual,First Owner,Hyundai
 2005,300000,90000,Diesel,Individual,Manual,Second Owner,Mahindra
 2015,250000,120000,Petrol,Individual,Manual,Second Owner,Tata
 2008,90000,70000,Petrol,Individual,Manual,Third Owner,Maruti
-2001,68000,70000,Petrol,Individual,Manual,First Owner,Hyundai
 2017,500000,26500,Petrol,Individual,Manual,First Owner,Hyundai
 2017,900000,50000,Diesel,Individual,Manual,First Owner,Hyundai
 2007,100000,52000,Petrol,Individual,Manual,Second Owner,Maruti
 2016,700000,160000,Diesel,Individual,Manual,First Owner,Renault
-2012,1750000,115992,Diesel,Dealer,Automatic,Third Owner,Volvo
 2017,290000,110000,Petrol,Individual,Manual,Second Owner,Maruti
 2014,1050000,97000,Diesel,Individual,Manual,Second Owner,Toyota
 2008,70000,100000,Diesel,Individual,Manual,Third Owner,Tata
@@ -3333,7 +2962,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,550000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2016,550000,60000,Diesel,Individual,Manual,First Owner,Hyundai
 2013,320000,73000,Diesel,Individual,Manual,First Owner,Hyundai
-1992,50000,100000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2018,500000,32000,Petrol,Individual,Manual,First Owner,Hyundai
 2018,360000,26500,Petrol,Individual,Manual,First Owner,Renault
 2017,700000,50000,Diesel,Individual,Manual,Second Owner,Maruti
@@ -3349,7 +2977,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2018,270000,20000,Petrol,Individual,Manual,First Owner,Maruti
 2010,300000,80000,Petrol,Individual,Manual,First Owner,Skoda
 2007,80000,60000,Petrol,Individual,Manual,Third Owner,Maruti
-2013,1451000,81000,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
 2018,1085000,15000,Diesel,Individual,Manual,First Owner,Tata
 2009,245000,75000,Diesel,Dealer,Automatic,First Owner,Hyundai
 2017,700000,25552,Petrol,Dealer,Manual,Second Owner,Honda
@@ -3368,9 +2995,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2008,130000,120000,Petrol,Individual,Manual,First Owner,Tata
 2007,73000,80000,Petrol,Individual,Manual,Second Owner,Maruti
 2007,85000,85000,Petrol,Individual,Manual,Second Owner,Hyundai
-2018,1575000,10000,Petrol,Individual,Automatic,First Owner,Hyundai
 2013,325000,105000,Diesel,Individual,Manual,First Owner,Nissan
-1998,85000,120000,Petrol,Individual,Manual,Second Owner,Honda
 2018,860000,30000,Diesel,Dealer,Manual,Second Owner,Hyundai
 2017,690000,41000,Diesel,Individual,Manual,First Owner,Maruti
 2013,650000,54000,Diesel,Dealer,Manual,First Owner,Hyundai
@@ -3395,7 +3020,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2008,95000,120000,Petrol,Individual,Manual,Third Owner,Tata
 2012,170000,170000,LPG,Individual,Manual,Third Owner,Hyundai
 2016,229999,37500,Petrol,Individual,Manual,Second Owner,Datsun
-1999,45000,50000,Petrol,Individual,Manual,Third Owner,Maruti
 2007,479000,145000,Petrol,Individual,Manual,Third Owner,Maruti
 2016,370000,60000,Petrol,Individual,Manual,First Owner,Mahindra
 2016,340000,30000,Petrol,Individual,Manual,First Owner,Hyundai
@@ -3403,19 +3027,16 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,270000,60000,Diesel,Individual,Manual,First Owner,Tata
 2018,400000,35000,Diesel,Individual,Manual,First Owner,Tata
 2015,260000,40000,Petrol,Individual,Manual,First Owner,Maruti
-2003,48000,50000,Petrol,Individual,Manual,Fourth & Above Owner,Hyundai
 2015,100000,23800,Petrol,Individual,Manual,Second Owner,Tata
 2015,490000,70000,Diesel,Individual,Manual,First Owner,Nissan
 2010,120000,90000,LPG,Individual,Manual,Second Owner,Maruti
 2008,125000,102000,Petrol,Individual,Manual,Second Owner,Hyundai
 2013,160000,80000,Petrol,Individual,Manual,First Owner,Hyundai
 2019,190000,5000,Petrol,Individual,Manual,First Owner,Maruti
-2019,1700000,10000,Diesel,Individual,Manual,First Owner,Tata
 2011,250000,50000,Petrol,Individual,Manual,First Owner,Hyundai
 2019,500000,15000,Petrol,Individual,Manual,First Owner,Maruti
 2008,400000,35000,Petrol,Individual,Manual,Second Owner,Toyota
 2011,500000,20000,Petrol,Individual,Manual,First Owner,Fiat
-2014,1800000,99000,Diesel,Individual,Automatic,First Owner,Toyota
 2008,320000,90000,Petrol,Individual,Manual,First Owner,Honda
 2007,250000,47000,Petrol,Dealer,Automatic,First Owner,Honda
 2010,105000,90000,Diesel,Individual,Manual,Third Owner,Ford
@@ -3444,23 +3065,16 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,619000,40000,Petrol,Individual,Manual,First Owner,Maruti
 2011,335000,90000,Diesel,Individual,Manual,Second Owner,Chevrolet
 2006,500000,50000,Diesel,Individual,Manual,First Owner,Toyota
-2003,60000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2010,130000,50000,Petrol,Individual,Manual,Second Owner,Maruti
-2015,210000,210000,Diesel,Individual,Manual,First Owner,Mahindra
-2019,1900000,20000,Diesel,Individual,Manual,First Owner,Toyota
 2013,270000,70000,Diesel,Individual,Manual,Second Owner,Tata
 2010,225000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2011,150000,160000,Petrol,Individual,Manual,Second Owner,Maruti
 2013,173000,70000,Diesel,Individual,Manual,First Owner,Chevrolet
-2018,4800000,9422,Diesel,Individual,Automatic,First Owner,BMW
 2017,710000,110000,Diesel,Individual,Automatic,First Owner,Volkswagen
-2019,1500000,20000,Petrol,Individual,Manual,First Owner,Toyota
 2017,550000,20000,Petrol,Individual,Manual,First Owner,Maruti
 2008,58000,70000,Petrol,Individual,Manual,Second Owner,Maruti
-2012,1200000,60000,Petrol,Individual,Automatic,Third Owner,Audi
 2013,500000,150000,Diesel,Individual,Manual,First Owner,Mahindra
 2009,120000,83000,Petrol,Individual,Manual,Second Owner,Maruti
-2012,300000,250000,Diesel,Individual,Manual,First Owner,Toyota
 2018,300000,30000,Petrol,Individual,Manual,First Owner,Hyundai
 2015,295000,21000,Petrol,Individual,Manual,First Owner,Datsun
 2018,587000,80000,CNG,Individual,Manual,First Owner,Maruti
@@ -3469,12 +3083,10 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,450000,48500,Diesel,Individual,Automatic,Second Owner,Skoda
 2007,130000,60000,Petrol,Individual,Manual,Third Owner,Maruti
 2010,110000,90000,Diesel,Individual,Manual,Second Owner,Tata
-2010,200000,240000,Diesel,Individual,Manual,Third Owner,Mahindra
 2015,320000,70000,Petrol,Individual,Manual,Second Owner,Hyundai
 2014,300000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2016,350000,110000,Petrol,Individual,Manual,First Owner,Volkswagen
 2018,800000,50000,Petrol,Individual,Manual,First Owner,Maruti
-2016,270000,175000,Diesel,Individual,Manual,First Owner,Hyundai
 2017,540000,60000,Petrol,Individual,Manual,First Owner,Hyundai
 2011,160000,60000,CNG,Individual,Manual,Second Owner,Maruti
 2013,340000,100000,Diesel,Individual,Manual,Second Owner,Maruti
@@ -3495,14 +3107,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2016,600000,50000,Diesel,Individual,Manual,Second Owner,Hyundai
 2010,150000,80000,Diesel,Individual,Manual,Second Owner,Tata
 2017,700000,50000,Diesel,Individual,Manual,First Owner,Ford
-2016,1290000,5000,Diesel,Individual,Manual,First Owner,Mahindra
 2004,80000,58000,Petrol,Individual,Manual,First Owner,Hyundai
 2015,425000,12000,Petrol,Individual,Manual,First Owner,Hyundai
 2018,500000,10000,Petrol,Individual,Automatic,First Owner,Maruti
 2012,193000,45000,Petrol,Individual,Manual,Second Owner,Hyundai
 2015,800000,10000,Petrol,Individual,Manual,First Owner,Honda
 2008,150000,50000,Petrol,Individual,Manual,First Owner,Maruti
-2002,80000,40000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2010,130000,100000,Diesel,Individual,Manual,Third Owner,Ford
 2012,280000,80000,Diesel,Individual,Manual,Second Owner,Ford
 2011,229999,110000,Diesel,Individual,Manual,Second Owner,Mahindra
@@ -3515,9 +3125,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,265000,50000,Petrol,Individual,Manual,First Owner,Hyundai
 2018,320000,25000,Petrol,Individual,Manual,First Owner,Hyundai
 2014,500000,120000,Diesel,Individual,Manual,Third Owner,Nissan
-2016,1300000,55000,Diesel,Individual,Manual,First Owner,Hyundai
-2018,1500000,35000,Diesel,Individual,Manual,First Owner,Mahindra
-2016,1800000,110000,Diesel,Individual,Automatic,First Owner,Toyota
 2014,600000,80000,Diesel,Individual,Manual,Second Owner,Mahindra
 2018,420000,80000,Petrol,Individual,Manual,First Owner,Tata
 2009,140000,120000,Petrol,Individual,Manual,First Owner,Maruti
@@ -3530,17 +3137,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,525000,19000,Petrol,Dealer,Automatic,First Owner,Hyundai
 2015,470000,146000,Diesel,Dealer,Manual,First Owner,Ford
 2013,900000,98000,Diesel,Dealer,Automatic,First Owner,Ford
-2011,500000,224642,Diesel,Dealer,Manual,Second Owner,Ford
-1998,80000,120000,Petrol,Individual,Manual,Second Owner,Maruti
-2011,175000,175000,Diesel,Individual,Manual,First Owner,Mahindra
-2017,1350000,15000,Diesel,Individual,Automatic,Second Owner,Mahindra
 2017,800000,50000,Diesel,Individual,Manual,First Owner,Renault
 2017,250000,15000,Petrol,Individual,Manual,First Owner,Datsun
 2018,700000,25000,Petrol,Individual,Automatic,First Owner,Maruti
 2019,800000,25000,Diesel,Individual,Manual,First Owner,Tata
 2013,660000,69000,Diesel,Individual,Manual,First Owner,Mahindra
 2015,465000,60000,Diesel,Individual,Manual,Third Owner,Maruti
-2006,180000,222435,Diesel,Individual,Manual,Second Owner,Mahindra
 2017,600000,66000,Diesel,Individual,Manual,Third Owner,Maruti
 2010,150000,110000,Petrol,Individual,Manual,First Owner,Ford
 2014,450000,78000,Diesel,Individual,Manual,Second Owner,Hyundai
@@ -3549,7 +3151,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2019,1000000,10000,Diesel,Individual,Manual,First Owner,Mahindra
 2016,300000,40000,Petrol,Individual,Manual,First Owner,Renault
 2013,450000,120000,Diesel,Individual,Manual,First Owner,Mahindra
-1997,79000,70000,Petrol,Individual,Automatic,First Owner,Maruti
 2017,545000,40000,Diesel,Individual,Manual,First Owner,Ford
 2018,844999,20000,Diesel,Individual,Manual,First Owner,Honda
 2016,700000,93000,Diesel,Individual,Manual,First Owner,Skoda
@@ -3565,17 +3166,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,300000,100000,Diesel,Individual,Manual,First Owner,Mahindra
 2007,280000,60000,Petrol,Individual,Automatic,First Owner,Honda
 2014,500000,70000,Petrol,Individual,Manual,First Owner,Honda
-2019,1200000,1200,Petrol,Individual,Manual,First Owner,Hyundai
 2016,300000,40000,Petrol,Individual,Manual,First Owner,Renault
 2011,180000,80000,Diesel,Individual,Manual,Third Owner,Tata
 2011,180000,134444,Petrol,Individual,Automatic,Second Owner,Hyundai
 2009,78000,120000,Petrol,Individual,Manual,Second Owner,Maruti
 2011,160000,120000,Diesel,Individual,Manual,First Owner,Nissan
-2014,600000,238000,Diesel,Individual,Manual,First Owner,Mahindra
 2008,110000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2011,450000,110000,Diesel,Individual,Manual,Second Owner,Mahindra
-2019,1350000,35000,Diesel,Individual,Manual,First Owner,Mahindra
-2003,120000,165000,Petrol,Individual,Manual,Second Owner,Honda
 2018,1040000,42000,Diesel,Individual,Manual,First Owner,Honda
 2014,390000,70000,Diesel,Individual,Manual,Second Owner,Hyundai
 2011,65000,60000,Petrol,Individual,Manual,Second Owner,Tata
@@ -3595,7 +3192,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2009,110000,30000,Petrol,Individual,Manual,Second Owner,Maruti
 2014,600000,100000,Diesel,Individual,Manual,Second Owner,Mahindra
 2009,275000,155000,Diesel,Individual,Automatic,Third Owner,Mahindra
-2012,2349000,149000,Diesel,Individual,Automatic,Second Owner,Land
 2017,740000,60000,Diesel,Individual,Manual,First Owner,Hyundai
 2017,800000,90000,Diesel,Individual,Manual,First Owner,Maruti
 2019,1100000,100000,Diesel,Individual,Manual,First Owner,Hyundai
@@ -3610,7 +3206,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,550000,50000,Diesel,Individual,Manual,First Owner,Hyundai
 2016,750000,50000,Diesel,Individual,Manual,First Owner,Maruti
 2014,250000,60516,Petrol,Individual,Manual,First Owner,Maruti
-2012,434999,235000,Diesel,Individual,Manual,Second Owner,Hyundai
 2007,900000,76731,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
 2016,685000,64000,Diesel,Dealer,Manual,First Owner,Maruti
 2014,540000,65000,Diesel,Dealer,Manual,First Owner,Maruti
@@ -3620,19 +3215,15 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,280000,63840,Petrol,Dealer,Manual,First Owner,Nissan
 2017,370000,25000,Petrol,Individual,Manual,First Owner,Tata
 2011,459999,76400,Diesel,Individual,Manual,Second Owner,Tata
-1998,42000,70000,Petrol,Individual,Manual,Third Owner,Maruti
-1998,42000,70000,Petrol,Individual,Manual,Third Owner,Maruti
 2011,190000,80000,Diesel,Individual,Manual,Third Owner,Fiat
 2010,165000,100000,Petrol,Individual,Manual,Fourth & Above Owner,Fiat
 2017,710000,40000,Diesel,Individual,Manual,First Owner,Ford
-2018,1200000,15000,Petrol,Individual,Manual,First Owner,Hyundai
 2011,229999,70000,Petrol,Individual,Manual,First Owner,Maruti
 2018,310000,15000,Petrol,Individual,Manual,First Owner,Renault
 2015,320000,40000,Petrol,Individual,Manual,First Owner,Maruti
 2006,100000,54000,Petrol,Individual,Manual,First Owner,Maruti
 2009,160000,90000,Diesel,Individual,Manual,First Owner,Hyundai
 2007,60000,52000,Petrol,Individual,Manual,First Owner,Maruti
-2012,100000,200000,Diesel,Individual,Manual,Third Owner,Tata
 2016,350000,35000,Diesel,Individual,Manual,Second Owner,Chevrolet
 2017,700000,60000,Diesel,Individual,Manual,First Owner,Renault
 2017,300000,31489,Petrol,Individual,Manual,First Owner,Maruti
@@ -3645,12 +3236,10 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,210000,50000,Petrol,Individual,Manual,First Owner,Hyundai
 2007,120000,81366,Petrol,Individual,Manual,First Owner,Maruti
 2006,95000,110000,Petrol,Individual,Manual,First Owner,Maruti
-2006,229999,300000,Diesel,Individual,Manual,First Owner,Toyota
 2010,229999,70000,Petrol,Individual,Manual,First Owner,Hyundai
 2013,400000,100000,Diesel,Individual,Manual,First Owner,Hyundai
 2005,300000,70000,Petrol,Individual,Manual,Second Owner,Maruti
 2013,300000,50000,Diesel,Individual,Manual,First Owner,Ford
-2009,80000,180000,Diesel,Individual,Manual,Second Owner,Ford
 2008,80000,50000,Petrol,Individual,Manual,Second Owner,Maruti
 2007,100000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2012,300000,110000,Diesel,Individual,Manual,First Owner,Tata
@@ -3660,7 +3249,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,550000,75000,Diesel,Individual,Manual,Second Owner,Renault
 2014,550000,110000,Diesel,Individual,Manual,Second Owner,Nissan
 2014,240000,50000,Petrol,Individual,Manual,First Owner,Maruti
-1997,50000,80000,Petrol,Individual,Manual,Second Owner,Maruti
 2009,120000,80000,Petrol,Individual,Manual,Second Owner,Tata
 2013,900000,60000,Petrol,Individual,Manual,Second Owner,Maruti
 2009,250000,90000,Petrol,Individual,Manual,Second Owner,Honda
@@ -3674,11 +3262,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2008,100000,60000,Petrol,Individual,Manual,Second Owner,Hyundai
 2015,610000,55000,Diesel,Individual,Manual,First Owner,Toyota
 2012,290000,80000,Diesel,Individual,Manual,First Owner,Mahindra
-2012,300000,295000,Diesel,Individual,Manual,First Owner,Mahindra
 2015,225000,80000,Petrol,Individual,Manual,First Owner,Hyundai
 2017,320000,50000,Petrol,Individual,Manual,Second Owner,Maruti
 2012,135000,158000,Diesel,Individual,Manual,Third Owner,Tata
-2006,400000,400000,Diesel,Individual,Manual,Third Owner,Toyota
 2016,400000,25000,Petrol,Individual,Manual,First Owner,Maruti
 2017,570000,35000,Petrol,Individual,Manual,First Owner,Hyundai
 2018,500000,12000,Petrol,Individual,Manual,First Owner,Maruti
@@ -3691,7 +3277,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,850000,85710,Diesel,Dealer,Manual,First Owner,Mahindra
 2011,250000,55130,Diesel,Dealer,Manual,Second Owner,Ford
 2014,580000,63356,Diesel,Dealer,Manual,Second Owner,Ford
-2012,1680000,129627,Diesel,Dealer,Manual,First Owner,Toyota
 2010,180000,15000,Petrol,Individual,Manual,First Owner,Chevrolet
 2017,300000,50000,Petrol,Individual,Manual,First Owner,Tata
 2012,269000,70000,Petrol,Individual,Manual,Second Owner,Toyota
@@ -3717,10 +3302,8 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,280000,89741,Diesel,Dealer,Manual,Second Owner,Ford
 2016,495000,65000,Diesel,Dealer,Manual,First Owner,Honda
 2016,525000,35000,Diesel,Dealer,Manual,First Owner,Honda
-2009,420000,347089,Diesel,Dealer,Manual,First Owner,Toyota
 2010,210000,34500,Diesel,Individual,Manual,First Owner,Tata
 2018,650000,30000,Petrol,Individual,Manual,First Owner,Hyundai
-2018,2300000,39000,Diesel,Individual,Automatic,First Owner,BMW
 2019,525000,16000,Diesel,Individual,Manual,First Owner,Ford
 2010,195000,80000,CNG,Individual,Manual,Second Owner,Maruti
 2016,650000,60000,Diesel,Individual,Manual,First Owner,Maruti
@@ -3733,7 +3316,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,509999,43000,Petrol,Individual,Manual,Second Owner,Volkswagen
 2017,320000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2016,275000,25000,Petrol,Individual,Manual,First Owner,Hyundai
-2013,550000,222252,Diesel,Individual,Manual,First Owner,Mahindra
 2009,145000,50000,Petrol,Individual,Manual,Second Owner,Maruti
 2013,250000,80000,Diesel,Individual,Manual,First Owner,Fiat
 2012,520000,35000,Diesel,Individual,Manual,First Owner,Hyundai
@@ -3761,7 +3343,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,300000,110000,Diesel,Individual,Manual,First Owner,Mahindra
 2012,150000,70000,Petrol,Individual,Automatic,First Owner,Maruti
 2010,320000,60000,Diesel,Individual,Manual,Third Owner,Chevrolet
-2018,1280000,17000,Diesel,Individual,Manual,First Owner,Tata
 2017,300000,13000,Petrol,Individual,Manual,Second Owner,Renault
 2016,1000000,60000,Diesel,Individual,Manual,First Owner,Nissan
 2012,1090000,120000,Diesel,Individual,Manual,Second Owner,Mitsubishi
@@ -3781,15 +3362,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2019,600000,25000,Petrol,Individual,Manual,First Owner,Ford
 2013,700000,70000,Diesel,Individual,Manual,Second Owner,Toyota
 2007,70000,162000,LPG,Individual,Manual,First Owner,Maruti
-2010,1250000,205000,Diesel,Individual,Manual,Second Owner,Toyota
 2008,650000,70000,Petrol,Individual,Automatic,Third Owner,Audi
 2018,450000,70000,Diesel,Individual,Manual,Second Owner,Hyundai
 2014,750000,100000,Diesel,Individual,Manual,Second Owner,Mahindra
 2013,775000,70000,Diesel,Individual,Manual,Second Owner,Toyota
-2011,800000,220000,Diesel,Individual,Manual,First Owner,Hyundai
 2015,360000,80000,Petrol,Individual,Manual,Second Owner,Honda
 2010,250000,120000,Diesel,Individual,Manual,First Owner,Toyota
-2017,1490000,22038,Diesel,Individual,Manual,First Owner,Jeep
 2013,600000,80000,Diesel,Individual,Manual,First Owner,Nissan
 2010,120000,90000,Petrol,Individual,Manual,First Owner,Maruti
 2012,320000,140000,Diesel,Individual,Manual,Second Owner,Tata
@@ -3799,8 +3377,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,150000,60000,Petrol,Individual,Manual,Second Owner,Maruti
 2012,200000,90000,Diesel,Individual,Manual,Second Owner,Tata
 2012,950000,80000,Diesel,Individual,Manual,First Owner,Toyota
-2008,120000,175000,Diesel,Individual,Manual,Second Owner,Maruti
-2019,1400000,10000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,620000,65000,Petrol,Individual,Manual,First Owner,Hyundai
 2012,449000,90000,Diesel,Individual,Manual,First Owner,Toyota
 2007,100000,70000,Petrol,Individual,Manual,First Owner,Maruti
@@ -3839,42 +3415,27 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2012,620000,80000,Diesel,Individual,Manual,Second Owner,Mahindra
 2014,600000,30000,Diesel,Individual,Manual,First Owner,Ford
 2018,795000,35000,Diesel,Individual,Manual,First Owner,Mahindra
-2011,300000,180000,Diesel,Individual,Manual,Third Owner,Tata
 2015,495000,60000,Diesel,Individual,Manual,First Owner,Renault
-2013,1580000,86000,Diesel,Dealer,Automatic,First Owner,Audi
-2015,1750000,127643,Diesel,Dealer,Automatic,First Owner,Audi
-2018,1350000,34000,Diesel,Individual,Automatic,First Owner,Tata
 2014,350000,145000,Diesel,Individual,Manual,First Owner,Mahindra
 2018,300000,25000,Petrol,Individual,Automatic,First Owner,Datsun
 2018,400000,54000,Petrol,Dealer,Manual,Second Owner,Tata
-2014,1750000,102354,Diesel,Dealer,Automatic,First Owner,Audi
-1999,70000,70000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2018,500000,70000,Diesel,Individual,Manual,First Owner,Nissan
-2017,2575000,36000,Diesel,Dealer,Automatic,First Owner,Audi
 2014,345000,58000,Petrol,Dealer,Manual,First Owner,Honda
 2013,220000,100000,Diesel,Individual,Manual,First Owner,Tata
-2014,1850000,62237,Petrol,Dealer,Automatic,First Owner,Audi
 2005,114999,90000,Petrol,Dealer,Manual,Second Owner,Hyundai
-1999,50000,100000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,585000,14000,Petrol,Dealer,Manual,First Owner,Honda
 2018,950000,21394,Diesel,Dealer,Manual,First Owner,Ford
 2018,625000,13800,Petrol,Individual,Automatic,First Owner,Maruti
 2017,1035000,23000,Petrol,Dealer,Automatic,First Owner,Hyundai
 2015,310000,32686,Petrol,Dealer,Manual,First Owner,Datsun
 2017,600000,99700,Diesel,Individual,Manual,First Owner,Mahindra
-2019,3100000,5000,Diesel,Individual,Automatic,First Owner,Toyota
 2014,650000,49654,Diesel,Dealer,Manual,First Owner,Honda
 2016,550000,45457,Petrol,Dealer,Manual,First Owner,Hyundai
-2017,1260000,39221,Diesel,Dealer,Manual,First Owner,Hyundai
 2016,660000,48220,Petrol,Dealer,Manual,First Owner,Hyundai
 2017,700000,11114,Petrol,Dealer,Manual,First Owner,Hyundai
 2008,235000,60208,Diesel,Dealer,Manual,First Owner,Hyundai
 2013,475000,80000,Diesel,Dealer,Manual,First Owner,Volkswagen
 2008,795000,98600,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
-2016,8900000,13000,Petrol,Dealer,Automatic,First Owner,Audi
-2015,3200000,30000,Diesel,Dealer,Automatic,First Owner,Audi
-2019,1860000,18000,Petrol,Dealer,Automatic,First Owner,MG
-2010,4200000,100000,Diesel,Dealer,Automatic,First Owner,Land
 2015,850000,58000,Petrol,Dealer,Automatic,First Owner,Honda
 2017,585000,85441,Diesel,Dealer,Manual,First Owner,Mahindra
 2015,380000,64541,Diesel,Dealer,Manual,First Owner,Mahindra
@@ -3882,13 +3443,10 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2018,600000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2017,434999,16267,Petrol,Dealer,Manual,First Owner,Nissan
 2013,525000,71500,Diesel,Dealer,Manual,First Owner,Volkswagen
-2019,4800000,12999,Diesel,Dealer,Automatic,First Owner,BMW
 2008,160000,80000,Petrol,Individual,Manual,First Owner,Chevrolet
 2007,160000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2012,125000,28000,Petrol,Individual,Manual,First Owner,Chevrolet
-2015,430000,200000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,900000,14700,Petrol,Individual,Manual,First Owner,Hyundai
-2000,61000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2017,400000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2009,150000,100000,Petrol,Individual,Manual,Second Owner,Hyundai
 2019,950000,24000,Petrol,Individual,Automatic,First Owner,Volkswagen
@@ -3897,13 +3455,9 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,375000,30000,Petrol,Individual,Manual,First Owner,Tata
 2017,350000,80000,Petrol,Individual,Manual,First Owner,Datsun
 2012,310000,92686,Diesel,Dealer,Manual,Second Owner,Hyundai
-2010,90000,300000,Petrol,Individual,Manual,Third Owner,Tata
 2011,350000,90000,Petrol,Individual,Manual,Second Owner,Volkswagen
-2003,100000,60000,Petrol,Individual,Manual,First Owner,Hyundai
-2017,1300000,40000,Diesel,Individual,Automatic,First Owner,Mahindra
 2004,70000,90000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2013,225000,80000,Diesel,Individual,Manual,First Owner,Chevrolet
-2002,145000,100000,Petrol,Individual,Manual,First Owner,Honda
 2018,930000,20000,Diesel,Individual,Manual,First Owner,Ford
 2019,550000,51000,Petrol,Individual,Manual,First Owner,Maruti
 2008,85000,120000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -3915,7 +3469,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,215000,90000,Petrol,Individual,Manual,Second Owner,Fiat
 2013,550000,38500,Diesel,Individual,Manual,First Owner,Renault
 2018,775000,35000,Petrol,Individual,Manual,First Owner,Tata
-2001,409999,49359,Petrol,Individual,Manual,Third Owner,Maruti
 2005,65000,70000,Petrol,Individual,Manual,Second Owner,Maruti
 2008,200000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2010,240000,50000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -3942,7 +3495,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,840000,30646,Petrol,Dealer,Manual,First Owner,Honda
 2015,365000,23600,Petrol,Dealer,Manual,First Owner,Maruti
 2014,665000,71318,Diesel,Dealer,Manual,First Owner,Honda
-2003,50000,78098,Petrol,Individual,Manual,First Owner,Maruti
 2014,225000,30000,Petrol,Individual,Manual,First Owner,Hyundai
 2012,229999,45000,Petrol,Individual,Manual,Second Owner,Hyundai
 2008,145000,67000,Petrol,Individual,Manual,First Owner,Hyundai
@@ -3968,22 +3520,17 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,190000,73350,Petrol,Dealer,Manual,First Owner,Maruti
 2013,509999,88473,Diesel,Dealer,Manual,First Owner,Renault
 2013,450000,96987,Petrol,Dealer,Manual,First Owner,Honda
-2016,5500000,77350,Diesel,Dealer,Automatic,First Owner,Mercedes-Benz
 2015,550000,61187,Diesel,Dealer,Manual,First Owner,Maruti
 2009,400000,68350,Diesel,Dealer,Manual,First Owner,Mahindra
 2015,585000,81150,Diesel,Dealer,Manual,First Owner,Ford
 2019,500000,30000,Petrol,Individual,Manual,First Owner,Hyundai
 2015,800000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2009,265000,120000,Diesel,Individual,Manual,Second Owner,Maruti
-2012,175000,180000,Diesel,Individual,Manual,First Owner,Ford
 2007,125000,50000,Petrol,Individual,Manual,Second Owner,Fiat
 2010,165000,80000,Diesel,Individual,Manual,First Owner,Tata
-2011,150000,280000,Diesel,Individual,Manual,First Owner,Mahindra
 2015,1025000,90000,Diesel,Individual,Manual,Second Owner,Hyundai
-2014,1030000,250000,Diesel,Individual,Manual,Second Owner,Toyota
 2012,380000,90000,Diesel,Individual,Manual,Fourth & Above Owner,Chevrolet
 2010,250000,110000,Diesel,Individual,Manual,Third Owner,Maruti
-2000,85000,80000,Petrol,Individual,Manual,Second Owner,Maruti
 2016,500000,35000,Diesel,Individual,Manual,First Owner,Fiat
 2018,350000,15000,Petrol,Individual,Manual,First Owner,Hyundai
 2010,190000,52000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -3991,9 +3538,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,475000,60000,Petrol,Individual,Manual,Second Owner,Maruti
 2018,300000,17000,Petrol,Individual,Manual,First Owner,Maruti
 2016,250000,70000,Petrol,Individual,Manual,Third Owner,Chevrolet
-2001,93000,97000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2012,290000,125000,Diesel,Individual,Manual,Second Owner,Ford
-2010,75000,300000,Petrol,Individual,Manual,Third Owner,Tata
 2015,1000000,120000,Diesel,Individual,Manual,Second Owner,Mahindra
 2015,550000,87000,Diesel,Individual,Manual,First Owner,Hyundai
 2010,285000,75000,Diesel,Individual,Manual,Third Owner,Fiat
@@ -4007,7 +3552,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2007,550000,80000,Petrol,Individual,Manual,Second Owner,Tata
 2004,70000,90000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2013,225000,80000,Diesel,Individual,Manual,First Owner,Chevrolet
-2002,145000,100000,Petrol,Individual,Manual,First Owner,Honda
 2018,930000,20000,Diesel,Individual,Manual,First Owner,Ford
 2019,550000,51000,Petrol,Individual,Manual,First Owner,Maruti
 2008,85000,120000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -4019,7 +3563,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,215000,90000,Petrol,Individual,Manual,Second Owner,Fiat
 2013,550000,38500,Diesel,Individual,Manual,First Owner,Renault
 2018,775000,35000,Petrol,Individual,Manual,First Owner,Tata
-2001,409999,49359,Petrol,Individual,Manual,Third Owner,Maruti
 2005,65000,70000,Petrol,Individual,Manual,Second Owner,Maruti
 2008,200000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2010,240000,50000,Petrol,Individual,Manual,Second Owner,Maruti
@@ -4046,9 +3589,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,285000,64000,Petrol,Dealer,Manual,Second Owner,Maruti
 2009,100000,120000,Diesel,Individual,Manual,Third Owner,Tata
 2011,225000,37091,Petrol,Individual,Manual,First Owner,Maruti
-2017,4500000,80000,Diesel,Individual,Automatic,First Owner,Volvo
 2018,320000,38900,Petrol,Individual,Manual,Third Owner,Maruti
-2016,1249000,60000,Diesel,Individual,Manual,Third Owner,Hyundai
 2008,120000,110000,Petrol,Individual,Manual,Third Owner,Maruti
 2011,200000,100000,Diesel,Individual,Manual,Second Owner,Volkswagen
 2016,1151000,85000,Diesel,Individual,Manual,First Owner,Hyundai
@@ -4058,7 +3599,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2018,784000,40000,Diesel,Individual,Manual,First Owner,Mahindra
 2017,500000,50000,Petrol,Individual,Manual,First Owner,Honda
 2018,350000,20000,Petrol,Individual,Manual,First Owner,Hyundai
-2018,1400000,50000,Diesel,Individual,Automatic,First Owner,Mahindra
 2014,600000,100000,Diesel,Individual,Manual,Second Owner,Mahindra
 2019,525000,9400,Petrol,Individual,Manual,First Owner,Hyundai
 2017,930000,12000,Diesel,Individual,Manual,First Owner,Ford
@@ -4087,7 +3627,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,200000,125000,Diesel,Individual,Manual,Second Owner,Ford
 2008,325000,120000,Diesel,Individual,Manual,Second Owner,Mahindra
 2010,300000,130000,Diesel,Individual,Manual,Second Owner,Hyundai
-2009,120000,250000,Petrol,Individual,Manual,Second Owner,Maruti
 2016,535000,52600,Diesel,Individual,Manual,First Owner,Hyundai
 2014,520000,82000,Diesel,Individual,Manual,First Owner,Honda
 2017,550000,19890,Petrol,Dealer,Automatic,First Owner,Hyundai
@@ -4095,7 +3634,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,225000,78000,Diesel,Dealer,Manual,First Owner,Nissan
 2015,750000,48238,Petrol,Trustmark Dealer,Automatic,First Owner,Ford
 2016,535000,38365,Petrol,Dealer,Manual,First Owner,Hyundai
-2016,1250000,23670,Diesel,Trustmark Dealer,Manual,First Owner,Mahindra
 2017,650000,49834,Petrol,Trustmark Dealer,Manual,First Owner,Maruti
 2013,295000,57353,Petrol,Trustmark Dealer,Manual,First Owner,Honda
 2015,480000,68308,Diesel,Trustmark Dealer,Manual,First Owner,Maruti
@@ -4131,7 +3669,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2011,330000,100000,Diesel,Individual,Manual,Second Owner,Mahindra
 2009,150000,80000,Petrol,Individual,Manual,First Owner,Maruti
 2016,927999,90000,Diesel,Individual,Manual,First Owner,Hyundai
-2003,70000,60000,Petrol,Individual,Manual,Fourth & Above Owner,Maruti
 2015,399000,55000,Diesel,Dealer,Manual,First Owner,Hyundai
 2015,350000,90000,Diesel,Individual,Manual,First Owner,Maruti
 2006,125000,50000,Diesel,Individual,Manual,Second Owner,Mahindra
@@ -4152,7 +3689,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2014,421000,69000,Diesel,Dealer,Manual,First Owner,Honda
 2008,350000,10000,Petrol,Individual,Manual,First Owner,Maruti
 2010,140000,110000,CNG,Individual,Manual,First Owner,Hyundai
-2002,90000,116000,Diesel,Individual,Manual,Second Owner,Skoda
 2018,830000,40000,Diesel,Individual,Manual,First Owner,Honda
 2009,180000,30000,Petrol,Individual,Manual,First Owner,Maruti
 2009,210000,109000,Diesel,Individual,Manual,Second Owner,Maruti
@@ -4162,14 +3698,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,530000,64916,Petrol,Individual,Manual,First Owner,Hyundai
 2018,800000,37161,Diesel,Dealer,Manual,First Owner,Ford
 2016,580000,15000,Petrol,Individual,Manual,First Owner,Maruti
-2012,1400000,118000,Diesel,Individual,Automatic,Second Owner,Audi
 2018,300000,50852,Petrol,Individual,Manual,First Owner,Renault
 2016,300000,30000,Petrol,Individual,Manual,First Owner,Renault
 2015,700000,77000,Diesel,Individual,Manual,First Owner,Maruti
 2012,250000,70000,Petrol,Individual,Manual,Third Owner,Nissan
 2016,500000,120000,Diesel,Individual,Manual,First Owner,Chevrolet
 2009,428000,40000,Petrol,Individual,Automatic,Third Owner,Honda
-2019,1400000,33000,Diesel,Individual,Manual,First Owner,Tata
 2013,219000,53500,Petrol,Individual,Manual,Third Owner,Hyundai
 2017,500000,40000,Diesel,Individual,Manual,First Owner,Maruti
 2014,520000,82000,Diesel,Individual,Manual,First Owner,Honda
@@ -4183,9 +3717,7 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2007,225000,50000,Diesel,Dealer,Manual,First Owner,Maruti
 2011,135000,50000,Petrol,Individual,Manual,First Owner,Maruti
 2007,140000,49000,Petrol,Dealer,Manual,First Owner,Maruti
-2016,665000,560000,Diesel,Dealer,Manual,First Owner,Maruti
 2015,275000,14365,Petrol,Dealer,Manual,First Owner,Renault
-2017,2750000,41000,Diesel,Individual,Automatic,First Owner,Toyota
 2013,484999,65000,Diesel,Dealer,Manual,First Owner,Hyundai
 2015,565000,65000,Diesel,Dealer,Manual,First Owner,Maruti
 2013,425000,61083,Diesel,Dealer,Manual,First Owner,Maruti
@@ -4199,15 +3731,12 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2010,300000,120000,Diesel,Individual,Manual,Third Owner,Maruti
 2014,550000,79800,Diesel,Dealer,Manual,First Owner,Ford
 2015,550000,97000,Diesel,Dealer,Manual,Second Owner,Ford
-2019,1250000,6590,Diesel,Dealer,Manual,First Owner,Ford
 2017,700000,49957,Diesel,Dealer,Manual,First Owner,Ford
 2017,600000,43235,Diesel,Dealer,Manual,First Owner,Ford
 2018,925000,50699,Diesel,Dealer,Manual,First Owner,Ford
-2016,1800000,126000,Diesel,Dealer,Automatic,First Owner,Ford
 2015,459999,140730,Diesel,Dealer,Manual,Second Owner,Ford
 2015,565000,46000,Petrol,Individual,Manual,First Owner,Hyundai
 2013,170000,80000,Petrol,Individual,Manual,Third Owner,Hyundai
-2001,150000,256000,Diesel,Dealer,Manual,First Owner,Toyota
 2008,295000,120000,Diesel,Individual,Manual,First Owner,Mahindra
 2018,819999,40000,Diesel,Individual,Manual,First Owner,Hyundai
 2019,819999,40000,Diesel,Individual,Manual,First Owner,Hyundai
@@ -4223,14 +3752,11 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2017,720000,35000,Diesel,Individual,Manual,First Owner,Maruti
 2015,390000,70000,Diesel,Individual,Manual,Second Owner,Maruti
 2014,500000,35000,Diesel,Individual,Manual,First Owner,Mahindra
-2016,2500000,70000,Petrol,Individual,Automatic,Second Owner,Toyota
 2017,780000,50000,Diesel,Individual,Manual,First Owner,Hyundai
 2015,484999,90000,Diesel,Individual,Manual,Second Owner,Maruti
 2012,420000,90000,Diesel,Individual,Manual,Second Owner,Volkswagen
-2015,1225000,70000,Diesel,Individual,Manual,First Owner,Mahindra
 2015,350000,50000,Diesel,Individual,Manual,Second Owner,Tata
 2015,350000,120000,Diesel,Individual,Manual,Third Owner,Mahindra
-2011,800000,230000,Diesel,Individual,Manual,First Owner,Toyota
 2004,125000,70000,Petrol,Individual,Automatic,Second Owner,Hyundai
 2010,75000,100000,Diesel,Individual,Manual,Third Owner,Tata
 2018,509999,15000,Petrol,Individual,Manual,First Owner,Mahindra
@@ -4254,7 +3780,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,495000,105000,Diesel,Dealer,Manual,First Owner,Maruti
 2017,890000,60000,Diesel,Individual,Manual,Second Owner,Maruti
 2018,1100000,25000,Diesel,Individual,Automatic,Second Owner,Hyundai
-2014,650000,218000,Diesel,Individual,Manual,Second Owner,Mahindra
 2018,465000,25000,Diesel,Individual,Manual,First Owner,Hyundai
 2017,625000,52000,Petrol,Dealer,Manual,First Owner,Maruti
 2017,490000,66000,Diesel,Dealer,Manual,First Owner,Hyundai
@@ -4274,7 +3799,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2015,495000,105000,Diesel,Dealer,Manual,First Owner,Maruti
 2017,890000,60000,Diesel,Individual,Manual,Second Owner,Maruti
 2018,1100000,25000,Diesel,Individual,Automatic,Second Owner,Hyundai
-2014,650000,218000,Diesel,Individual,Manual,Second Owner,Mahindra
 2009,233000,58000,Petrol,Individual,Manual,Third Owner,Ford
 2015,300000,110000,Diesel,Individual,Manual,Second Owner,Tata
 2020,614000,1000,Petrol,Individual,Manual,First Owner,Honda
@@ -4285,7 +3809,6 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,320000,80000,Petrol,Individual,Manual,Second Owner,Maruti
 2006,145000,52000,Petrol,Individual,Manual,Second Owner,Hyundai
 2005,100000,124000,Petrol,Individual,Manual,Second Owner,Maruti
-2010,130000,210000,Diesel,Individual,Manual,Second Owner,Fiat
 2006,145000,66000,Petrol,Individual,Automatic,Second Owner,Hyundai
 2008,110000,120000,Petrol,Individual,Manual,Third Owner,Maruti
 2019,680000,40000,Diesel,Individual,Manual,First Owner,Maruti
@@ -4303,16 +3826,13 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2005,56000,23000,Petrol,Individual,Manual,Second Owner,Maruti
 2006,1050000,30000,Diesel,Dealer,Automatic,First Owner,BMW
 2010,190000,38000,Petrol,Dealer,Manual,First Owner,Hyundai
-2018,3899000,22000,Diesel,Dealer,Automatic,First Owner,Audi
 2011,150000,40000,Diesel,Individual,Manual,Second Owner,Maruti
 2011,235000,43100,Petrol,Dealer,Manual,First Owner,Hyundai
 2019,599000,15000,Diesel,Individual,Manual,Third Owner,Mahindra
 2018,200000,35000,Petrol,Individual,Manual,First Owner,Maruti
 2017,350000,10171,Petrol,Dealer,Manual,First Owner,Datsun
 2015,465000,41123,Diesel,Dealer,Manual,First Owner,Renault
-2017,1900000,20118,Petrol,Dealer,Automatic,First Owner,Toyota
 2019,1000000,15000,Diesel,Individual,Manual,First Owner,Maruti
-2019,2800000,10000,Diesel,Individual,Automatic,First Owner,Ford
 2015,470000,170000,Diesel,Individual,Manual,First Owner,Maruti
 2017,415000,20000,Petrol,Individual,Manual,First Owner,Maruti
 2014,500000,82000,Diesel,Individual,Manual,First Owner,Nissan
@@ -4324,13 +3844,11 @@ year,selling_price,km_driven,fuel,seller_type,transmission,owner,Brand
 2013,500000,120000,Diesel,Individual,Manual,First Owner,Hyundai
 2014,195000,75000,Petrol,Individual,Manual,Second Owner,Maruti
 2015,155000,40000,Petrol,Individual,Manual,First Owner,Maruti
-2000,65000,90000,Petrol,Individual,Manual,Second Owner,Maruti
 2005,65000,150000,Petrol,Individual,Manual,Third Owner,Honda
 2015,190000,60000,Petrol,Individual,Manual,Second Owner,Tata
 2012,200000,112198,Diesel,Individual,Manual,Second Owner,Mahindra
 2010,160000,60000,Petrol,Individual,Manual,Second Owner,Tata
 2010,150000,130000,Diesel,Individual,Manual,Second Owner,Tata
-2015,530000,175000,Diesel,Individual,Manual,Third Owner,Ford
 2015,750000,120000,Diesel,Individual,Manual,First Owner,Mahindra
 2012,225000,90000,Diesel,Individual,Manual,Second Owner,Maruti
 2012,600000,170000,Diesel,Individual,Manual,First Owner,Toyota
