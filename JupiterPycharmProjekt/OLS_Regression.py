@@ -30,7 +30,6 @@ r2_test = r2_score(Y_test_OLS, y_test_pred)
 DataPrep.report.loc[len(DataPrep.report)] = ['OLS RegressionLC', r2_train, r2_test,np.sqrt(mean_squared_error(Y_test_OLS, y_test_pred)), "", ""]
 
 
-
 #############################
 # Visulise OLS model result #
 #############################
@@ -41,7 +40,7 @@ plt.scatter(Y_test_OLS, residuals)
 plt.axhline(0, color='r', linestyle='--')
 plt.xlabel("Selling price")
 plt.ylabel("Residual")
-plt.title("Residual plot - OLS")
+plt.title("Residual plot - OLS LE")
 plt.tight_layout()
 plt.show()
 
@@ -64,3 +63,18 @@ r2_test = r2_score(Y_test_OLS, y_test_pred)
 DataPrep.report.loc[len(DataPrep.report)] = ['OLS RegressionOH', r2_train, r2_test,np.sqrt(mean_squared_error(Y_test_OLS, y_test_pred)), "", ""]
 
 print(DataPrep.report.head())
+
+
+#############################
+# Visulise OLS model result #
+#############################
+
+# Residual plot based on OLS result
+residuals = Y_test_OLS - y_test_pred
+plt.scatter(Y_test_OLS, residuals)
+plt.axhline(0, color='r', linestyle='--')
+plt.xlabel("Selling price")
+plt.ylabel("Residual")
+plt.title("Residual plot - OLS OH")
+plt.tight_layout()
+plt.show()
