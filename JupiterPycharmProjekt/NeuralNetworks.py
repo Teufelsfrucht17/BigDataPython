@@ -1,8 +1,7 @@
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.neural_network import MLPRegressor
 from JupiterPycharmProjekt import DataPrep
-import warnings
-warnings.filterwarnings("ignore")
+
 
 
 (X_train_nn, X_test_nn, Y_train_nn, Y_test_nn) = train_test_split(DataPrep.X_LE, DataPrep.Y_LE, test_size=0.2, random_state=42)
