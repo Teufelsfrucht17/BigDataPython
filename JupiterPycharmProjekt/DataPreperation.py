@@ -218,17 +218,17 @@ y = encoded_data_sorted[target]
 
 # Speichere vollständige Daten
 all_data = pd.concat([X, y], axis=1)
-all_data.to_csv('prepared_used_car_data_all.csv', index=False)
+# all_data.to_csv('prepared_used_car_data_all.csv', index=False)
 
 # Train/Test Split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Speichern
 train_data = pd.concat([X_train, y_train], axis=1)
-train_data.to_csv('prepared_used_car_data_train.csv', index=False)
+# train_data.to_csv('prepared_used_car_data_train.csv', index=False)
 
 test_data = pd.concat([X_test, y_test], axis=1)
-test_data.to_csv('prepared_used_car_data_test.csv', index=False)
+# test_data.to_csv('prepared_used_car_data_test.csv', index=False)
 
-print("\nTrainingsdaten gespeichert unter 'prepared_used_car_data_train.csv'")
-print("Testdaten gespeichert unter 'prepared_used_car_data_test.csv'")
+# print("\nTrainingsdaten gespeichert unter 'prepared_used_car_data_train.csv'")
+# print("Testdaten gespeichert unter 'prepared_used_car_data_test.csv'")

@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 import DataPrep
 
 ########################################
-# Ridge Regression with Lable Encoding #
+# Ridge Regression with Label Encoding #
 ########################################
 
 X_train_rig, X_test_rig, Y_train_rig, Y_test_rig = train_test_split(DataPrep.X_LE, DataPrep.Y_LE, test_size=0.2, random_state=42)
@@ -36,9 +36,9 @@ pseudor2 = 1 - Y_test_dev / Y_train_meandev
 
 DataPrep.report.loc[len(DataPrep.report)] = ['Rige RegressionLE', r2, pseudor2,"", CV_rrmodel.cv_results_['mean_test_score'][CV_rrmodel.best_index_], CV_rrmodel.cv_results_['std_test_score'][CV_rrmodel.best_index_]]
 
-##########################################
-# Visulise Ridge Regression model result #
-##########################################
+###########################################
+# Visualise Ridge Regression model result #
+###########################################
 
 # Residualplot based on Ridge Regression result
 residuals = Y_test_rig - Y_test_pred
