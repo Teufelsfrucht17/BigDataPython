@@ -40,12 +40,6 @@ print(CV_svrmodel.best_params_)
 (X_train_svr, X_test_svr, Y_train_svr, Y_test_svr) = train_test_split(DataPrep.X_OH, DataPrep.Y_OH, test_size=0.2, random_state=42)
 
 
-param_grid = {
-'kernel': ["linear", "rbf"],
-'C': [1, 3, 5, 8, 10],
-'epsilon': [0.0, 0.025, 0.05, 0.075, 0.1],
-'gamma': [0., 1., 2., 3., 4.]
-}
 
 LinSVRreg = SVR() # Wichtig für notizen Jan erklären es gibt mehrer kernals bzw alle werte erklären wichtig
 CV_svrmodel = GridSearchCV(estimator=LinSVRreg, param_grid=param_grid, cv=4,n_jobs=-1) # n_jobs verwendet nun alle CPU Kerner erhöht die lesitung cv nicht auf 10 ändern dann dauert das noch länger
