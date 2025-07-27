@@ -3,6 +3,7 @@
 ##################
 
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
@@ -44,6 +45,31 @@ plt.title("Residual plot - OLS LE")
 plt.tight_layout()
 plt.show()
 
+# Scatter plot based on OLS result
+plt.figure(figsize=(12, 8))
+plt.scatter(Y_test_OLS, y_test_pred)
+plt.plot([0,1], [0,1], color='r', linestyle='--')
+plt.xlabel("Actual Selling price")
+plt.ylabel("Predictet Selling Price")
+plt.title("Scatter plot - OLS LE")
+plt.tight_layout()
+plt.show()
+
+# Mapping the influence from all reatures on the prediction
+# Extract feature names and coefficients
+print("\nCoeficiant influence LE: ")
+model_coefficients = pd.DataFrame({
+    "Feature": X_train_OLS.columns,
+    "Coefficient": ols_model.coef_
+    })
+# Add the intercept manually
+model_coefficients.loc[-1] = ["Intercept", ols_model.intercept_]
+# Reorder and reset index
+model_coefficients = model_coefficients.sort_values(by="Coefficient", ascending=False)
+# Display the DataFrame
+print(model_coefficients)
+
+
 ##########################################
 # Run OLS Model with One-Hot-Encoded Data#
 ##########################################
@@ -78,3 +104,28 @@ plt.ylabel("Residual")
 plt.title("Residual plot - OLS OH")
 plt.tight_layout()
 plt.show()
+
+
+# Scatter plot based on OLS result
+plt.figure(figsize=(12, 8))
+plt.scatter(Y_test_OLS, y_test_pred)
+plt.plot([0,1], [0,1], color='r', linestyle='--')
+plt.xlabel("Actual Selling price")
+plt.ylabel("Predictet Selling Price")
+plt.title("Scatter plot - OLS OH")
+plt.tight_layout()
+plt.show()
+
+# Mapping the influence from all reatures on the prediction
+# Extract feature names and coefficients
+print("\nCoeficiant influence OH: ")
+model_coefficients = pd.DataFrame({
+    "Feature": X_train_OLS.columns,
+    "Coefficient": ols_model.coef_
+    })
+# Add the intercept manually
+model_coefficients.loc[-1] = ["Intercept", ols_model.intercept_]
+# Reorder and reset index
+model_coefficients = model_coefficients.sort_values(by="Coefficient", ascending=False)
+# Display the DataFrame
+print(model_coefficients)

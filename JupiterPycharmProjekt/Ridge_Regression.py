@@ -4,8 +4,21 @@
 
 from sklearn.linear_model import Ridge
 import matplotlib.pyplot as plt
+import pandas as pd
 from sklearn.model_selection import train_test_split, GridSearchCV
 import DataPrep
+
+# Def Grid Serch Plot function (based on Boston Housing PDF)
+def plot_grid_search_1d(cv_results, grid_param, name_param, tital):
+    plt.plot(grid_param, cv_results['mean_test_score'], '-o')
+    plt.xlim(1,len(grid_param)-1)
+    plt.xticks(grid_param)
+    plt.xlabel(name_param, fontsize=10)
+    plt.ylabel('CV Average Validation Accuracy', fontsize=10)
+    #plt.title("Grid Search Scores", fontsize=12, fontweight='bold')
+    plt.title(tital, fontsize=12, fontweight='bold')
+    plt.grid('on')
+    plt.show()
 
 ########################################
 # Ridge Regression with Label Encoding #
@@ -15,7 +28,7 @@ X_train_rig, X_test_rig, Y_train_rig, Y_test_rig = train_test_split(DataPrep.X_L
 
 # Define Ridge Regression function and parameters (panalty parameter alpha)
 ridge = Ridge()
-param_grid = {'alpha': [0.0001, 0.001, 0.01, 0.1,0.5, 1, 2, 3, 5, 10, 50, 100, 1000]}
+param_grid = {'alpha': [0.0001, 0.001, 0.01, 0.1,0.5, 1, 2, 3, 5, 10, 25]}
 
 CV_rrmodel = GridSearchCV(estimator=ridge,param_grid=param_grid, cv=10)
 
@@ -62,6 +75,12 @@ plt.title("Prediction accuracy - Ridge Regression")
 plt.tight_layout()
 plt.show()
 
+# Grid derch Grapf as defined in function previosly
+plot_model = CV_rrmodel.cv_results_
+plt.figure(figsize=(35, 16))
+param_name = list(param_grid.keys())[0]
+param_values = param_grid[param_name]
+plot_grid_search_1d(plot_model, param_values, param_name, tital="Grid Search Score LE")
 
 ##########################################
 # Ridge Regression with One-Hot-Encoding #
@@ -71,7 +90,7 @@ X_train_rig, X_test_rig, Y_train_rig, Y_test_rig = train_test_split(DataPrep.X_O
 
 # Define Ridge Regression function and parameters (panalty parameter alpha)
 ridge = Ridge()
-param_grid = {'alpha': [0.0001, 0.001, 0.01, 0.1,0.5, 1, 2, 3, 5, 10, 50, 100, 1000]}
+param_grid = {'alpha': [0.0001, 0.001, 0.01, 0.1,0.5, 1, 2, 3, 5, 10, 25]}
 
 CV_rrmodel = GridSearchCV(estimator=ridge,param_grid=param_grid, cv=10)
 
@@ -119,3 +138,10 @@ plt.ylabel("Predicted Selling Price")
 plt.title("Prediction accuracy - Ridge Regression")
 plt.tight_layout()
 plt.show()
+
+# Grid derch Grapf as defined in function previosly
+plot_model = CV_rrmodel.cv_results_
+plt.figure(figsize=(35, 16))
+param_name = list(param_grid.keys())[0]
+param_values = param_grid[param_name]
+plot_grid_search_1d(plot_model, param_values, param_name, tital="Grid Search Score OH")
