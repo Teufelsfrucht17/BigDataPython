@@ -1,3 +1,7 @@
+import warnings
+import numpy as np
+warnings.filterwarnings("ignore")
+np.seterr(all='ignore')
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.neural_network import MLPRegressor
 from JupiterPycharmProjekt import DataPrep
@@ -18,8 +22,9 @@ param_grid = {
 }
 
 NNetRregCV = MLPRegressor()
-CV_nnmodel = GridSearchCV(estimator=NNetRregCV, param_grid=param_grid, cv=10,n_jobs=-1)
-CV_nnmodel.fit(X_train_nn, Y_train_nn)
+CV_nnmodel = GridSearchCV(estimator=NNetRregCV, param_grid=param_grid, cv=2,n_jobs=-1)
+with np.errstate(over='ignore', divide='ignore', invalid='ignore', under='ignore', all='ignore'):
+            CV_nnmodel.fit(X_train_nn, Y_train_nn)
 
 
 #print("Best parameters set values:", CV_rrmodel.best_params_)
@@ -42,8 +47,9 @@ print(CV_nnmodel.best_params_)
 
 (X_train_nn, X_test_nn, Y_train_nn, Y_test_nn) = train_test_split(DataPrep.X_OH, DataPrep.Y_OH, test_size=0.2, random_state=42)
 
-CV_nnmodel = GridSearchCV(estimator=NNetRregCV, param_grid=param_grid, cv=10,n_jobs=-1)
-CV_nnmodel.fit(X_train_nn, Y_train_nn)
+CV_nnmodel = GridSearchCV(estimator=NNetRregCV, param_grid=param_grid, cv=2,n_jobs=-1)
+with np.errstate(over='ignore', divide='ignore', invalid='ignore', under='ignore', all='ignore'):
+            CV_nnmodel.fit(X_train_nn, Y_train_nn)
 
 
 #print("Best parameters set values:", CV_rrmodel.best_params_)
