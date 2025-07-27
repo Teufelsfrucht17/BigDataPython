@@ -81,6 +81,7 @@ plt.figure(figsize=(35, 16))
 param_name = list(param_grid.keys())[0]
 param_values = param_grid[param_name]
 plot_grid_search_1d(plot_model, param_values, param_name, tital="Grid Search Score LE")
+# Visual inspection shows that the best alpha value is 1
 
 ##########################################
 # Ridge Regression with One-Hot-Encoding #
@@ -145,3 +146,4 @@ plt.figure(figsize=(35, 16))
 param_name = list(param_grid.keys())[0]
 param_values = param_grid[param_name]
 plot_grid_search_1d(plot_model, param_values, param_name, tital="Grid Search Score OH")
+# Visual inspection shows that the best alpha value is at 0,1
