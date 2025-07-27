@@ -15,4 +15,6 @@ import JupiterPycharmProjekt.KNN
 # import JupiterPycharmProjekt.Visualisation
 
 # Print final report
+
 print(DataPrep.report)
+DataPrep.report.to_csv("Modell_Report.csv", index=False)
