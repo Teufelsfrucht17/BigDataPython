@@ -1,7 +1,10 @@
 ####################
 # Ridge Regression #
 ####################
-
+import warnings
+import numpy as np
+warnings.filterwarnings("ignore")
+np.seterr(all='ignore')
 from sklearn.linear_model import Ridge
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -31,8 +34,8 @@ ridge = Ridge()
 param_grid = {'alpha': [0.0001, 0.001, 0.01, 0.1,0.5, 1, 2, 3, 5, 10, 25]}
 
 CV_rrmodel = GridSearchCV(estimator=ridge,param_grid=param_grid, cv=10)
-
-CV_rrmodel.fit(X_train_rig, Y_train_rig)
+with np.errstate(over='ignore', divide='ignore', invalid='ignore', under='ignore', all='ignore'):
+    CV_rrmodel.fit(X_train_rig, Y_train_rig)
 
 print("Best parameters set values:", CV_rrmodel.best_params_)
 
@@ -94,8 +97,8 @@ ridge = Ridge()
 param_grid = {'alpha': [0.0001, 0.001, 0.01, 0.1,0.5, 1, 2, 3, 5, 10, 25]}
 
 CV_rrmodel = GridSearchCV(estimator=ridge,param_grid=param_grid, cv=10)
-
-CV_rrmodel.fit(X_train_rig, Y_train_rig)
+with np.errstate(over='ignore', divide='ignore', invalid='ignore', under='ignore', all='ignore'):
+    CV_rrmodel.fit(X_train_rig, Y_train_rig)
 
 print("Best parameters set values:", CV_rrmodel.best_params_)
 
