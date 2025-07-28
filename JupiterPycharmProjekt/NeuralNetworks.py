@@ -84,67 +84,29 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
 
+
+# Aktivierungsfunktionen mit Unsicherheitsbereich plotten
 mask = pd.Series(True, index=cv_results_df.index)
 for param, value in best_params.items():
-    if f'param_{param}' in cv_results_df.columns:
+    if f'param_{param}' in cv_results_df.columns and param != 'activation':
         mask &= (cv_results_df[f'param_{param}'] == value)
-filtered_act = cv_results_df[mask].sort_values(by='param_activation')
-# Plot
-plt.figure(figsize=(12, 6))
-plt.plot(filtered_act['param_activation'], filtered_act['mean_test_score'], marker= 'o')
-plt.fill_between(filtered_act['param_activation'],
-filtered_act['mean_test_score'] - filtered_act['std_test_score'],
-filtered_act['mean_test_score'] + filtered_act['std_test_score'],
-alpha=0.2)
-plt.title("CV Score vs Activation Function (Neural Network)", fontsize=14)
-plt.xlabel("Activation Function", fontsize=12)
-plt.ylabel("Mean CV Score", fontsize=12)
-plt.grid(True)
-plt.xticks(rotation=45)
-plt.tight_layout()
-plt.show()
 
-mask = pd.Series(True, index=cv_results_df.index)
-for param, value in best_params.items():
-    if f'param_{param}' in cv_results_df.columns:
-        mask &= (cv_results_df[f'param_{param}'] == value)
-filtered_act = cv_results_df[mask].sort_values(by='param_activation')
+filtered_act = cv_results_df[mask].copy().sort_values(by='param_activation')
 
 # Plot
 plt.figure(figsize=(12, 6))
-plt.errorbar(
-    filtered_act['param_activation'],
-    filtered_act['mean_test_score'],
-    yerr=filtered_act['std_test_score'],
-    fmt='o-', capsize=5
-)
-plt.title("CV Score vs Activation Function (Neural Network)", fontsize=14)
-plt.xlabel("Activation Function", fontsize=12)
-plt.ylabel("Mean CV Score", fontsize=12)
-plt.grid(True)
-plt.xticks(rotation=45)
-plt.tight_layout()
-plt.show()
-
-# Codieren der Aktivierungsfunktionen als numerische Werte
-filtered_act = filtered_act.copy()
-filtered_act['activation_idx'] = range(len(filtered_act))
-
-# Plot
-plt.figure(figsize=(12, 6))
-plt.plot(filtered_act['activation_idx'], filtered_act['mean_test_score'], marker='o')
+plt.plot(filtered_act['param_activation'], filtered_act['mean_test_score'], marker='o')
 plt.fill_between(
-    filtered_act['activation_idx'],
+    filtered_act['param_activation'],
     filtered_act['mean_test_score'] - filtered_act['std_test_score'],
     filtered_act['mean_test_score'] + filtered_act['std_test_score'],
-    alpha=0.2
+    alpha=0.2, color='skyblue'
 )
-# x-Ticks wieder als Strings anzeigen
-plt.xticks(filtered_act['activation_idx'], filtered_act['param_activation'], rotation=45)
 plt.title("CV Score vs Activation Function (Neural Network)", fontsize=14)
 plt.xlabel("Activation Function", fontsize=12)
 plt.ylabel("Mean CV Score", fontsize=12)
 plt.grid(True)
+plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
 
