@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 from JupiterPycharmProjekt import DataPrep
 
-'''
+
 ### Function to visualize the results of Grid Search with 2 hyperparameters ###
 def plot_grid_search_2d(cv_results, grid_param_1, grid_param_2, name_param_1, name_param_2):
     # Get Test Scores Mean and std for each grid search
@@ -20,9 +20,10 @@ def plot_grid_search_2d(cv_results, grid_param_1, grid_param_2, name_param_1, na
     ax.set_xlabel(name_param_2, fontsize=10)
     ax.set_ylabel('CV Average Validation Accuracy', fontsize=10)
     ax.legend(loc="best", fontsize=8)
-    ax.grid('on')'''
+    ax.grid('on')
+    return print("ja")
 
-'''def plot_grid_search_2d(cv_results, grid_param_1, grid_param_2, name_param_1, name_param_2):
+def plot_grid_search_2d(cv_results, grid_param_1, grid_param_2, name_param_1, name_param_2):
     # Filter auf festen Wert für dritten Parameter (z. B. 'criterion')
     if 'param_criterion' in cv_results:
         cv_results = cv_results[cv_results['param_criterion'] == 'squared_error']
@@ -41,8 +42,7 @@ def plot_grid_search_2d(cv_results, grid_param_1, grid_param_2, name_param_1, na
     ax.grid(True)
     plt.tight_layout()
     plt.show()
-'''
-
+    return print("ja")
 
 
 param_grid = {
@@ -83,7 +83,7 @@ param_name2 = list(param_grid.keys())[1] # 'n_estimators'
 param1_values = param_grid[param_name1]
 param2_values = param_grid[param_name2]
 # Call plot function (assuming it's defined elsewhere)
-# plot_grid_search_2d(plot_model, param1_values, param2_values, param_name1, param_name2)
+plot_grid_search_2d(plot_model, param1_values, param2_values, param_name1, param_name2)
 
 
 
