@@ -47,22 +47,22 @@ print(CV_nnmodel.best_params_)
 #######################################################
 # Visualizing Neural Network Hyperparameter Tuning LE #
 #######################################################
-'''
+
 # Convert CV results to DataFrame
 cv_results_df = pd.DataFrame(CV_nnmodel.cv_results_)
 best_params = CV_nnmodel.best_params_
 # Filter for best hidden layer size and activation
 filtered_alpha = cv_results_df[
-    (cv_results_df['param_hidden_layer_sizes'] == best_params['hidden_layer_sizes'] &
+    (cv_results_df['param_hidden_layer_sizes'] == best_params['hidden_layer_sizes']) &
     (cv_results_df['param_activation'] == best_params['activation'])
 ].sort_values(by='param_alpha')
 # Plot CV score vs alpha with vertical x-axis ticks
 plt.figure(figsize=(20, 6))
 plt.plot(filtered_alpha['param_alpha'], filtered_alpha['mean_test_score'], marker=
-'
+'')
 plt.fill_between(filtered_alpha['param_alpha'],
-filtered_alpha['mean_test_score'] - filtered_alpha['std_test_score
-filtered_alpha['mean_test_score'] + filtered_alpha['std_test_score
+filtered_alpha['mean_test_score'] - filtered_alpha['std_test_score'],
+filtered_alpha['mean_test_score'] + filtered_alpha['std_test_score'],
 alpha=0.2)
 plt.title("CV Score vs Alpha (Neural Network)", fontsize=14)
 plt.xlabel("Alpha", fontsize=12)
@@ -102,7 +102,7 @@ plt.show()
 # Filter for best alpha and hidden layer size
 filtered_act = cv_results_df[
 (cv_results_df['param_alpha'] == best_params['alpha']) &
-(cv_results_df['param_hidden_layer_sizes'] == best_params['hidden_layer_sizes']
+(cv_results_df['param_hidden_layer_sizes'] == best_params['hidden_layer_sizes'])
 ].sort_values(by='param_activation')
 # Plot
 plt.figure(figsize=(12, 6))
@@ -162,7 +162,7 @@ plt.ylabel("Mean CV Score", fontsize=12)
 plt.grid(True)
 plt.tight_layout()
 plt.show()
-'''
+
 # OH
 (X_train_nn, X_test_nn, Y_train_nn, Y_test_nn) = train_test_split(DataPrep.X_OH, DataPrep.Y_OH, test_size=0.2, random_state=42)
 
