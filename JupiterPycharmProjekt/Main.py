@@ -1,6 +1,6 @@
 
 
-from JupiterPycharmProjekt import DataPrep
+import DataPrep
 
 # Run all models
 import JupiterPycharmProjekt.OLS_Regression

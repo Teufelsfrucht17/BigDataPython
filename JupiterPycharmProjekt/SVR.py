@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.svm import SVR
-from JupiterPycharmProjekt import DataPrep
+import DataPrep
 
 ###########################################
 # Support Vector Regression Lable Encoded #

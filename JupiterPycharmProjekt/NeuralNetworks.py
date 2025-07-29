@@ -6,7 +6,7 @@ warnings.filterwarnings("ignore")
 np.seterr(all='ignore')
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.neural_network import MLPRegressor
-from JupiterPycharmProjekt import DataPrep
+import DataPrep
 
 
 # LE

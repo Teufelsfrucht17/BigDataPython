@@ -3,7 +3,7 @@ from sklearn.model_selection import GridSearchCV, train_test_split
 import numpy as np
 import matplotlib.pyplot as plt
 
-from JupiterPycharmProjekt import DataPrep
+import DataPrep
 
 
 ### Function to visualize the results of Grid Search with 2 hyperparameters ###

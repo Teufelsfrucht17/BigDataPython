@@ -1,6 +1,6 @@
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import GridSearchCV, train_test_split
-from JupiterPycharmProjekt import DataPrep
+import DataPrep
 
 (X_train_KNN, X_test_KNN, Y_train_KNN, Y_test_KNN) = train_test_split(DataPrep.X_LE, DataPrep.Y_LE, test_size=0.2, random_state=42)
 
