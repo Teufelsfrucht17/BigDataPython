@@ -75,7 +75,7 @@ plt.fill_between(
     filtered_alpha['mean_test_score'] + filtered_alpha['std_test_score'],
     alpha=0.2, color='skyblue', label='±1 Std. Dev'
 )
-plt.title("CV Score vs Alpha (Neural Network)", fontsize=14)
+plt.title("CV Score vs Alpha (Neural Network LE)", fontsize=14)
 plt.xlabel("Alpha", fontsize=12)
 plt.ylabel("Mean CV Score", fontsize=12)
 plt.grid(True)
@@ -102,7 +102,7 @@ plt.fill_between(
     filtered_act['mean_test_score'] + filtered_act['std_test_score'],
     alpha=0.2, color='skyblue'
 )
-plt.title("CV Score vs Activation Function (Neural Network)", fontsize=14)
+plt.title("CV Score vs Activation Function (Neural Network LE)", fontsize=14)
 plt.xlabel("Activation Function", fontsize=12)
 plt.ylabel("Mean CV Score", fontsize=12)
 plt.grid(True)
@@ -133,3 +133,70 @@ pseudor2 = 1 - Y_test_dev / Y_train_meandev
 DataPrep.report.loc[len(DataPrep.report)] = ["NN_OH ", r2, pseudor2,"", CV_nnmodel.cv_results_['mean_test_score'][CV_nnmodel.best_index_], CV_nnmodel.cv_results_['std_test_score'][CV_nnmodel.best_index_]]
 print(DataPrep.report.head())
 print(CV_nnmodel.best_params_)
+
+
+#######################################################
+# Visualizing Neural Network Hyperparameter Tuning OH #
+#######################################################
+
+# Convert CV results to DataFrame
+cv_results_df = pd.DataFrame(CV_nnmodel.cv_results_)
+best_params = CV_nnmodel.best_params_
+
+# Filter für besten Hidden Layer & Activation
+filtered_alpha = cv_results_df[
+    (cv_results_df['param_hidden_layer_sizes'] == best_params['hidden_layer_sizes']) &
+    (cv_results_df['param_activation'] == best_params['activation']) &
+    (cv_results_df['param_solver'] == best_params['solver']) &
+    (cv_results_df['param_learning_rate'] == best_params['learning_rate']) &
+    (cv_results_df['param_max_iter'] == best_params['max_iter']) &
+    (cv_results_df['param_random_state'] == best_params['random_state'])
+].copy()
+
+# Konvertiere Alpha von string zu float
+filtered_alpha['param_alpha'] = filtered_alpha['param_alpha'].astype(float)
+filtered_alpha = filtered_alpha.sort_values(by='param_alpha')
+
+# Plot mit Unsicherheitsbereich
+plt.figure(figsize=(12, 6))
+plt.plot(filtered_alpha['param_alpha'], filtered_alpha['mean_test_score'], marker='o', label='Mean CV Score')
+plt.fill_between(
+    filtered_alpha['param_alpha'],
+    filtered_alpha['mean_test_score'] - filtered_alpha['std_test_score'],
+    filtered_alpha['mean_test_score'] + filtered_alpha['std_test_score'],
+    alpha=0.2, color='skyblue', label='±1 Std. Dev'
+)
+plt.title("CV Score vs Alpha (Neural Network OH)", fontsize=14)
+plt.xlabel("Alpha", fontsize=12)
+plt.ylabel("Mean CV Score", fontsize=12)
+plt.grid(True)
+plt.legend()
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+
+
+# Aktivierungsfunktionen mit Unsicherheitsbereich plotten
+mask = pd.Series(True, index=cv_results_df.index)
+for param, value in best_params.items():
+    if f'param_{param}' in cv_results_df.columns and param != 'activation':
+        mask &= (cv_results_df[f'param_{param}'] == value)
+
+filtered_act = cv_results_df[mask].copy().sort_values(by='param_activation')
+
+# Plot
+plt.figure(figsize=(12, 6))
+plt.plot(filtered_act['param_activation'], filtered_act['mean_test_score'], marker='o')
+plt.fill_between(
+    filtered_act['param_activation'],
+    filtered_act['mean_test_score'] - filtered_act['std_test_score'],
+    filtered_act['mean_test_score'] + filtered_act['std_test_score'],
+    alpha=0.2, color='skyblue'
+)
+plt.title("CV Score vs Activation Function (Neural Network OH)", fontsize=14)
+plt.xlabel("Activation Function", fontsize=12)
+plt.ylabel("Mean CV Score", fontsize=12)
+plt.grid(True)
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()

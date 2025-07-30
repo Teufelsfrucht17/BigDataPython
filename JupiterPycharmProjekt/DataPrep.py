@@ -29,6 +29,13 @@ data['Brand'] = data['name'].str.split().str[0]
 # Drop Variable "name" to make Lable encoding and One-Hot-Encoding possible - Regression can only handle numerical values
 data = data.drop(columns=['name'])
 
+# Remove missing data
+data = data.dropna()
+
+# Show how much data was removed
+print("Removed rows:")
+print(data.isnull().sum())
+
 data_before_IQR = data.copy()
 
 data = remove_outliers_iqr(data, column='selling_price')
@@ -101,7 +108,6 @@ Y_OH = data_df_OH['selling_price'] # Variable
 ###########################
 
 report = pd.DataFrame(columns=['Model','R2.Train','R2.Test','RMSE','R2_Mean_CV','R2_Std_CV'])
-
 
 ################################################
 # Lable encoding without IQR for Visualization #

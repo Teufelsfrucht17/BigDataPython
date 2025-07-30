@@ -28,7 +28,7 @@ plt.show()
 
 # Visualisation of all data Lable encoded
 sns.pairplot(data=DataPrep.data_df_LE_before_IQR[selected_cols], palette='Set3')
-plt.title("Pairplot - Original - All Label Encoded Data")
+# plt.title("Pairplot - Original - All Label Encoded Data")
 plt.show()
 
 
@@ -50,5 +50,5 @@ plt.show()
 
 # Visualisation of all data Lable encoded
 sns.pairplot(data=DataPrep.data_df_LE[selected_cols], palette='Set3')
-plt.title("Pairplot - Cleaned - All Label Encoded Data")
+#plt.title("Pairplot - Cleaned - All Label Encoded Data")
 plt.show()

@@ -18,7 +18,6 @@ def plot_grid_search_1d(cv_results, grid_param, name_param, tital):
     plt.xticks(grid_param)
     plt.xlabel(name_param, fontsize=10)
     plt.ylabel('CV Average Validation Accuracy', fontsize=10)
-    #plt.title("Grid Search Scores", fontsize=12, fontweight='bold')
     plt.title(tital, fontsize=12, fontweight='bold')
     plt.grid('on')
     plt.show()
@@ -62,7 +61,7 @@ plt.scatter(Y_test_rig, residuals)
 plt.axhline(0, color='r', linestyle='--')
 plt.xlabel("Selling price")
 plt.ylabel("Residual")
-plt.title("Residual plot - Ridge Regression")
+plt.title("Residual plot - Ridge Regression LE")
 plt.tight_layout()
 plt.show()
 
@@ -71,16 +70,16 @@ plt.figure(figsize=(8, 5))
 plt.scatter(Y_train_rig, Y_train_pred, alpha=0.5)
 plt.plot([Y_train_rig.min(), Y_train_rig.max()],
          [Y_train_rig.min(), Y_train_rig.max()],
-         color='red', linestyle='--')  # 45° Reference linie
+         color='red', linestyle='--')  # 45° Reference line
 plt.xlabel("Actual Selling Price")
 plt.ylabel("Predicted Selling Price")
-plt.title("Prediction accuracy - Ridge Regression")
+plt.title("Prediction accuracy - Ridge Regression LE")
 plt.tight_layout()
 plt.show()
 
 # Grid derch Grapf as defined in function previosly
 plot_model = CV_rrmodel.cv_results_
-plt.figure(figsize=(35, 16))
+plt.figure(figsize=(20, 10))
 param_name = list(param_grid.keys())[0]
 param_values = param_grid[param_name]
 plot_grid_search_1d(plot_model, param_values, param_name, tital="Grid Search Score LE")
@@ -127,7 +126,7 @@ plt.scatter(Y_test_rig, residuals)
 plt.axhline(0, color='r', linestyle='--')
 plt.xlabel("Selling price")
 plt.ylabel("Residual")
-plt.title("Residual plot - Ridge Regression")
+plt.title("Residual plot - Ridge Regression OH")
 plt.tight_layout()
 plt.show()
 
@@ -139,13 +138,13 @@ plt.plot([Y_train_rig.min(), Y_train_rig.max()],
          color='red', linestyle='--')  # 45° Reference linie
 plt.xlabel("Actual Selling Price")
 plt.ylabel("Predicted Selling Price")
-plt.title("Prediction accuracy - Ridge Regression")
+plt.title("Prediction accuracy - Ridge Regression OH")
 plt.tight_layout()
 plt.show()
 
 # Grid derch Grapf as defined in function previosly
 plot_model = CV_rrmodel.cv_results_
-plt.figure(figsize=(35, 16))
+plt.figure(figsize=(20, 10))
 param_name = list(param_grid.keys())[0]
 param_values = param_grid[param_name]
 plot_grid_search_1d(plot_model, param_values, param_name, tital="Grid Search Score OH")
