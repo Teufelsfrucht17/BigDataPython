@@ -6,9 +6,9 @@ from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 from sklearn.preprocessing import LabelEncoder
 
-def remove_outliers_iqr(df, column):
-    Q1 = np.percentile(df[column], 25)
-    Q3 = np.percentile(df[column], 75)
+def remove_outliers_iqr(df, column, bottom, top):
+    Q1 = np.percentile(df[column], bottom) # unterstes quarter
+    Q3 = np.percentile(df[column], top) # oberes quarter
     IQR = Q3 - Q1
     lower_bound = Q1 - 1.5 * IQR
     upper_bound = Q3 + 1.5 * IQR
@@ -38,9 +38,9 @@ print(data.isnull().sum())
 
 data_before_IQR = data.copy()
 
-data = remove_outliers_iqr(data, column='selling_price')
-data = remove_outliers_iqr(data, column='km_driven')
-data = remove_outliers_iqr(data, column='year')
+data = remove_outliers_iqr(data, column='selling_price', bottom=0, top=65)
+data = remove_outliers_iqr(data, column='km_driven', bottom=0, top=65)
+data = remove_outliers_iqr(data, column='year', bottom = 35, top = 100)
 
 # Save non-Encoded data as CSV
 data.to_csv('AllData.csv', index=False)
